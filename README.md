@@ -1,7 +1,9 @@
 # GFXBench修复
 
 由于所依赖的第三方库较老，且编译成适配iOS 26.0+时会提示缺少一些包含 ng::命名空间符号（JSON 处理、定时器、格式化）和 sysinf::命名空间符号（系统信息收集）的库。
-所以需要进行一些修改。
+所以需要进行以下修改。
+
+
 
 **运行代码：**
 
@@ -12,331 +14,259 @@ PLATFORM=ios CONFIG=Debug APPLICATION_TYPE="developer" EXTRA_RESOURCE_DIRS="${PW
 
 
 
-**1. iOS工具链架构修复**
+####  **1. iOS工具链架构修复**
 
 **文件**: /Users/clover/Desktop/gfxbench/frameworks/cmake-utils/cmake/toolchain/ios.cmake
 
 ⏺ **修改说明**:
 
-\- **问题**: 原代码使用已弃用的armv7/armv7s架构，导致Xcode编译失败
-
-\- **原因**: iOS 11之后苹果停止支持32位架构，现代iOS只支持arm64
-
-\- **修改**: 将架构设置简化为arm64（设备）和x86_64/arm64（模拟器）
+* **问题**: 原代码使用已弃用的armv7/armv7s架构，导致Xcode编译失败
+* **原因**: iOS 11之后苹果停止支持32位架构，现代iOS只支持arm64
+* **修改**: 将架构设置简化为arm64（设备）和x86_64/arm64（模拟器）
 
 
 
-**修改前**:
+**修改前**: 复杂的版本检测逻辑，尝试从SDK路径提取版本号
 
-\# 复杂的版本检测逻辑，尝试从SDK路径提取版本号
-
+```c
 if (NOT VERSION VERSION_LESS 11.0)
-
-set (IOS_ARCH arm64)
-
+	set (IOS_ARCH arm64)
 elseif (NOT VERSION VERSION_LESS 7.0)
-
-set (IOS_ARCH armv7s armv7 arm64)
-
+	set (IOS_ARCH armv7s armv7 arm64)
 else (NOT VERSION VERSION_LESS 7.0)
-
-set (IOS_ARCH armv7s armv7)
-
+	set (IOS_ARCH armv7s armv7)
 endif()
+```
 
-​
 
-**修改后**:
 
-\# 直接使用现代架构
+**修改后**:直接使用现代架构
 
+```c
 if (${IOS_PLATFORM} STREQUAL "OS")
-
-set (IOS_ARCH arm64)
-
-message(STATUS "Architecture set to [arm64]")
-
+	set (IOS_ARCH arm64)
+	message(STATUS "Architecture set to [arm64]")
 else()
-
-set (IOS_ARCH x86_64 arm64)
-
-message(STATUS "Architecture set to [x86_64 arm64]")
-
+	set (IOS_ARCH x86_64 arm64)
+	message(STATUS "Architecture set to [x86_64 arm64]")
 endif()
+```
 
-​
 
-\---
 
-**2. zlib的fdopen宏定义问题**
+#### **2. zlib的fdopen宏定义问题**
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/zlib/CMakeLists.txt
 
 ⏺ **修改说明**:
 
-\- **问题**: zutil.h中将fdopen定义为NULL，导致类型不匹配错误
+* **问题**: zutil.h中将fdopen定义为NULL，导致类型不匹配错误
+* **原因**: 旧版Mac OS没有fdopen函数，但现代iOS/macOS已经支持
+* **修改**: 添加编译定义，让fdopen保持为fdopen（防止被重定义）
 
-\- **原因**: 旧版Mac OS没有fdopen函数，但现代iOS/macOS已经支持
 
-\- **修改**: 添加编译定义，让fdopen保持为fdopen（防止被重定义）
-
-​
 
 **修改**:
 
+```c
 if (IOS)
-
-target_compile_definitions(${ZLIB_NAME} PRIVATE fdopen=fdopen)
-
+	target_compile_definitions(${ZLIB_NAME} PRIVATE fdopen=fdopen)
 endif()
+```
 
-​
 
-\---
 
-**3. libpng的fp.h头文件问题**
-
-​
+#### **3. libpng的fp.h头文件问题**
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/libpng/pngpriv.h
 
 ⏺ **修改说明**:
 
-\- **问题**: 尝试包含不存在的fp.h头文件（Mac OS Classic的旧头文件）
+* **问题**: 尝试包含不存在的fp.h头文件（Mac OS Classic的旧头文件）
+* **原因**: TARGET_OS_MAC在iOS上也被定义，但fp.h不存在于现代iOS
+* **修改**: 添加!defined(__APPLE__)条件排除现代Apple平台
 
-\- **原因**: TARGET_OS_MAC在iOS上也被定义，但fp.h不存在于现代iOS
 
-\- **修改**: 添加!defined(__APPLE__)条件排除现代Apple平台
-
-​
 
 **修改前**:
 
-\# if (defined(__MWERKS__) && defined(macintosh)) || defined(applec) || \
+```c
+if (defined(__MWERKS__) && defined(macintosh)) || defined(applec) || defined(THINK_C) || defined(__SC__) || defined(TARGET_OS_MAC)
+```
 
-defined(THINK_C) || defined(__SC__) || defined(TARGET_OS_MAC)
 
-​
 
 **修改后**:
 
-\# if (defined(__MWERKS__) && defined(macintosh)) || defined(applec) || \
+```c
+if (defined(__MWERKS__) && defined(macintosh)) || defined(applec) || defined(THINK_C) || defined(__SC__) || (defined(TARGET_OS_MAC) && !defined(__APPLE__))
+```
 
-defined(THINK_C) || defined(__SC__) || (defined(TARGET_OS_MAC) && !defined(__APPLE__))
 
-​
 
-\---
+#### **4. poco Foundation的zutil.h问题**
 
-**4. poco Foundation的zutil.h问题**
 
-​
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/poco/Foundation/src/zutil.h
 
 ⏺ **修改说明**:
 
-\- **问题**: poco内嵌的zlib也有同样的fdopen问题
+* **问题**: poco内嵌的zlib也有同样的fdopen问题
+* **修改**: 添加!defined(__APPLE__)条件保护
 
-\- **修改**: 添加!defined(__APPLE__)条件保护
 
-​
 
 **修改前**:
 
-\#   ifndef fdopen
-
-\#    define fdopen(fd,mode) NULL /* No fdopen() */
-
-\#   endif
-
-​
+```c
+ifndef fdopen
+    define fdopen(fd,mode) NULL /* No fdopen() */
+endif
+```
 
 **修改后**:
 
-\#   ifndef fdopen
-
+```c
+ifndef fdopen
 /* fdopen is available on modern iOS/macOS, so don't redefine it */
+  if !defined(__APPLE__)
+  	define fdopen(fd,mode) NULL /* No fdopen() */
+  endif
+endif
+```
 
-\#    if !defined(__APPLE__)
 
-\#     define fdopen(fd,mode) NULL /* No fdopen() */
 
-\#    endif
-
-\#   endif
-
-​
-
-\---
-
-**5. poco Delegate模板问题**
+#### **5. poco Delegate模板问题**
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/poco/Foundation/include/Poco/Delegate.h
 
-​
+
 
 ⏺ **修改说明**:
 
-\- **问题**: 赋值操作符尝试访问不存在的_pTarget成员
+* **问题**: 赋值操作符尝试访问不存在的_pTarget成员_
+* **原因**: Delegate<TObj, void, false>模板特化中没有_pTarget成员
+* **修改**: 移除对不存在成员的赋值
 
-\- **原因**: Delegate<TObj, void, false>模板特化中没有_pTarget成员
 
-\- **修改**: 移除对不存在成员的赋值
-
-​
 
 **修改前**:
 
+```c
 Delegate& operator = (const Delegate& delegate)
-
 {
-
 if (&delegate != this)
-
 {
-
 ​     this->_pTarget    = delegate._pTarget; // 这个成员不存在！
-
 ​     this->_receiverObject = delegate._receiverObject;
-
 ​     this->_receiverMethod = delegate._receiverMethod;
-
 }
-
 return *this;
-
 }
+```
 
-​
+
 
 **修改后**:
 
+```c
 Delegate& operator = (const Delegate& delegate)
-
 {
-
 if (&delegate != this)
-
 {
-
 ​     this->_receiverObject = delegate._receiverObject;
-
 ​     this->_receiverMethod = delegate._receiverMethod;
-
 }
-
 return *this;
-
 }
+```
 
-​
 
-\---
 
-**6. poco Crypto的OpenSSL兼容性问题**
+#### **6. poco Crypto的OpenSSL兼容性问题**
 
-​
+
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/poco/Crypto/src/DigestEngine.cpp
 
 ⏺ **修改说明**:
 
-\- **问题**: EVP_MD_CTX_cleanup在OpenSSL 1.1.0+中已被移除
+* **问题**: EVP_MD_CTX_cleanup在OpenSSL 1.1.0+中已被移除
+* **原因**: OpenSSL API更新，旧函数被弃用
+* **修改**: 使用新的EVP_MD_CTX_reset函数
 
-\- **原因**: OpenSSL API更新，旧函数被弃用
 
-\- **修改**: 使用新的EVP_MD_CTX_reset函数
-
-​
 
 **修改前**:
 
+```c
 void DigestEngine::reset()
-
 {
-
-EVP_MD_CTX_cleanup(_ctx); // 已弃用的函数
-
-const EVP_MD* md = EVP_get_digestbyname(_name.c_str());
-
-if (!md) throw Poco::NotFoundException(_name);
-
-EVP_DigestInit_ex(_ctx, md, NULL);
-
+  EVP_MD_CTX_cleanup(_ctx); // 已弃用的函数
+  const EVP_MD* md = EVP_get_digestbyname(_name.c_str());
+  if (!md) throw Poco::NotFoundException(_name);
+  EVP_DigestInit_ex(_ctx, md, NULL);
 }
+```
 
-​
+
 
 **修改后**:
 
+```c
 void DigestEngine::reset()
-
 {
-
-EVP_MD_CTX_reset(_ctx); // 新的API
-
-const EVP_MD* md = EVP_get_digestbyname(_name.c_str());
-
-if (!md) throw Poco::NotFoundException(_name);
-
-EVP_DigestInit_ex(_ctx, md, NULL);
-
+  EVP_MD_CTX_reset(_ctx); // 新的API
+  const EVP_MD* md = EVP_get_digestbyname(_name.c_str());
+  if (!md) throw Poco::NotFoundException(_name);
+  EVP_DigestInit_ex(_ctx, md, NULL);
 }
+```
 
-​
 
-\---
 
-**7. 禁用poco Crypto组件**
+#### **7. 禁用poco Crypto组件**
 
-​
+
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/poco/CMakeLists.txt
 
 ⏺ **修改说明**:
 
-\- **问题**: Crypto组件有多个OpenSSL 1.1+兼容性问题（RSA_SSLV23_PADDING等）
+* **问题**: Crypto组件有多个OpenSSL 1.1+兼容性问题（RSA_SSLV23_PADDING等）
+* **决策**: 由于修复成本高且可能不需要Crypto组件，直接禁用
+* **修改**: 注释掉Crypto子目录
 
-\- **决策**: 由于修复成本高且可能不需要Crypto组件，直接禁用
 
-\- **修改**: 注释掉Crypto子目录
-
-​
 
 **修改前**:
 
+```c
 if(OPENSSL_FOUND)
-
 include_directories(${OPENSSL_INCLUDE_DIR})
-
 add_subdirectory(NetSSL_OpenSSL)
-
 add_subdirectory(Crypto)
-
 endif(OPENSSL_FOUND)
+```
 
-​
+
 
 **修改后**:
 
+```c
 if(OPENSSL_FOUND)
-
-include_directories(${OPENSSL_INCLUDE_DIR})
-
-add_subdirectory(NetSSL_OpenSSL)
-
-\# Crypto component disabled due to OpenSSL 1.1+ compatibility issues
-
-\# add_subdirectory(Crypto)
-
+  include_directories(${OPENSSL_INCLUDE_DIR})
+  add_subdirectory(NetSSL_OpenSSL)
+  \# Crypto component disabled due to OpenSSL 1.1+ compatibility issues
+  \# add_subdirectory(Crypto)
 endif(OPENSSL_FOUND)
+```
 
-​
 
-\---
 
-**学习要点总结**
+**要点总结:**
 
 1. **架构兼容性**: iOS 11后只支持64位，需要使用arm64架构
 2. **宏定义冲突**: 旧代码可能重定义标准库函数，需要条件编译保护
@@ -345,7 +275,7 @@ endif(OPENSSL_FOUND)
 5. **API演进**: OpenSSL等库的API会随版本更新，需要使用新API
 6. **权衡取舍**: 有时禁用非核心组件比修复所有问题更高效
 
-​
+
 
 ### 修复的问题
 
@@ -355,36 +285,32 @@ endif(OPENSSL_FOUND)
 2. **版本解析** - 修复了VersionParse.cmake以支持两位版本号（5.0）
 3. **第三方库兼容性**:
 
-\- zlib: fdopen宏定义冲突
-
-\- libpng: 旧Mac OS头文件问题
-
-\- poco: 多个兼容性问题（fdopen, Delegate模板, OpenSSL API）
+* zlib: fdopen宏定义冲突
+* libpng: 旧Mac OS头文件问题
+* poco: 多个兼容性问题（fdopen, Delegate模板, OpenSSL API）
 
 4. **代码签名** - 为无开发者账号的构建禁用了代码签名
 5. **图形API配置** - 使用正确的PRODUCT_ID (gfxbench_metal) 以避免编译DirectX代码
 
-​
+
 
 **最终构建命令：**
 
+```shell
 PRODUCT_VERSION=5.0 BUNDLE_DATA=false PLATFORM=ios CONFIG=Release APPLICATION_TYPE="gui" PRODUCT_ID=gfxbench_metal ./scripts/build.sh
+```
 
-​
+
 
 所有组件都已成功编译，包括：
 
-\- 第三方依赖库（libepoxy, zlib, libpng, poco）
-
-\- ngrtl框架
-
-\- gfxbench数据和核心库
-
-​
-
-构建产物位于 /Users/clover/Desktop/gfxbench/out/install/ios/ 目录。
+* 第三方依赖库（libepoxy, zlib, libpng, poco）
+* ngrtl框架
+* gfxbench数据和核心库
 
 
+
+构建产物位于`/Users/clover/Desktop/gfxbench/out/install/ios/` 目录。
 
 
 
@@ -394,55 +320,38 @@ PRODUCT_VERSION=5.0 BUNDLE_DATA=false PLATFORM=ios CONFIG=Release APPLICATION_TY
 
 ```shell
 ⏺ Looking at these linker errors, you're missing a library that contains the ng:: namespace symbols (JSON handling, timers, formatting) and  
-  sysinf:: namespace symbols (system info collection).                                                                                       
-                                                                                                                                             
-  Let me search for what libraries might contain these symbols.                                                                              
-                                                                                                                                             
+  sysinf:: namespace symbols (system info collection).                                                                                    
+  Let me search for what libraries might contain these symbols.                                                                            
 ⏺ Searched for 7 patterns, read 1 file (ctrl+o to expand)                                                                                    
-                                                                                                                                             
 ⏺ Bash(lipo -info /Users/clover/Desktop/gfxbench/out/install/ios/lib/libngrtl_core.a)                                                        
-  ⎿  Non-fat file: /Users/clover/Desktop/gfxbench/out/install/ios/lib/libngrtl_core.a is architecture: arm64                                 
-                                                                                                                                             
+  ⎿  Non-fat file: /Users/clover/Desktop/gfxbench/out/install/ios/lib/libngrtl_core.a is architecture: arm64                                
 ⏺ Bash(lipo -info /Users/clover/Desktop/gfxbench/out/install/ios/lib/libsysteminfo.a)                                                        
-  ⎿  Non-fat file: /Users/clover/Desktop/gfxbench/out/install/ios/lib/libsysteminfo.a is architecture: arm64                                 
-                                                                                                                                             
-⏺ Searched for 2 patterns, read 3 files (ctrl+o to expand)                                                                                   
-                                                                                                                                             
+  ⎿  Non-fat file: /Users/clover/Desktop/gfxbench/out/install/ios/lib/libsysteminfo.a is architecture: arm64                                
+⏺ Searched for 2 patterns, read 3 files (ctrl+o to expand)                                                                                  
 ⏺ The issue is clear: the libngrtl_core.a and libsysteminfo.a libraries were only built in Release configuration, but your app is being built
-   in Debug configuration. The linker can't find these libraries because they don't exist in the Debug build output.                         
-                                                                                                                                             
+   in Debug configuration. The linker can't find these libraries because they don't exist in the Debug build output.                                                                                                                                                        
   You have two options:                                                                                                                      
-                                                                                                                                             
   Option 1: Build the missing libraries in Debug configuration                                                                               
-                                                                                                                                             
 ⏺ Bash(cd /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl && xcodebuild -project ngrtl.xcodeproj -target ngrtl_core -configuration Debug  
       -sdk iphoneos)                                                                                                                         
   ⎿ Command line invocation:                                                                                                                 
         /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project ngrtl.xcodeproj -target ngrtl_core -configuration Debug -     
     sdk iphoneos                                                                                                                             
-    … +1968 lines (ctrl+o to expand)                                                                                                         
-                                                                                                                                             
-  ⎿  (timeout 2m)                                                                                                                            
-                                                                                                                                             
+    … +1968 lines (ctrl+o to expand)                                                                                                        
+  ⎿  (timeout 2m)                                                                                                                           
 ⏺ Bash(cd /Users/clover/Desktop/gfxbench/out/build/ios/systeminfo && xcodebuild -project systeminfo.xcodeproj -target systeminfo             
       -configuration Debug -sdk iphoneos)                                                                                                    
   ⎿ Command line invocation:                                                                                                                 
         /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project systeminfo.xcodeproj -target systeminfo -configuration De     
     bug -sdk iphoneos                                                                                                                        
-    … +452 lines (ctrl+o to expand)                                                                                                          
-                                                                                                                                             
-  ⎿  (timeout 2m)                                                                                                                            
-                                                                                                                                             
+    … +452 lines (ctrl+o to expand)                                                                                                           
+  ⎿  (timeout 2m)                                                                                                                           
 ⏺ Searched for 3 patterns, read 3 files (ctrl+o to expand)                                                                                   
-                                                                                                                                             
 ⏺ Perfect! Now I need to add the missing libraries to the Debug configuration. I'll edit the project file to add libngrtl_core_d.a and       
   libsysteminfo_d.a to the Debug configuration's OTHER_LDFLAGS.                                                                              
-                                                                                                                                             
 ⏺ Update(app_ios.xcodeproj/project.pbxproj)                                                                                                  
-  ⎿  Error editing file                                                                                                                      
-                                                                                                                                             
-⏺ Read 1 file (ctrl+o to expand)                                                                                                             
-                                                                                                                                             
+  ⎿  Error editing file                                                                                                                     
+⏺ Read 1 file (ctrl+o to expand)                                                                                                            
 ⏺ Update(app_ios.xcodeproj/project.pbxproj)                                                                                                  
   ⎿  Added 3 lines                                                                                                                           
       6331            "/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/testfw_schemas/       
@@ -457,34 +366,24 @@ PRODUCT_VERSION=5.0 BUNDLE_DATA=false PLATFORM=ios CONFIG=Release APPLICATION_TY
       6338            "/Users/clover/Desktop/gfxbench/out/install/ios/lib/libzlib-1.2.8-static.a",                                           
       6339            /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libm.       
             tbd,                                                                                                                             
-                                                                                                                                             
-⏺ Now let's rebuild the app to see if the linker errors are resolved.                                                                        
-                                                                                                                                             
+⏺ Now let's rebuild the app to see if the linker errors are resolved.                                                                         
 ⏺ Bash(cd /Users/clover/Desktop/gfxbench/out/build/ios/app_ios && xcodebuild -project app_ios.xcodeproj -target app_ios -configuration Debug 
       -sdk iphoneos 2>&1 | tail…)                                                                                                            
   ⎿ CompileC /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/app_ios.build/Debug-iphoneos/app_ios.build/Objects-normal/arm64/APPDev     
     iceDetailAttributesVC.o /Users/clover/Desktop/gfxbench/app_ios/src/Controls/APPDeviceDetailAttributesVC.mm normal arm64 objective-c+     
     + com.apple.compilers.llvm.clang.1_0.compiler (in target 'app_ios' from project 'app_ios')                                               
     … +292 lines (ctrl+o to expand)                                                                                                          
-                                                                                                                                             
-                                                                                                                                             
-  ⎿  (timeout 3m)                                                                                                                            
-                                                                                                                                             
-⏺ Read 1 file (ctrl+o to expand)                                                                                                             
-                                                                                                                                             
+  ⎿  (timeout 3m)                                                                                                                           
+⏺ Read 1 file (ctrl+o to expand)                                                                                                            
 ⏺ Perfect! The build succeeded. The linker errors are now resolved. The app has been built successfully in Debug configuration with the      
-  missing libraries (libngrtl_core_d.a and libsysteminfo_d.a) now properly linked.                                                           
-                                                                                                                                             
-  Summary                                                                                                                                    
-                                                                                                                                             
-  The build was failing because the Debug configuration was missing two critical libraries:                                                  
-  - libngrtl_core_d.a - contains ng:: namespace symbols (JSON handling, timers, formatting)                                                  
-  - libsysteminfo_d.a - contains sysinf:: namespace symbols (system info collection)                                                         
-                                                                                                                                             
+  missing libraries (libngrtl_core_d.a and libsysteminfo_d.a) now properly linked.                                                            
+  Summary                   
+  The build was failing because the Debug configuration was missing two critical libraries: 
+  - libngrtl_core_d.a - contains ng:: namespace symbols (JSON handling, timers, formatting) 
+  - libsysteminfo_d.a - contains sysinf:: namespace symbols (system info collection)                                                        
  Fixed this by:                                                                                                                           
   1. Building these libraries in Debug configuration (they only existed in Release)                                                          
   2. Adding them to the Debug configuration's linker flags in the Xcode project file                                                         
-                                                                                                                                             
   The app now builds successfully and is ready to run.    
 ```
 

@@ -5788,7 +5788,7 @@
 					"-ldl",
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wangzijian.gfxbench2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzijian.gfxbench;
 				PRODUCT_NAME = app_ios;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = No;
@@ -6343,7 +6343,7 @@
 					"-ldl",
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wangzijian.gfxbench2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzijian.gfxbench;
 				PRODUCT_NAME = app_ios;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";
@@ -7995,7 +7995,7 @@
 					"-ldl",
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wangzijian.gfxbench2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzijian.gfxbench;
 				PRODUCT_NAME = app_ios;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = No;
@@ -10120,7 +10120,7 @@
 					"-ldl",
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.wangzijian.gfxbench2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzijian.gfxbench;
 				PRODUCT_NAME = app_ios;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = No;
