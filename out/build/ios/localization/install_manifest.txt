@@ -1,0 +1,8 @@
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_de.xml
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_es-AR.xml
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_pt-BR.xml
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_zh-TW.xml
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_zh.xml
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_en.xml
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_ja.xml
+/Users/clover/Desktop/gfxbench/tfw-pkg/localization/strings_ru.xml

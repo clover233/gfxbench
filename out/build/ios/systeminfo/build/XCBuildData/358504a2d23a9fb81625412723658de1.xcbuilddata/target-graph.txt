@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+Target 'install' in project 'systeminfo'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'systeminfo'
+Target 'ALL_BUILD' in project 'systeminfo'
+➜ Explicit dependency on target 'systeminfo' in project 'systeminfo'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'systeminfo'
+Target 'systeminfo' in project 'systeminfo'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'systeminfo'
+Target 'ZERO_CHECK' in project 'systeminfo' (no dependencies)

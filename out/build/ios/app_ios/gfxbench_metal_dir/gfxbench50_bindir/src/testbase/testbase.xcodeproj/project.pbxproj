@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1FA239A5FC7F476B9CD67245 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6C9892A5507473CBEDF3FB0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				62E87668477442C1912CE0D9 /* CMake Rules */,
+			);
+			dependencies = (
+				7A58E9D3464F4927A874FA0D /* PBXTargetDependency */,
+				D52C7CFD1ECF4BB78B18BFDA /* PBXTargetDependency */,
+				BBBF3E218A4E4F1BA409D51B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C638EDC729564A03B1F9C044 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7578B0D151164F9CB33A916C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ECCBFE62D18941AF92226383 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0065F69F11D643CCBD017010 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.cpp */ = {isa = PBXBuildFile; fileRef = FFB1335EDC53473BB4F3EE93 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.cpp */; };
+		015EC947FDC9449BA5304D7D /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.cpp */ = {isa = PBXBuildFile; fileRef = 809ADA1F7F964F4FB80C8C6B /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.cpp */; };
+		1007923A360C4E4290AE6334 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.cpp */ = {isa = PBXBuildFile; fileRef = DCB808282A2F475FB43EC12F /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.cpp */; };
+		23D0E489CF644601AC2450E2 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.h */ = {isa = PBXBuildFile; fileRef = B29EEACDD1DA433E92005F86 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.h */; };
+		25B1313CD4AA49A6B343E8E3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.h */ = {isa = PBXBuildFile; fileRef = B292CA9AB7EB4F5F9A8EAE00 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.h */; };
+		2655B122993849D3A6035095 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.cpp */ = {isa = PBXBuildFile; fileRef = 53727792CE294186B6221B29 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.cpp */; };
+		269B7E9724334F34B966123E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.h */ = {isa = PBXBuildFile; fileRef = 55F48CCF208C47B2A95A1C4D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.h */; };
+		26BD005C9A444F859F0C1A4F /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_validation.cpp */ = {isa = PBXBuildFile; fileRef = DD206885FD29429DAAD885E5 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_validation.cpp */; };
+		271968FFDEC2492A921250DF /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.h */ = {isa = PBXBuildFile; fileRef = 1FC7D02D50FC4E1C951568A1 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.h */; };
+		2BA4027DE9F249C6B19E1B17 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.h */ = {isa = PBXBuildFile; fileRef = AC62E6D3D2DC4476A2A47214 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.h */; };
+		2F82A85CA401473EB9918CC0 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.h */ = {isa = PBXBuildFile; fileRef = 8209BF337F634F359CF4638D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.h */; };
+		33D487E7BC95497C9E5010B3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.h */ = {isa = PBXBuildFile; fileRef = 13356ABB2AEE4AE1BD514900 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.h */; };
+		36D49A0D8AEF4B19B5F39EC7 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_reflection.cpp */ = {isa = PBXBuildFile; fileRef = B4CF933C6CAF4CD2822B4916 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_reflection.cpp */; };
+		3E04EF7C2FB242E7A96005A1 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.h */ = {isa = PBXBuildFile; fileRef = 24B03D7D5A7040E3AD8BA0B2 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.h */; };
+		408544498AA54E88A2D7D4BC /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/system_messager.h */ = {isa = PBXBuildFile; fileRef = DD8DBE8D9F6A4F1EB7E6217D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/system_messager.h */; };
+		40FAF357865340018CF22D86 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.cpp */ = {isa = PBXBuildFile; fileRef = 962D5F66C90042F2971F019C /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.cpp */; };
+		4BA4C5A3AC964E89A0168580 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.cpp */ = {isa = PBXBuildFile; fileRef = 12DE685E0EAD43E2919DAC54 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.cpp */; };
+		4E50BE27DB4D42FF8CC2E93A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_error.cpp */ = {isa = PBXBuildFile; fileRef = A9149F6D3D774CC0AE993F75 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_error.cpp */; };
+		561C032998C4443E987BB1BA /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.h */ = {isa = PBXBuildFile; fileRef = E2174B96673D4C0792851C81 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.h */; };
+		57E33059E50040E093118B44 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.cpp */ = {isa = PBXBuildFile; fileRef = C44B9C393DDD4B3A80E6E31D /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.cpp */; };
+		5963A890F2B143BA906934E3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.cpp */ = {isa = PBXBuildFile; fileRef = 5ACB4A4CB0E144FE8E1F601A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.cpp */; };
+		601BF6F53A284ECABB6E0503 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.h */ = {isa = PBXBuildFile; fileRef = DEEB93F049E24E719AF7D81E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.h */; };
+		611E27AA74314F4591BD4290 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.cpp */ = {isa = PBXBuildFile; fileRef = DD64D7E084CC40E295806FA5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.cpp */; };
+		645D323AFD014EE285F70332 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.h */ = {isa = PBXBuildFile; fileRef = 26B337DF58D64D4290BD8DA3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.h */; };
+		683F7044EF614BB09FC7CD18 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.cpp */ = {isa = PBXBuildFile; fileRef = AD6EFB8660B3436288FE7416 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.cpp */; };
+		6A3C7FD6273443008AD37B12 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.cpp */ = {isa = PBXBuildFile; fileRef = 5B3F04807917475D9AED93BD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.cpp */; };
+		6C1D2578ED594F60800D8C17 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.h */ = {isa = PBXBuildFile; fileRef = 120A6CDF4C6B49BB9FD29D8A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.h */; };
+		77B4B66BC2F047DDAD22297B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.cpp */ = {isa = PBXBuildFile; fileRef = AFCB98C925B648B59CE0EC83 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.cpp */; };
+		8333FA83F0A945549784DF8E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.h */ = {isa = PBXBuildFile; fileRef = 4001E482F41B432AABA1D33B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.h */; };
+		833913DC122543D9AF1CA56A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.cpp */ = {isa = PBXBuildFile; fileRef = 321A4927F7E840E2B253060B /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.cpp */; };
+		848FA6496D154B83970E696A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.cpp */ = {isa = PBXBuildFile; fileRef = FC8C88C7B7E946049D7EBC8E /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.cpp */; };
+		84EEA96835A54D7F90CAFE8D /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.cpp */ = {isa = PBXBuildFile; fileRef = 6AC766AA7BA34698B12BEDEA /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.cpp */; };
+		850EF8D44BB341EDA508F3A9 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_tables.cpp */ = {isa = PBXBuildFile; fileRef = 0DCF170270EC478AB3F21691 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_tables.cpp */; };
+		864EDF42FDA44EDFAA146FF9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.mm */ = {isa = PBXBuildFile; fileRef = 2497688880474BF5BA6A3279 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.mm */; };
+		8E026760C31141D8B1FDB731 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.h */ = {isa = PBXBuildFile; fileRef = 01B1C7ED756F4B999147EFCC /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.h */; };
+		9AD1E3A44E8147D39C67D721 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.h */ = {isa = PBXBuildFile; fileRef = 2DAFADE07E2E4F788F3587F6 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.h */; };
+		9E9603EABE97409FBF35F861 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.cpp */ = {isa = PBXBuildFile; fileRef = FCFC49CF46FE4028ABEB9F3B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.cpp */; };
+		A2C7E328AFD0420CA904EF37 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.h */ = {isa = PBXBuildFile; fileRef = 79DB9AF16E164CCB86EAF0A8 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.h */; };
+		A383F81B3170495CB2BCDC41 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.cpp */ = {isa = PBXBuildFile; fileRef = 63A1F7DE5BE645B796B191F6 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.cpp */; };
+		B37F4578DF6D490CA9E7CA90 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.h */ = {isa = PBXBuildFile; fileRef = F28F696C429640A3AD12DF39 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.h */; };
+		B601A0F11E9B4173885E4D4E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 28B124F7D11740F68EAD817C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CMakeLists.txt */; };
+		B645D124B404432FA50B1FD7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.cpp */ = {isa = PBXBuildFile; fileRef = D6087CAA642940CB814EE0BD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.cpp */; };
+		B9EA104E4C9743BEAE926261 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_nodes.h */ = {isa = PBXBuildFile; fileRef = D3DE256CA58E421B87072A26 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_nodes.h */; };
+		C1117FA4415847CA809B5B0E /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.h */ = {isa = PBXBuildFile; fileRef = 70E6935B13674F1B8E699553 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.h */; };
+		C5B1F28448A544A6B8FA103F /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.h */ = {isa = PBXBuildFile; fileRef = 67979F894E6B46DE8B332847 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.h */; };
+		C782877F84A24D038D5F1B46 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.cpp */ = {isa = PBXBuildFile; fileRef = 004BB8B36045491B85F3F76A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.cpp */; };
+		C8774C4BE33A4BD0BB6EC83A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.h */ = {isa = PBXBuildFile; fileRef = 79B3B610EB9D4497862C827B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.h */; };
+		CFA685AB1F8545ACA66E4498 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.cpp */ = {isa = PBXBuildFile; fileRef = 7F8370322F11421BB571B815 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.cpp */; };
+		D18F9957ECC04F9B9B607AD7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.cpp */ = {isa = PBXBuildFile; fileRef = 9928898BADB3447D8AE6B402 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.cpp */; };
+		D827879D1E694A95A6DA8868 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.cpp */ = {isa = PBXBuildFile; fileRef = 08048C8FF5214AF59F067BFE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.cpp */; };
+		E065BBF22A3044ED9530776C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.cpp */ = {isa = PBXBuildFile; fileRef = 2FF0BA10FCCC45B0BDF09ADC /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.cpp */; };
+		E53339854F6E48B4A76808D8 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.h */ = {isa = PBXBuildFile; fileRef = 0F6DDDCF37E5497FBF0ECA38 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.h */; };
+		E795F30BE28C4AE1A734EF54 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator_texture_access.cpp */ = {isa = PBXBuildFile; fileRef = 8045192170604F87B1344386 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator_texture_access.cpp */; };
+		E8EE67109AE944038F915275 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.h */ = {isa = PBXBuildFile; fileRef = 0DD36928B7C94CD9974F9E41 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.h */; };
+		EC5BD55BDD0D4007A8CE079F /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 73939464149C4070B7BD597A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/CMakeLists.txt */; };
+		F204041F7DF2435EBE0746F0 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.h */ = {isa = PBXBuildFile; fileRef = 016D6C6C048A424195E5D679 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.h */; };
+		F3C0B5B8A09C4BB59D595868 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer_debug.cpp */ = {isa = PBXBuildFile; fileRef = 22A01914A01644BEBF724BF7 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer_debug.cpp */; };
+		F4E164D88BF54870B434FA47 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.h */ = {isa = PBXBuildFile; fileRef = 6B35C1C047A644FE8F014FE5 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.h */; };
+		F8B043247A2A4D809AD9CEC9 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.h */ = {isa = PBXBuildFile; fileRef = 6316B353EA134B2BADC43AB9 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.h */; };
+		F99A8AF4C85D451B96740447 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.cpp */ = {isa = PBXBuildFile; fileRef = FCE75496DC894546959A937F /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.cpp */; };
+		FDCDA799564A4B80984CA38E /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_forcehighp.cpp */ = {isa = PBXBuildFile; fileRef = 6BB88E9AE9FF4FEDB77106A1 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_forcehighp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		037A00B133C24A5B933E50D5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		3E0D460BE4EE4FD9B65AB682 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7AF8FE4E002B4184A36C33BD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CB35FB29195348768B7E2B5E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		B8574E1C891248D895F14475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB869323A1F4F84B5F1F6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		C896199551E94A1C84BA8670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB869323A1F4F84B5F1F6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66700631173C47B9A5F50C03;
+			remoteInfo = testbase;
+		};
+		D1A3606E44C84ED0A074C0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB869323A1F4F84B5F1F6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE269E5EB2C4A919ADD3E3B;
+			remoteInfo = ksl_compiler;
+		};
+		F4EC3051CD734A7E9F92B1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB869323A1F4F84B5F1F6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE269E5EB2C4A919ADD3E3B;
+			remoteInfo = ksl_compiler;
+		};
+		F7D2CFE67CBC448FA0C57EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB869323A1F4F84B5F1F6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004BB8B36045491B85F3F76A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_font.cpp; path = gfxb_font.cpp; sourceTree = SOURCE_ROOT; };
+		016D6C6C048A424195E5D679 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = render_statistics.h; path = render_statistics.h; sourceTree = SOURCE_ROOT; };
+		01B1C7ED756F4B999147EFCC /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_generator.h; path = ../../../frameworks/ksl_compiler/src/ksl_generator.h; sourceTree = SOURCE_ROOT; };
+		08048C8FF5214AF59F067BFE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = screen_manager_component.cpp; path = components/screen_manager_component.cpp; sourceTree = SOURCE_ROOT; };
+		09D7361E76274E6483E990B6 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0DCF170270EC478AB3F21691 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_analyzer_tables.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_analyzer_tables.cpp; sourceTree = SOURCE_ROOT; };
+		0DD36928B7C94CD9974F9E41 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = test_base_gfx.h; path = test_base_gfx.h; sourceTree = SOURCE_ROOT; };
+		0F6DDDCF37E5497FBF0ECA38 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = screen_manager_component.h; path = components/screen_manager_component.h; sourceTree = SOURCE_ROOT; };
+		120A6CDF4C6B49BB9FD29D8A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = charts_component.h; path = components/charts_component.h; sourceTree = SOURCE_ROOT; };
+		12DE685E0EAD43E2919DAC54 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = input_component.cpp; path = components/input_component.cpp; sourceTree = SOURCE_ROOT; };
+		13356ABB2AEE4AE1BD514900 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = test_descriptor.h; path = test_descriptor.h; sourceTree = SOURCE_ROOT; };
+		1FC7D02D50FC4E1C951568A1 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CPUQuery.h; path = CPUQuery.h; sourceTree = SOURCE_ROOT; };
+		22A01914A01644BEBF724BF7 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer_debug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_tokenizer_debug.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_tokenizer_debug.cpp; sourceTree = SOURCE_ROOT; };
+		2497688880474BF5BA6A3279 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = context_ngl_adapter_metal.mm; path = context_ngl_adapter_metal.mm; sourceTree = SOURCE_ROOT; };
+		24B03D7D5A7040E3AD8BA0B2 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = test_component.h; path = components/test_component.h; sourceTree = SOURCE_ROOT; };
+		26B337DF58D64D4290BD8DA3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_barrier.h; path = gfxb_barrier.h; sourceTree = SOURCE_ROOT; };
+		28B124F7D11740F68EAD817C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2DAFADE07E2E4F788F3587F6 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_analyzer.h; path = ../../../frameworks/ksl_compiler/src/ksl_analyzer.h; sourceTree = SOURCE_ROOT; };
+		2FF0BA10FCCC45B0BDF09ADC /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vsync_component.cpp; path = components/vsync_component.cpp; sourceTree = SOURCE_ROOT; };
+		321A4927F7E840E2B253060B /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_compiler.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_compiler.cpp; sourceTree = SOURCE_ROOT; };
+		4001E482F41B432AABA1D33B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_font.h; path = gfxb_font.h; sourceTree = SOURCE_ROOT; };
+		53727792CE294186B6221B29 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = screenshot_component.cpp; path = components/screenshot_component.cpp; sourceTree = SOURCE_ROOT; };
+		55F48CCF208C47B2A95A1C4D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_font_renderer.h; path = gfxb_font_renderer.h; sourceTree = SOURCE_ROOT; };
+		5ACB4A4CB0E144FE8E1F601A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_barrier.cpp; path = gfxb_barrier.cpp; sourceTree = SOURCE_ROOT; };
+		5B3F04807917475D9AED93BD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_font_renderer.cpp; path = gfxb_font_renderer.cpp; sourceTree = SOURCE_ROOT; };
+		6316B353EA134B2BADC43AB9 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_mtl_translator.h; path = ../../../frameworks/ksl_compiler/src/metal/ksl_mtl_translator.h; sourceTree = SOURCE_ROOT; };
+		63A1F7DE5BE645B796B191F6 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_common.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_common.cpp; sourceTree = SOURCE_ROOT; };
+		67979F894E6B46DE8B332847 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_translator.h; path = ../../../frameworks/ksl_compiler/src/ksl_translator.h; sourceTree = SOURCE_ROOT; };
+		6AC766AA7BA34698B12BEDEA /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_ast_tree.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_ast_tree.cpp; sourceTree = SOURCE_ROOT; };
+		6B35C1C047A644FE8F014FE5 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_tokenizer.h; path = ../../../frameworks/ksl_compiler/src/ksl_tokenizer.h; sourceTree = SOURCE_ROOT; };
+		6BB88E9AE9FF4FEDB77106A1 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_forcehighp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_analyzer_forcehighp.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_analyzer_forcehighp.cpp; sourceTree = SOURCE_ROOT; };
+		70E6935B13674F1B8E699553 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_mtl_generator.h; path = ../../../frameworks/ksl_compiler/src/metal/ksl_mtl_generator.h; sourceTree = SOURCE_ROOT; };
+		73939464149C4070B7BD597A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ../../../frameworks/ksl_compiler/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		79B3B610EB9D4497862C827B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = input_component.h; path = components/input_component.h; sourceTree = SOURCE_ROOT; };
+		79DB9AF16E164CCB86EAF0A8 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = time_component.h; path = components/time_component.h; sourceTree = SOURCE_ROOT; };
+		7F8370322F11421BB571B815 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = render_statistics.cpp; path = render_statistics.cpp; sourceTree = SOURCE_ROOT; };
+		8045192170604F87B1344386 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator_texture_access.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_mtl_generator_texture_access.cpp; path = ../../../frameworks/ksl_compiler/src/metal/ksl_mtl_generator_texture_access.cpp; sourceTree = SOURCE_ROOT; };
+		809ADA1F7F964F4FB80C8C6B /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_mtl_translator.cpp; path = ../../../frameworks/ksl_compiler/src/metal/ksl_mtl_translator.cpp; sourceTree = SOURCE_ROOT; };
+		8209BF337F634F359CF4638D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsync_component.h; path = components/vsync_component.h; sourceTree = SOURCE_ROOT; };
+		962D5F66C90042F2971F019C /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_analyzer.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_analyzer.cpp; sourceTree = SOURCE_ROOT; };
+		9928898BADB3447D8AE6B402 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_descriptor.cpp; path = test_descriptor.cpp; sourceTree = SOURCE_ROOT; };
+		A9149F6D3D774CC0AE993F75 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_error.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_analyzer_error.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_analyzer_error.cpp; sourceTree = SOURCE_ROOT; };
+		AC62E6D3D2DC4476A2A47214 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_compiler.h; path = ../../../frameworks/ksl_compiler/src/ksl_compiler.h; sourceTree = SOURCE_ROOT; };
+		AD6EFB8660B3436288FE7416 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_generator.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_generator.cpp; sourceTree = SOURCE_ROOT; };
+		AFCB98C925B648B59CE0EC83 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_component.cpp; path = components/test_component.cpp; sourceTree = SOURCE_ROOT; };
+		B1E95F87138A46BBAC535B96 /* testbase */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtestbase_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B292CA9AB7EB4F5F9A8EAE00 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = screenshot_component.h; path = components/screenshot_component.h; sourceTree = SOURCE_ROOT; };
+		B29EEACDD1DA433E92005F86 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = context_ngl_adapter_metal.h; path = context_ngl_adapter_metal.h; sourceTree = SOURCE_ROOT; };
+		B4CF933C6CAF4CD2822B4916 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_reflection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_analyzer_reflection.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_analyzer_reflection.cpp; sourceTree = SOURCE_ROOT; };
+		C44B9C393DDD4B3A80E6E31D /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_tokenizer.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_tokenizer.cpp; sourceTree = SOURCE_ROOT; };
+		CA33BCEE8DC940AAA16CFC77 /* ksl_compiler */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libksl_compiler_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DE256CA58E421B87072A26 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_nodes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_mtl_nodes.h; path = ../../../frameworks/ksl_compiler/src/metal/ksl_mtl_nodes.h; sourceTree = SOURCE_ROOT; };
+		D6087CAA642940CB814EE0BD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_base_gfx.cpp; path = test_base_gfx.cpp; sourceTree = SOURCE_ROOT; };
+		DCB808282A2F475FB43EC12F /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_mtl_generator.cpp; path = ../../../frameworks/ksl_compiler/src/metal/ksl_mtl_generator.cpp; sourceTree = SOURCE_ROOT; };
+		DD206885FD29429DAAD885E5 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_validation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_analyzer_validation.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_analyzer_validation.cpp; sourceTree = SOURCE_ROOT; };
+		DD64D7E084CC40E295806FA5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = charts_component.cpp; path = components/charts_component.cpp; sourceTree = SOURCE_ROOT; };
+		DD8DBE8D9F6A4F1EB7E6217D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/system_messager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = system_messager.h; path = system_messager.h; sourceTree = SOURCE_ROOT; };
+		DEEB93F049E24E719AF7D81E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = statistics_component.h; path = components/statistics_component.h; sourceTree = SOURCE_ROOT; };
+		E2174B96673D4C0792851C81 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_common.h; path = ../../../frameworks/ksl_compiler/src/ksl_common.h; sourceTree = SOURCE_ROOT; };
+		F28F696C429640A3AD12DF39 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ksl_ast_tree.h; path = ../../../frameworks/ksl_compiler/src/ksl_ast_tree.h; sourceTree = SOURCE_ROOT; };
+		FC8C88C7B7E946049D7EBC8E /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ksl_translator.cpp; path = ../../../frameworks/ksl_compiler/src/ksl_translator.cpp; sourceTree = SOURCE_ROOT; };
+		FCE75496DC894546959A937F /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CPUQuery.cpp; path = CPUQuery.cpp; sourceTree = SOURCE_ROOT; };
+		FCFC49CF46FE4028ABEB9F3B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time_component.cpp; path = components/time_component.cpp; sourceTree = SOURCE_ROOT; };
+		FFB1335EDC53473BB4F3EE93 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = statistics_component.cpp; path = components/statistics_component.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E76571632FC43E18D07CBE3 /* testbase */ = {
+			isa = PBXGroup;
+			children = (
+				8FB6DC6B490D418C9093D0E5 /* COMPONENTS */,
+				28B124F7D11740F68EAD817C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CMakeLists.txt */,
+				FCE75496DC894546959A937F /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.cpp */,
+				1FC7D02D50FC4E1C951568A1 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.h */,
+				B29EEACDD1DA433E92005F86 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.h */,
+				2497688880474BF5BA6A3279 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.mm */,
+				5ACB4A4CB0E144FE8E1F601A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.cpp */,
+				26B337DF58D64D4290BD8DA3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.h */,
+				004BB8B36045491B85F3F76A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.cpp */,
+				4001E482F41B432AABA1D33B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.h */,
+				5B3F04807917475D9AED93BD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.cpp */,
+				55F48CCF208C47B2A95A1C4D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.h */,
+				7F8370322F11421BB571B815 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.cpp */,
+				016D6C6C048A424195E5D679 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.h */,
+				DD8DBE8D9F6A4F1EB7E6217D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/system_messager.h */,
+				D6087CAA642940CB814EE0BD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.cpp */,
+				0DD36928B7C94CD9974F9E41 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.h */,
+				9928898BADB3447D8AE6B402 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.cpp */,
+				13356ABB2AEE4AE1BD514900 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.h */,
+			);
+			name = testbase;
+			sourceTree = "<group>";
+		};
+		173BBF25F7AA433D88D84303 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9CDDCB6A1422F9986FC70 /* CMake Rules */,
+				09D7361E76274E6483E990B6 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		18023D3488774527ADBB9326 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				962D5F66C90042F2971F019C /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.cpp */,
+				A9149F6D3D774CC0AE993F75 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_error.cpp */,
+				6BB88E9AE9FF4FEDB77106A1 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_forcehighp.cpp */,
+				B4CF933C6CAF4CD2822B4916 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_reflection.cpp */,
+				0DCF170270EC478AB3F21691 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_tables.cpp */,
+				DD206885FD29429DAAD885E5 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_validation.cpp */,
+				6AC766AA7BA34698B12BEDEA /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.cpp */,
+				63A1F7DE5BE645B796B191F6 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.cpp */,
+				321A4927F7E840E2B253060B /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.cpp */,
+				AD6EFB8660B3436288FE7416 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.cpp */,
+				C44B9C393DDD4B3A80E6E31D /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.cpp */,
+				22A01914A01644BEBF724BF7 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer_debug.cpp */,
+				FC8C88C7B7E946049D7EBC8E /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.cpp */,
+				DCB808282A2F475FB43EC12F /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.cpp */,
+				8045192170604F87B1344386 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator_texture_access.cpp */,
+				809ADA1F7F964F4FB80C8C6B /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3FAC45DB59BB4574AA8C6224 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAFADE07E2E4F788F3587F6 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.h */,
+				F28F696C429640A3AD12DF39 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.h */,
+				E2174B96673D4C0792851C81 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.h */,
+				AC62E6D3D2DC4476A2A47214 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.h */,
+				01B1C7ED756F4B999147EFCC /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.h */,
+				6B35C1C047A644FE8F014FE5 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.h */,
+				67979F894E6B46DE8B332847 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.h */,
+				70E6935B13674F1B8E699553 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.h */,
+				D3DE256CA58E421B87072A26 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_nodes.h */,
+				6316B353EA134B2BADC43AB9 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8FB6DC6B490D418C9093D0E5 /* COMPONENTS */ = {
+			isa = PBXGroup;
+			children = (
+				DD64D7E084CC40E295806FA5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.cpp */,
+				120A6CDF4C6B49BB9FD29D8A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.h */,
+				12DE685E0EAD43E2919DAC54 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.cpp */,
+				79B3B610EB9D4497862C827B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.h */,
+				08048C8FF5214AF59F067BFE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.cpp */,
+				0F6DDDCF37E5497FBF0ECA38 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.h */,
+				53727792CE294186B6221B29 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.cpp */,
+				B292CA9AB7EB4F5F9A8EAE00 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.h */,
+				FFB1335EDC53473BB4F3EE93 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.cpp */,
+				DEEB93F049E24E719AF7D81E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.h */,
+				AFCB98C925B648B59CE0EC83 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.cpp */,
+				24B03D7D5A7040E3AD8BA0B2 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.h */,
+				FCFC49CF46FE4028ABEB9F3B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.cpp */,
+				79DB9AF16E164CCB86EAF0A8 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.h */,
+				2FF0BA10FCCC45B0BDF09ADC /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.cpp */,
+				8209BF337F634F359CF4638D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.h */,
+			);
+			name = COMPONENTS;
+			sourceTree = "<group>";
+		};
+		B7A76E26E9DB4EA4A01196E5 = {
+			isa = PBXGroup;
+			children = (
+				0E76571632FC43E18D07CBE3 /* testbase */,
+				173BBF25F7AA433D88D84303 /* ALL_BUILD */,
+				FB247B783DC749A0AE01D795 /* ksl_compiler */,
+				FB0E32D5AA434E44A8D943D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0E32D5AA434E44A8D943D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA33BCEE8DC940AAA16CFC77 /* ksl_compiler */,
+				B1E95F87138A46BBAC535B96 /* testbase */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB247B783DC749A0AE01D795 /* ksl_compiler */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC45DB59BB4574AA8C6224 /* Header Files */,
+				18023D3488774527ADBB9326 /* Source Files */,
+				73939464149C4070B7BD597A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/CMakeLists.txt */,
+			);
+			name = ksl_compiler;
+			sourceTree = "<group>";
+		};
+		FCD9CDDCB6A1422F9986FC70 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66700631173C47B9A5F50C03 /* testbase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DC6034DAF648118446A24A /* Build configuration list for PBXNativeTarget "testbase" */;
+			buildPhases = (
+				8A983216A50142229773A644 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84A376EA543483FAF087A09 /* PBXTargetDependency */,
+				71D697C48EBD462EA34F3801 /* PBXTargetDependency */,
+			);
+			name = testbase;
+			productName = testbase;
+			productReference = B1E95F87138A46BBAC535B96 /* testbase */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AAE269E5EB2C4A919ADD3E3B /* ksl_compiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BD9F3C992C45CBA40159B0 /* Build configuration list for PBXNativeTarget "ksl_compiler" */;
+			buildPhases = (
+				A0D50669B0294062AF4C1723 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ksl_compiler;
+			productName = ksl_compiler;
+			productReference = CA33BCEE8DC940AAA16CFC77 /* ksl_compiler */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB869323A1F4F84B5F1F6F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = C74A5DA4B3214F7FA61DCA3E /* Build configuration list for PBXProject "testbase" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CB35FB29195348768B7E2B5E /* Debug */,
+				7AF8FE4E002B4184A36C33BD /* Release */,
+				3E0D460BE4EE4FD9B65AB682 /* MinSizeRel */,
+				037A00B133C24A5B933E50D5 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B7A76E26E9DB4EA4A01196E5;
+			projectDirPath = /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase;
+			projectRoot = "";
+			targets = (
+				1FA239A5FC7F476B9CD67245 /* ALL_BUILD */,
+				C638EDC729564A03B1F9C044 /* ZERO_CHECK */,
+				AAE269E5EB2C4A919ADD3E3B /* ksl_compiler */,
+				66700631173C47B9A5F50C03 /* testbase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A7FAF7132B94D39A09E1D33 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		62E87668477442C1912CE0D9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E0CC1D7013B247C8A4AA7BE4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ECCBFE62D18941AF92226383 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A983216A50142229773A644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A8AF4C85D451B96740447 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/CPUQuery.cpp */,
+				611E27AA74314F4591BD4290 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.cpp */,
+				4BA4C5A3AC964E89A0168580 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.cpp */,
+				D827879D1E694A95A6DA8868 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.cpp */,
+				2655B122993849D3A6035095 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screenshot_component.cpp */,
+				0065F69F11D643CCBD017010 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.cpp */,
+				77B4B66BC2F047DDAD22297B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.cpp */,
+				9E9603EABE97409FBF35F861 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.cpp */,
+				E065BBF22A3044ED9530776C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.cpp */,
+				864EDF42FDA44EDFAA146FF9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/context_ngl_adapter_metal.mm */,
+				5963A890F2B143BA906934E3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.cpp */,
+				C782877F84A24D038D5F1B46 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font.cpp */,
+				6A3C7FD6273443008AD37B12 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_font_renderer.cpp */,
+				CFA685AB1F8545ACA66E4498 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/render_statistics.cpp */,
+				B645D124B404432FA50B1FD7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.cpp */,
+				D18F9957ECC04F9B9B607AD7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D50669B0294062AF4C1723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FAF357865340018CF22D86 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.cpp */,
+				4E50BE27DB4D42FF8CC2E93A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_error.cpp */,
+				FDCDA799564A4B80984CA38E /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_forcehighp.cpp */,
+				36D49A0D8AEF4B19B5F39EC7 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_reflection.cpp */,
+				850EF8D44BB341EDA508F3A9 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_tables.cpp */,
+				26BD005C9A444F859F0C1A4F /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer_validation.cpp */,
+				84EEA96835A54D7F90CAFE8D /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.cpp */,
+				A383F81B3170495CB2BCDC41 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.cpp */,
+				833913DC122543D9AF1CA56A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.cpp */,
+				683F7044EF614BB09FC7CD18 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.cpp */,
+				57E33059E50040E093118B44 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.cpp */,
+				F3C0B5B8A09C4BB59D595868 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer_debug.cpp */,
+				848FA6496D154B83970E696A /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.cpp */,
+				1007923A360C4E4290AE6334 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator.cpp */,
+				E795F30BE28C4AE1A734EF54 /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_generator_texture_access.cpp */,
+				015EC947FDC9449BA5304D7D /* /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/metal/ksl_mtl_translator.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71D697C48EBD462EA34F3801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = B8574E1C891248D895F14475 /* PBXContainerItemProxy */;
+		};
+		7A58E9D3464F4927A874FA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66700631173C47B9A5F50C03 /* testbase */;
+			targetProxy = C896199551E94A1C84BA8670 /* PBXContainerItemProxy */;
+		};
+		BBBF3E218A4E4F1BA409D51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = F7D2CFE67CBC448FA0C57EF2 /* PBXContainerItemProxy */;
+		};
+		D52C7CFD1ECF4BB78B18BFDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE269E5EB2C4A919ADD3E3B /* ksl_compiler */;
+			targetProxy = D1A3606E44C84ED0A074C0B0 /* PBXContainerItemProxy */;
+		};
+		E84A376EA543483FAF087A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE269E5EB2C4A919ADD3E3B /* ksl_compiler */;
+			targetProxy = F4EC3051CD734A7E9F92B1D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DFCABAE6FA44D8A91A27171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,"'TEST_COMPILE_ACHITECTURE=\"ios\"'",GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations       ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbase_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2ADDB40441794CCB9EFB7A38 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2CEEED642F8E410A85DFC7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/build;
+			};
+			name = Debug;
+		};
+		2E2A8E9D60214C058E743F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/build;
+			};
+			name = Release;
+		};
+		407A8403825A404681F61EAE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		487EADD4E62F403EBDDFB81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5F578E15C7AB4BE1B6F42183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,"'TEST_COMPILE_ACHITECTURE=\"ios\"'",GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbase;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		63AADB26BA604DA6A1E4E596 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6D250C9FAFC340399385693C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6D9966955D834B73B2DF1DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6F9D18D8439B4698BB04D57C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6FB19906C208488AAD80D4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,ENABLE_METAL_GENERATOR,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations       ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ksl_compiler_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/ksl_compiler;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7E471C59A8CF498F96471B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,ENABLE_METAL_GENERATOR,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ksl_compiler;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/ksl_compiler;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		80CC49B2CA2947AD9C4210B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,ENABLE_METAL_GENERATOR,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ksl_compiler;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/ksl_compiler;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CF7974A9DA4640C4AB1DC6E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,ENABLE_METAL_GENERATOR,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ksl_compiler;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/ksl_compiler;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DB67BEAD53404500851183EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD4E655F08624B968E52CC9A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,"'TEST_COMPILE_ACHITECTURE=\"ios\"'",GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbase;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E3819669918D4ED488A955CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FD2F39E33B444D8499A3021F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase/build;
+			};
+			name = MinSizeRel;
+		};
+		FED9EBC6C97442FDB8E19B4B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,"'TEST_COMPILE_ACHITECTURE=\"ios\"'",GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testbase;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/testbase;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DC6034DAF648118446A24A /* Build configuration list for PBXNativeTarget "testbase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFCABAE6FA44D8A91A27171 /* Debug */,
+				5F578E15C7AB4BE1B6F42183 /* Release */,
+				FED9EBC6C97442FDB8E19B4B /* MinSizeRel */,
+				DD4E655F08624B968E52CC9A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		65BD9F3C992C45CBA40159B0 /* Build configuration list for PBXNativeTarget "ksl_compiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB19906C208488AAD80D4C5 /* Debug */,
+				7E471C59A8CF498F96471B0B /* Release */,
+				80CC49B2CA2947AD9C4210B3 /* MinSizeRel */,
+				CF7974A9DA4640C4AB1DC6E9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7578B0D151164F9CB33A916C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB67BEAD53404500851183EE /* Debug */,
+				6D9966955D834B73B2DF1DDB /* Release */,
+				6F9D18D8439B4698BB04D57C /* MinSizeRel */,
+				63AADB26BA604DA6A1E4E596 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C74A5DA4B3214F7FA61DCA3E /* Build configuration list for PBXProject "testbase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEEED642F8E410A85DFC7CC /* Debug */,
+				2E2A8E9D60214C058E743F43 /* Release */,
+				FD2F39E33B444D8499A3021F /* MinSizeRel */,
+				2ADDB40441794CCB9EFB7A38 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6C9892A5507473CBEDF3FB0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3819669918D4ED488A955CF /* Debug */,
+				487EADD4E62F403EBDDFB81D /* Release */,
+				407A8403825A404681F61EAE /* MinSizeRel */,
+				6D250C9FAFC340399385693C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB869323A1F4F84B5F1F6F0 /* Project object */;
+}

@@ -1,0 +1,937 @@
+The target system is: Darwin - 1 - 
+The host system is: Darwin - 25.3.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'CompilerIdC' in project 'CompilerIdC' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 7591fbc2d2c4d793d8f731b8e73ecfd3
+Build description path: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/./XCBuildData/7591fbc2d2c4d793d8f731b8e73ecfd3.xcbuilddata
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/SwiftExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/ExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/EagerLinkingTBDs/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC-d9d24303ac0ea36fa2bc7f98aeea5fe3-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xcodeproj
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC-d9d24303ac0ea36fa2bc7f98aeea5fe3-VFS-iphoneos/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.DependencyMetadataFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.DependencyStaticMetadataFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+-target arm64-apple-ios26.2 -fpascal-strings -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -g -iquote /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/include -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Developer/Library/Frameworks
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+MkDir /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    /bin/mkdir -p /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest
+
+CompileC /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    
+    Using response file: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body @/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CMakeCCompilerId.c -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.2 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Os -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Developer/Library/Frameworks -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+PhaseScriptExecution Run\ Script /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    /bin/sh -c /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.build/Debug-iphoneos/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+GenerateDSYMFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest.dSYM /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest.dSYM
+
+RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    builtin-RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest
+
+Touch /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC
+    /usr/bin/touch -c /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest
+
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+warning: Run script build phase 'Run Script' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'CompilerIdC' from project 'CompilerIdC')
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'CompilerIdCXX' in project 'CompilerIdCXX' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c++ -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 0df4d8b7734e16dd490a935da182dbfa
+Build description path: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/./XCBuildData/0df4d8b7734e16dd490a935da182dbfa.xcbuilddata
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/SwiftExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/ExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/EagerLinkingTBDs/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX-cab83bf49ed2df1b1ab81a78cb182d1a-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX-cab83bf49ed2df1b1ab81a78cb182d1a-VFS-iphoneos/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.DependencyMetadataFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.DependencyStaticMetadataFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+-target arm64-apple-ios26.2 -fpascal-strings -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -g -fvisibility-inlines-hidden -iquote /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/include -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Developer/Library/Frameworks
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+MkDir /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    /bin/mkdir -p /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest
+
+CompileC /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    
+    Using response file: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body @/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+Ld /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-ios26.2 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Os -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Developer/Library/Frameworks -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    /bin/sh -c /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.build/Debug-iphoneos/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+GenerateDSYMFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest.dSYM /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest
+
+Touch /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX
+    /usr/bin/touch -c /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest
+
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+warning: Run script build phase 'Run Script' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/3.18.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06998 -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06998 -configuration Debug -hideShellScriptEnvironment
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'cmTC_06998' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: c5540f223e1dc11740cff1f7b58ae51a
+Build description path: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/build/XCBuildData/c5540f223e1dc11740cff1f7b58ae51a.xcbuilddata
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyStaticMetadataFileList (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyMetadataFileList (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+-target arm64-apple-ios14 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug-iphoneos"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -g -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources-normal/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+
+CompileC /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    
+    Using response file: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl,-v @/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCCompilerABI.c -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.o
+Apple clang version 17.0.0 (clang-1700.6.3.2)
+Target: arm64-apple-ios14
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -fdebug-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources-normal/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -fmacro-backtrace-limit=0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.o -x c /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.3.0
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources-normal/arm64"
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources/arm64"
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks (framework directory)
+End of search list.
+
+Ld /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 normal (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_lto.o -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_dependency_info.dat -v -Wl,-v -Wl,-headerpad_max_install_names -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998
+Apple clang version 17.0.0 (clang-1700.6.3.2)
+Target: arm64-apple-ios14
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_dependency_info.dat -v -headerpad_max_install_names -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld PROJECT:ld-1230.1
+BUILD 06:35:00 Dec  2 2025
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+Library search paths:
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift
+Framework search paths:
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks
+
+GenerateDSYMFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998.dSYM /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998.dSYM
+
+RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06998 -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06998 -configuration Debug -hideShellScriptEnvironment]
+  ignore line: []
+  ignore line: [ComputePackagePrebuildTargetDependencyGraph]
+  ignore line: []
+  ignore line: [CreateBuildRequest]
+  ignore line: []
+  ignore line: [SendProjectDescription]
+  ignore line: []
+  ignore line: [CreateBuildOperation]
+  ignore line: []
+  ignore line: [ComputeTargetDependencyGraph]
+  ignore line: [note: Building targets in dependency order]
+  ignore line: [note: Target dependency graph (1 target)]
+  ignore line: [    Target 'cmTC_06998' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+  ignore line: []
+  ignore line: [GatherProvisioningInputs]
+  ignore line: []
+  ignore line: [CreateBuildDescription]
+  ignore line: []
+  ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null]
+  ignore line: []
+  ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null]
+  ignore line: []
+  ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+  ignore line: []
+  ignore line: [Build description signature: c5540f223e1dc11740cff1f7b58ae51a]
+  ignore line: [Build description path: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/build/XCBuildData/c5540f223e1dc11740cff1f7b58ae51a.xcbuilddata]
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyStaticMetadataFileList (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyStaticMetadataFileList]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyMetadataFileList (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/cmTC_06998.DependencyMetadataFileList]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp]
+  ignore line: [-target arm64-apple-ios14 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug-iphoneos"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -g -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources-normal/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+  ignore line: []
+  ignore line: [CompileC /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    ]
+  ignore line: [    Using response file: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp]
+  ignore line: [    ]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl -v @/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCCompilerABI.c -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.o]
+  ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
+  ignore line: [Target: arm64-apple-ios14]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -fdebug-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources-normal/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -fmacro-backtrace-limit=0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/CMakeCCompilerABI.o -x c /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources-normal/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug (framework directory)]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Ld /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 normal (in target 'cmTC_06998' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_lto.o -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_dependency_info.dat -v -Wl -v -Wl -headerpad_max_install_names -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998]
+  ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
+  ignore line: [Target: arm64-apple-ios14]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_dependency_info.dat -v -headerpad_max_install_names -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_dependency_info.dat -v -headerpad_max_install_names -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_dependency_info.dat -v -headerpad_max_install_names -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-no_deduplicate] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-dead_strip] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [ios] ==> ignore
+    arg [14.0.0] ==> ignore
+    arg [26.2] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk] ==> ignore
+    arg [-O0] ==> ignore
+    arg [-mllvm] ==> ignore
+    arg [-enable-linkonceodr-outlining] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_06998] ==> ignore
+    arg [-L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+    arg [-reproducible] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_06998.build/Objects-normal/arm64/cmTC_06998_dependency_info.dat] ==> ignore
+    arg [-v] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
+    arg [-F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> ignore
+  Library search paths: [;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift]
+  Framework search paths: [;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos], skipping non-system directory
+  collapse library dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift]
+  collapse framework dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos], skipping non-system directory
+  collapse framework dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_842b8 -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_842b8 -configuration Debug -hideShellScriptEnvironment
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'cmTC_842b8' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c++ -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 1a3b4f21d29fb63e8e7b359f545a98c1
+Build description path: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/build/XCBuildData/1a3b4f21d29fb63e8e7b359f545a98c1.xcbuilddata
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyStaticMetadataFileList (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyMetadataFileList (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList
+
+WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+-target arm64-apple-ios14 '-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG' -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug-iphoneos"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -g -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources-normal/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug '-fvisibility=hidden' -fvisibility-inlines-hidden
+
+CompileC /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    
+    Using response file: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl,-v @/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.o
+Apple clang version 17.0.0 (clang-1700.6.3.2)
+Target: arm64-apple-ios14
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -fdebug-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources-normal/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -fmacro-backtrace-limit=0 -fvisibility=hidden -fvisibility-inlines-hidden -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.3.0
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources-normal/arm64"
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources/arm64"
+ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks (framework directory)
+End of search list.
+
+Ld /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 normal (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-ios14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_lto.o -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_dependency_info.dat -v -Wl,-v -Wl,-headerpad_max_install_names -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8
+Apple clang version 17.0.0 (clang-1700.6.3.2)
+Target: arm64-apple-ios14
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_dependency_info.dat -v -headerpad_max_install_names -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld PROJECT:ld-1230.1
+BUILD 06:35:00 Dec  2 2025
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+Library search paths:
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift
+Framework search paths:
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos
+	/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks
+
+GenerateDSYMFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8.dSYM /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8.dSYM
+
+RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp
+    builtin-RegisterExecutionPolicyException /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_842b8 -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_842b8 -configuration Debug -hideShellScriptEnvironment]
+  ignore line: []
+  ignore line: [ComputePackagePrebuildTargetDependencyGraph]
+  ignore line: []
+  ignore line: [CreateBuildRequest]
+  ignore line: []
+  ignore line: [SendProjectDescription]
+  ignore line: []
+  ignore line: [CreateBuildOperation]
+  ignore line: []
+  ignore line: [ComputeTargetDependencyGraph]
+  ignore line: [note: Building targets in dependency order]
+  ignore line: [note: Target dependency graph (1 target)]
+  ignore line: [    Target 'cmTC_842b8' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+  ignore line: []
+  ignore line: [GatherProvisioningInputs]
+  ignore line: []
+  ignore line: [CreateBuildDescription]
+  ignore line: []
+  ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null]
+  ignore line: []
+  ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c++ -c /dev/null]
+  ignore line: []
+  ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -x c -c /dev/null]
+  ignore line: []
+  ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+  ignore line: []
+  ignore line: [Build description signature: 1a3b4f21d29fb63e8e7b359f545a98c1]
+  ignore line: [Build description path: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/build/XCBuildData/1a3b4f21d29fb63e8e7b359f545a98c1.xcbuilddata]
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/ExplicitPrecompiledModules]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/SwiftExplicitPrecompiledModules]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyStaticMetadataFileList (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyStaticMetadataFileList]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyMetadataFileList (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/cmTC_842b8.DependencyMetadataFileList]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    write-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp]
+  ignore line: [-target arm64-apple-ios14 '-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG' -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug-iphoneos"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -g -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources-normal/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources/arm64 -I/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug '-fvisibility=hidden' -fvisibility-inlines-hidden]
+  ignore line: []
+  ignore line: [CompileC /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    ]
+  ignore line: [    Using response file: /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp]
+  ignore line: [    ]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl -v @/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+  ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
+  ignore line: [Target: arm64-apple-ios14]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -fdebug-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/9z/nhsvmbtx1dq_6rpw26bm92fh0000gn/C/com.apple.DeveloperTools/26.2-17C52/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C53-3885c01c3e6b6a337905948deab2002eb86d5463c27eb19f5a0802f060ecffd6.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG -D "CMAKE_INTDIR=\"Debug-iphoneos\"" -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources-normal/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources/arm64 -I /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -fmacro-backtrace-limit=0 -fvisibility=hidden -fvisibility-inlines-hidden -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources-normal/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug (framework directory)]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/SubFrameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Ld /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 normal (in target 'cmTC_842b8' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-ios14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_lto.o -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_dependency_info.dat -v -Wl -v -Wl -headerpad_max_install_names -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8]
+  ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
+  ignore line: [Target: arm64-apple-ios14]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_dependency_info.dat -v -headerpad_max_install_names -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_dependency_info.dat -v -headerpad_max_install_names -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -dead_strip -platform_version ios 14.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8 -L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug -reproducible -filelist /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList -object_path_lto /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_lto.o -no_deduplicate -dependency_info /Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_dependency_info.dat -v -headerpad_max_install_names -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a -F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-no_deduplicate] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-dead_strip] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [ios] ==> ignore
+    arg [14.0.0] ==> ignore
+    arg [26.2] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk] ==> ignore
+    arg [-O0] ==> ignore
+    arg [-mllvm] ==> ignore
+    arg [-enable-linkonceodr-outlining] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug/cmTC_842b8] ==> ignore
+    arg [-L/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug]
+    arg [-reproducible] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_842b8.build/Objects-normal/arm64/cmTC_842b8_dependency_info.dat] ==> ignore
+    arg [-v] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
+    arg [-F/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> ignore
+  Library search paths: [;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift]
+  Framework search paths: [;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos;/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos], skipping non-system directory
+  collapse library dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift]
+  collapse framework dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug-iphoneos], skipping non-system directory
+  collapse framework dir [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug] ==> [/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+
+

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'install' in project 'localization'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'localization'
+Target 'ALL_BUILD' in project 'localization'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'localization'
+Target 'ZERO_CHECK' in project 'localization' (no dependencies)

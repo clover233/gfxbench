@@ -1,0 +1,3 @@
+/Users/clover/Desktop/gfxbench/out/build/ios/localization/CMakeFiles/install.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/localization/CMakeFiles/ALL_BUILD.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/localization/CMakeFiles/ZERO_CHECK.dir

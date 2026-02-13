@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/eglgraphicscontext.cpp \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/log.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/format.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/substring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/bytevec.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/eglgraphicscontext.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/glformat.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/graphicscontext.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/graphicswindow.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/egl.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/epoxy_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/egl_generated.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/gl.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/gl_generated.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/EGL/eglplatform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/KHR/khrplatform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macro_utils.h

@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_scheduler.cpp \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_scheduler.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Thread.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Foundation.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Config.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Alignment.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Bugcheck.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Types.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Exception.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/ScopedLock.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Thread_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Runnable.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/SignalHandler.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Event.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Event_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/RefCountedObject.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/AtomicCounter.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/AutoPtr.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Notification.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/SynchronizedObject.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/NotificationQueue.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngl/src/ngl.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngl/src/job_statistic.h

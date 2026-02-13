@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1FA239A5FC7F476B9CD67245 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3826B08A52854C8AA1904721 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A9EC52471E9A4D9F838F34E3 /* CMake Rules */,
+			);
+			dependencies = (
+				8AE377F80A884808AC0977A3 /* PBXTargetDependency */,
+				BCC86D405FEE413B94960E68 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C638EDC729564A03B1F9C044 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4D932E8DB934EFDAEEACEBC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				62B2A96E92F742E995A567C9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0AE2A4B631E84EA6B35EEDDC /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.h */ = {isa = PBXBuildFile; fileRef = 4EBEE97531944D78AD13B70D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.h */; };
+		0D0A721B303043DAB2A08FA7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.cpp */ = {isa = PBXBuildFile; fileRef = 24807418ECDB433C80BEF9E4 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.cpp */; };
+		0E1C68EF2319458E8C936FF5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.h */ = {isa = PBXBuildFile; fileRef = B5E87D0A1ACA4CC99AF0BD84 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.h */; };
+		34E099648E464BCCAF235CF2 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.cpp */ = {isa = PBXBuildFile; fileRef = AB2B8F3E5DB24C2395D10073 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.cpp */; };
+		381414A093B3421AA1798C8B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.h */ = {isa = PBXBuildFile; fileRef = F89018CCD1204D898ECFE0F0 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.h */; };
+		41FBFB5B0D7949DCBE71A7F3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.cpp */ = {isa = PBXBuildFile; fileRef = FD5AD55C64344D2184691859 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.cpp */; };
+		44F3C40B282B447D80B2024C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.cpp */ = {isa = PBXBuildFile; fileRef = 99BAA610FE65456AB3027FE5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.cpp */; };
+		4618899320EE40D69B327D02 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.cpp */ = {isa = PBXBuildFile; fileRef = ABEA89E7475940C291EC61AB /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.cpp */; };
+		5333EE7660414AB386EB2441 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_init.cpp */ = {isa = PBXBuildFile; fileRef = 31A15536CC4840819242B169 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_init.cpp */; };
+		59C35DFEA6D74F68BB7FF7AE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F45C415EE1B045CDA3C5DBB5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/CMakeLists.txt */; };
+		5DFEFD27B55644AA8CCBDB8B /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.h */ = {isa = PBXBuildFile; fileRef = 9AD0EF9C0088434587A00FB7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.h */; };
+		6DF582A5FF3E4F109C708DCE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.h */ = {isa = PBXBuildFile; fileRef = 31D9E88B87BE42219B700105 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.h */; };
+		8930A041CEEF48EB83E5E6CB /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.cpp */ = {isa = PBXBuildFile; fileRef = C81526B4AA764689BF780BE1 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.cpp */; };
+		954835BC613D413DA47D2F53 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.cpp */ = {isa = PBXBuildFile; fileRef = 858FC39207A34FF1AA12B310 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.cpp */; };
+		A2769FF4905C4BFF87648BB9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.h */ = {isa = PBXBuildFile; fileRef = 3545C019A31C4474A2CD0787 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.h */; };
+		A67F09F753F74D81ACB0D46A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.h */ = {isa = PBXBuildFile; fileRef = AD33D2D6E86740888397F2B9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.h */; };
+		A9D629BD8CEF4267B4582E25 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.h */ = {isa = PBXBuildFile; fileRef = C7127568DBBC4AC5AA35061A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.h */; };
+		BED5F47988264334A058154E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/create_factory_gfx50_corporate.cpp */ = {isa = PBXBuildFile; fileRef = 61D451126FF749AAAB3687EE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/create_factory_gfx50_corporate.cpp */; };
+		CCFA8FF35E824BE4A84EE1AD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.cpp */ = {isa = PBXBuildFile; fileRef = 4359B5D313A94DB1B283A533 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.cpp */; };
+		D6241D2A95C943DDA0620B32 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.cpp */ = {isa = PBXBuildFile; fileRef = 921A44EB1394434D9832456F /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.cpp */; };
+		D7A062F91B82443DB127D045 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.cpp */ = {isa = PBXBuildFile; fileRef = E8C604D8F6DE479EA55C27C9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.cpp */; };
+		F214B7FF93FE448BB393CA9A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.h */ = {isa = PBXBuildFile; fileRef = E9D7999852934DE8A09FA243 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.h */; };
+		F3D4916C81D5491ABA915D15 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.h */ = {isa = PBXBuildFile; fileRef = 9E4FEADEBEB84A48973ACD2C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		24D7F2CA531F49C6B0A7823E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3D6D588766D74F22984858C1 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		535AD03459C74B169ADD290D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		FCF55FAED67F4E87884E76C9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2691F8C1E5C044D8BEEDAD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFC51160ECB44EABE3D84DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		29277A1E1EA7455BA66CB1F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFC51160ECB44EABE3D84DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		32434EFC28334A4C9C26E948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFC51160ECB44EABE3D84DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3BCFB9071A4684839B5C0B;
+			remoteInfo = gfxb_5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24807418ECDB433C80BEF9E4 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_scene5.cpp; path = gfxb_scene5.cpp; sourceTree = SOURCE_ROOT; };
+		31A15536CC4840819242B169 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_init.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_scene5_init.cpp; path = gfxb_scene5_init.cpp; sourceTree = SOURCE_ROOT; };
+		31D9E88B87BE42219B700105 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_5.h; path = gfxb_5.h; sourceTree = SOURCE_ROOT; };
+		3545C019A31C4474A2CD0787 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gi.h; path = gi/gi.h; sourceTree = SOURCE_ROOT; };
+		4359B5D313A94DB1B283A533 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_room_setup.cpp; path = gfxb_room_setup.cpp; sourceTree = SOURCE_ROOT; };
+		4EBEE97531944D78AD13B70D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_scene5_mesh.h; path = gfxb_scene5_mesh.h; sourceTree = SOURCE_ROOT; };
+		61D451126FF749AAAB3687EE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/create_factory_gfx50_corporate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = create_factory_gfx50_corporate.cpp; path = corporate/create_factory_gfx50_corporate.cpp; sourceTree = SOURCE_ROOT; };
+		69D8C12198D94C538DBCFF76 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		858FC39207A34FF1AA12B310 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_scene5_tools.cpp; path = gfxb_scene5_tools.cpp; sourceTree = SOURCE_ROOT; };
+		921A44EB1394434D9832456F /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_5.cpp; path = gfxb_5.cpp; sourceTree = SOURCE_ROOT; };
+		99BAA610FE65456AB3027FE5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_sun_light.cpp; path = gfxb_sun_light.cpp; sourceTree = SOURCE_ROOT; };
+		9AD0EF9C0088434587A00FB7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_scene5.h; path = gfxb_scene5.h; sourceTree = SOURCE_ROOT; };
+		9E4FEADEBEB84A48973ACD2C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_lightshaft_util.h; path = gfxb_lightshaft_util.h; sourceTree = SOURCE_ROOT; };
+		AB2B8F3E5DB24C2395D10073 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_lightshaft_util.cpp; path = gfxb_lightshaft_util.cpp; sourceTree = SOURCE_ROOT; };
+		ABEA89E7475940C291EC61AB /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_scene5_pipeline.cpp; path = gfxb_scene5_pipeline.cpp; sourceTree = SOURCE_ROOT; };
+		AD33D2D6E86740888397F2B9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_room_setup.h; path = gfxb_room_setup.h; sourceTree = SOURCE_ROOT; };
+		B5E87D0A1ACA4CC99AF0BD84 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_scene5_pipeline.h; path = gfxb_scene5_pipeline.h; sourceTree = SOURCE_ROOT; };
+		C7127568DBBC4AC5AA35061A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_sun_light.h; path = gfxb_sun_light.h; sourceTree = SOURCE_ROOT; };
+		C81526B4AA764689BF780BE1 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gi.cpp; path = gi/gi.cpp; sourceTree = SOURCE_ROOT; };
+		E278FE8D0A474CA087ABCE8E /* gfxb_5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgfxb_5_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C604D8F6DE479EA55C27C9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_scene5_mesh_filters.cpp; path = gfxb_scene5_mesh_filters.cpp; sourceTree = SOURCE_ROOT; };
+		E9D7999852934DE8A09FA243 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_scene5_tools.h; path = gfxb_scene5_tools.h; sourceTree = SOURCE_ROOT; };
+		F45C415EE1B045CDA3C5DBB5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F89018CCD1204D898ECFE0F0 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gfxb_scene5_mesh_filters.h; path = gfxb_scene5_mesh_filters.h; sourceTree = SOURCE_ROOT; };
+		FD5AD55C64344D2184691859 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gfxb_scene5_mesh.cpp; path = gfxb_scene5_mesh.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		21E120E65720470FB9EFA5CF /* gfxb_5 */ = {
+			isa = PBXGroup;
+			children = (
+				F45C415EE1B045CDA3C5DBB5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/CMakeLists.txt */,
+				61D451126FF749AAAB3687EE /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/create_factory_gfx50_corporate.cpp */,
+				921A44EB1394434D9832456F /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.cpp */,
+				31D9E88B87BE42219B700105 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.h */,
+				AB2B8F3E5DB24C2395D10073 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.cpp */,
+				9E4FEADEBEB84A48973ACD2C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.h */,
+				4359B5D313A94DB1B283A533 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.cpp */,
+				AD33D2D6E86740888397F2B9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.h */,
+				24807418ECDB433C80BEF9E4 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.cpp */,
+				9AD0EF9C0088434587A00FB7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.h */,
+				31A15536CC4840819242B169 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_init.cpp */,
+				FD5AD55C64344D2184691859 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.cpp */,
+				4EBEE97531944D78AD13B70D /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.h */,
+				E8C604D8F6DE479EA55C27C9 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.cpp */,
+				F89018CCD1204D898ECFE0F0 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.h */,
+				ABEA89E7475940C291EC61AB /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.cpp */,
+				B5E87D0A1ACA4CC99AF0BD84 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.h */,
+				858FC39207A34FF1AA12B310 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.cpp */,
+				E9D7999852934DE8A09FA243 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.h */,
+				99BAA610FE65456AB3027FE5 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.cpp */,
+				C7127568DBBC4AC5AA35061A /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.h */,
+				C81526B4AA764689BF780BE1 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.cpp */,
+				3545C019A31C4474A2CD0787 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.h */,
+			);
+			name = gfxb_5;
+			sourceTree = "<group>";
+		};
+		643AA7230D544608BE0454AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E278FE8D0A474CA087ABCE8E /* gfxb_5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E6CFCAE43FA460B906FEFD3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				804F2797D17244F88ECD58A7 /* CMake Rules */,
+				69D8C12198D94C538DBCFF76 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		804F2797D17244F88ECD58A7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CC357EA32D4147C383F08F92 = {
+			isa = PBXGroup;
+			children = (
+				21E120E65720470FB9EFA5CF /* gfxb_5 */,
+				7E6CFCAE43FA460B906FEFD3 /* ALL_BUILD */,
+				643AA7230D544608BE0454AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3BCFB9071A4684839B5C0B /* gfxb_5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3FC0A570D440C08AE9D110 /* Build configuration list for PBXNativeTarget "gfxb_5" */;
+			buildPhases = (
+				F387FC3D620749DE923289BB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F798B0CF3844B0BBC779C31 /* PBXTargetDependency */,
+			);
+			name = gfxb_5;
+			productName = gfxb_5;
+			productReference = E278FE8D0A474CA087ABCE8E /* gfxb_5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFC51160ECB44EABE3D84DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = 2A6FA6C98C80449292D525AE /* Build configuration list for PBXProject "gfxb_5" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FCF55FAED67F4E87884E76C9 /* Debug */,
+				24D7F2CA531F49C6B0A7823E /* Release */,
+				535AD03459C74B169ADD290D /* MinSizeRel */,
+				3D6D588766D74F22984858C1 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = CC357EA32D4147C383F08F92;
+			projectDirPath = /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5;
+			projectRoot = "";
+			targets = (
+				1FA239A5FC7F476B9CD67245 /* ALL_BUILD */,
+				C638EDC729564A03B1F9C044 /* ZERO_CHECK */,
+				EC3BCFB9071A4684839B5C0B /* gfxb_5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E88D4CCC956425097E848A6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4D621F31ABB44D28B9D2A98B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		62B2A96E92F742E995A567C9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5 -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A9EC52471E9A4D9F838F34E3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5 -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F387FC3D620749DE923289BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED5F47988264334A058154E /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/create_factory_gfx50_corporate.cpp */,
+				D6241D2A95C943DDA0620B32 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_5.cpp */,
+				34E099648E464BCCAF235CF2 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_lightshaft_util.cpp */,
+				CCFA8FF35E824BE4A84EE1AD /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_room_setup.cpp */,
+				0D0A721B303043DAB2A08FA7 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5.cpp */,
+				5333EE7660414AB386EB2441 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_init.cpp */,
+				41FBFB5B0D7949DCBE71A7F3 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh.cpp */,
+				D7A062F91B82443DB127D045 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_mesh_filters.cpp */,
+				4618899320EE40D69B327D02 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_pipeline.cpp */,
+				954835BC613D413DA47D2F53 /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_scene5_tools.cpp */,
+				44F3C40B282B447D80B2024C /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gfxb_sun_light.cpp */,
+				8930A041CEEF48EB83E5E6CB /* /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/gi/gi.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F798B0CF3844B0BBC779C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = 29277A1E1EA7455BA66CB1F8 /* PBXContainerItemProxy */;
+		};
+		8AE377F80A884808AC0977A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3BCFB9071A4684839B5C0B /* gfxb_5 */;
+			targetProxy = 32434EFC28334A4C9C26E948 /* PBXContainerItemProxy */;
+		};
+		BCC86D405FEE413B94960E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = 2691F8C1E5C044D8BEEDAD0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D25758BA457401CA5305A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2569406A092441C6B98E4C23 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5/build;
+			};
+			name = RelWithDebInfo;
+		};
+		28C98D09624741238DDCD9BE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5/build;
+			};
+			name = MinSizeRel;
+		};
+		320BE31C870F41548887FB8A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		525727BCBFFE476495C8C2E3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../gfxb_base,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations     -DNDEBUG -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gfxb_5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		57490782358E4303BAD25B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../gfxb_base,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations       -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gfxb_5_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5F55185DBA2044E4BE8FAC15 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		67D2F586707E4A2381FABA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		780B5A0F558B4D0B8D0E1124 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7B32D14C6EA443129713F30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../gfxb_base,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations     -DNDEBUG -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gfxb_5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		86E239D0B355459490D0A143 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'",NGRTL_STATIC,POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,GLEW_NO_GLU,ENABLE_METAL_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src,/Users/clover/Desktop/gfxbench/gfxbench50/components,/Users/clover/Desktop/gfxbench/gfxbench50/../gfxb_dev/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/gfxbench50/src/testbase,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../gfxb_base,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/../../../3rdparty/AgilitySDK/Include,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src,/Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/../ngl/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11  -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations -Wno-error=deprecated-declarations        -DNDEBUG -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gfxb_5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9049A5AE6C534727BF0DFE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9C1246D456CC4C1D8A7C458D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5/build;
+			};
+			name = Debug;
+		};
+		B0D742710CD8486A90708ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5/build;
+			};
+			name = Release;
+		};
+		C78308228B0D475DAEB4D273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DE4051CBFF804618B7695172 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/src/scene5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A6FA6C98C80449292D525AE /* Build configuration list for PBXProject "gfxb_5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1246D456CC4C1D8A7C458D /* Debug */,
+				B0D742710CD8486A90708ECB /* Release */,
+				28C98D09624741238DDCD9BE /* MinSizeRel */,
+				2569406A092441C6B98E4C23 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3826B08A52854C8AA1904721 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D25758BA457401CA5305A4D /* Debug */,
+				C78308228B0D475DAEB4D273 /* Release */,
+				780B5A0F558B4D0B8D0E1124 /* MinSizeRel */,
+				320BE31C870F41548887FB8A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4D932E8DB934EFDAEEACEBC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9049A5AE6C534727BF0DFE7E /* Debug */,
+				67D2F586707E4A2381FABA93 /* Release */,
+				DE4051CBFF804618B7695172 /* MinSizeRel */,
+				5F55185DBA2044E4BE8FAC15 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE3FC0A570D440C08AE9D110 /* Build configuration list for PBXNativeTarget "gfxb_5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57490782358E4303BAD25B53 /* Debug */,
+				7B32D14C6EA443129713F30C /* Release */,
+				525727BCBFFE476495C8C2E3 /* MinSizeRel */,
+				86E239D0B355459490D0A143 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFC51160ECB44EABE3D84DA /* Project object */;
+}

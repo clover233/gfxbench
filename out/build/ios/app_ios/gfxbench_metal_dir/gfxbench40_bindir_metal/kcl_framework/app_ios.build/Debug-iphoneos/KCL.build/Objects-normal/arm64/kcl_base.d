@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.cpp \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_factory_base.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_aabb.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_keyframesequence.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.h

@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/properties.cpp \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/properties.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/systeminfo.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/deviceinfo.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/glinfo.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/metalinfo.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/vulkaninfo.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/SystemInfoCommonKeys.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/deviceinfocollector.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/glinfocollector.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/vulkaninfocollector.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/clinfocollector.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/metalinfocollector.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/cudainfocollector.h \
+  /Users/clover/Desktop/gfxbench/frameworks/systeminfo/src/keyvaluevisitor.h

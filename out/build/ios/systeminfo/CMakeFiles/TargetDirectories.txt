@@ -1,0 +1,4 @@
+/Users/clover/Desktop/gfxbench/out/build/ios/systeminfo/CMakeFiles/install.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/systeminfo/CMakeFiles/systeminfo.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/systeminfo/CMakeFiles/ALL_BUILD.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/systeminfo/CMakeFiles/ZERO_CHECK.dir

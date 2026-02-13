@@ -1,0 +1,13 @@
+Target dependency graph (5 targets)
+Target 'install' in project 'ngrtl'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'ngrtl'
+Target 'ALL_BUILD' in project 'ngrtl'
+➜ Explicit dependency on target 'ngrtl_pngio' in project 'ngrtl'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'ngrtl'
+➜ Explicit dependency on target 'ngrtl_core' in project 'ngrtl'
+Target 'ngrtl_pngio' in project 'ngrtl'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'ngrtl'
+➜ Explicit dependency on target 'ngrtl_core' in project 'ngrtl'
+Target 'ngrtl_core' in project 'ngrtl'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'ngrtl'
+Target 'ZERO_CHECK' in project 'ngrtl' (no dependencies)

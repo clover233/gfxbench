@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/create_factory_gfx50_corporate.cpp \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/gfxbench_corporate.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/descriptors.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/serializable.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/environment.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/graphics.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/compute.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/result.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/chart.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/gfxresult.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/computeresult.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/scene5/corporate/../gfxb_5.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_scene_test_base.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_base_gfx.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/testfw.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/test_descriptor.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/screen_manager_component.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/test_component.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/time_component.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/timer.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/statistics_component.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/input_component.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/vsync_component.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/components/charts_component.h

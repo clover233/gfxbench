@@ -1,0 +1,7 @@
+/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/install.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/ALL_BUILD.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/CMakeFiles/ZERO_CHECK.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/gfxbench40_datadir/CMakeFiles/install.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/gfxbench40_datadir/CMakeFiles/ALL_BUILD.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/gfxbench40_datadir/CMakeFiles/ZERO_CHECK.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/gfxbench-data/gfxbench50_datadir/CMakeFiles/install.dir

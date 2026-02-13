@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/app_ios/src/Common/NUICommandLineParser.mm \
+  /Users/clover/Desktop/gfxbench/app_ios/src/Common/NUICommandLineParser.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/Option.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/Util.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Foundation.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Config.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Alignment.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Bugcheck.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Types.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/OptionCallback.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/descriptors.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/serializable.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/environment.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/graphics.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/compute.h \
+  /Users/clover/Desktop/gfxbench/app_ios/src/Utils/NSFileManagerLocations.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/OptionSet.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/OptionProcessor.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/IntValidator.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/Validator.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/RefCountedObject.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/AtomicCounter.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Exception.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/ScopedLock.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Util/HelpFormatter.h

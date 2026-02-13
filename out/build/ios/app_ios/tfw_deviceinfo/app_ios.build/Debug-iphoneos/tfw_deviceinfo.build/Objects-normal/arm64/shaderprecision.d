@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.cpp \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/gl.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/epoxy_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/epoxy/gl_generated.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/format.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/substring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/bytevec.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/log.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macro_utils.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.h \
+  /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio/ng/pngio.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/stream/memstreambuf.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/stream/stream.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Base64Encoder.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Foundation.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Config.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Alignment.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Bugcheck.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Types.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/UnbufferedStreamBuf.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/StreamUtil.h

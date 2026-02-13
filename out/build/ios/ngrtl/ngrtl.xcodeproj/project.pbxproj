@@ -1,0 +1,1278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		09E3E4807B654BE691F45903 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D107C9DE67842FD8C02800E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				442E2CD54B554858B89B5372 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9A1F56AA6A2F411F9AD386D0 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		33A2AF8DF1524BCFB0CFFED5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4941364F714D43BDA2ECB987 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				69237C94CD0C4E34BC28F70F /* CMake Rules */,
+			);
+			dependencies = (
+				52AC2616BC3B4416A4CD441B /* PBXTargetDependency */,
+				C94BB6AA572647259DA7C1E9 /* PBXTargetDependency */,
+				23D3F70352FF48BEBFEAC7B9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E19D2C8557BF45B6B2170797 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EAD791990C594D52AFEE5A14 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8D7DF749DFA04E52A9604C7E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00728DACA8A24AFFA2257163 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/result.cpp */ = {isa = PBXBuildFile; fileRef = CEC1C68C8583404F8E1C8516 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/result.cpp */; };
+		0316F766E3174C09BF7AED30 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/substring.h */ = {isa = PBXBuildFile; fileRef = 39A7EC3D1D12461E9042AFF3 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/substring.h */; };
+		15A78B35A3654855B9525539 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/textstream.cpp */ = {isa = PBXBuildFile; fileRef = 4EBC77A840EA4ED990A923BB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/textstream.cpp */; };
+		15C1C96DF8154ECB8E4CF828 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/stream.h */ = {isa = PBXBuildFile; fileRef = B989B2552D794B9487E00743 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/stream.h */; };
+		16CB34F7DD73432D81E7AD53 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/safecast.h */ = {isa = PBXBuildFile; fileRef = 4C28F43EE4C446DEB9CEC582 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/safecast.h */; };
+		1A47D0E8F08D4A9E91CDF58B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_stringify.cpp */ = {isa = PBXBuildFile; fileRef = D46A7E4442AB4B2BBEC0D97D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_stringify.cpp */; };
+		2312E8BEDF524A628968CE8E /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/textstream.h */ = {isa = PBXBuildFile; fileRef = F75870D9E42B4044B5380640 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/textstream.h */; };
+		254BC36179B640968C791D56 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macros.h */ = {isa = PBXBuildFile; fileRef = BDC6313ADC2244C393663D00 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macros.h */; };
+		2A9CF3D1336E4735B0884E76 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ngrtl_core_export.h */ = {isa = PBXBuildFile; fileRef = A8D8CED940AD45C9BB27E96B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ngrtl_core_export.h */; };
+		2C25BA7721E14B99934AE1A2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/decode.cpp */ = {isa = PBXBuildFile; fileRef = C37E0376FBB9489FA4B6DBAF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/decode.cpp */; };
+		3007C57950714838A30A7A37 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/optional.h */ = {isa = PBXBuildFile; fileRef = 9BDBACC9C44448E393B5BF9C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/optional.h */; };
+		3831967E0179477F931A0D0C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/checked_delete.h */ = {isa = PBXBuildFile; fileRef = 0A1FF51E10BE465DBA7451F2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/checked_delete.h */; };
+		3845C887BD5D43C9A4893718 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/none.h */ = {isa = PBXBuildFile; fileRef = 1B26A5A655F844538F5BDA94 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/none.h */; };
+		3FB9D08EB1BA4E7691CF9608 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/macros.cpp */ = {isa = PBXBuildFile; fileRef = 2D0CE4719C204F708B4734E8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/macros.cpp */; };
+		45E115DC79724397BF9AC40C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/pngio.cpp */ = {isa = PBXBuildFile; fileRef = 5A8B3A38BDF0413493E09E0B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/pngio.cpp */; };
+		46E7CDE98A7940BD89DA18FB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/json.cpp */ = {isa = PBXBuildFile; fileRef = 2B02DCDFBF20462DB0CBFBBE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/json.cpp */; };
+		4A3FF62C09AF445A972A36A4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ptr_vector.h */ = {isa = PBXBuildFile; fileRef = 7CA0CF17C6CB4BD29169E4E0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ptr_vector.h */; };
+		4A885169A0E9409A80D95F95 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/bytestream.cpp */ = {isa = PBXBuildFile; fileRef = 53AE0EC871E14C538092EC6F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/bytestream.cpp */; };
+		4C02AFA31FAA40B1802D7897 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/serialize.cpp */ = {isa = PBXBuildFile; fileRef = 03F823D8999545E08B8604E8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/serialize.cpp */; };
+		510452BBFFB2441AA59D670B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/byteorder.h */ = {isa = PBXBuildFile; fileRef = 053529E3006749A78F17F0D9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/byteorder.h */; };
+		529E9AF5398F482CB3B0C21C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/strutil_detail.h */ = {isa = PBXBuildFile; fileRef = 6560098782CA40DEA7C30A1B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/strutil_detail.h */; };
+		52E54E4AF02D4D4EB0C2A1F6 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/cstring.h */ = {isa = PBXBuildFile; fileRef = 545787C1C8CE483B8BBAE2B9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/cstring.h */; };
+		5306CF49494946A8BB55D6A5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/mutex.cpp */ = {isa = PBXBuildFile; fileRef = 13A9E26A8B5B418F92AE3097 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/mutex.cpp */; };
+		53799B2165FB4C22BCCAA148 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/hr_clock.h */ = {isa = PBXBuildFile; fileRef = F7E8718730984755962FCB7C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/hr_clock.h */; };
+		573399723B574E3F8502AC88 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_parse.cpp */ = {isa = PBXBuildFile; fileRef = 0ACE19B787B94343B0294C51 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_parse.cpp */; };
+		5B3B15C693604DB6930BD864 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scow_ptr.h */ = {isa = PBXBuildFile; fileRef = 9CB40FEAC35A4278A0D33CB8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scow_ptr.h */; };
+		5D99533AAE9D483A88AF47AC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/timer.cpp */ = {isa = PBXBuildFile; fileRef = 7DE04F46EA0D4193BD0EC2D4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/timer.cpp */; };
+		63F732832AFD4345B5E22739 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/bytevec.cpp */ = {isa = PBXBuildFile; fileRef = 7A916670AA5B4179A73F99DD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/bytevec.cpp */; };
+		6A25D7048E2C4561AB6361E0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/filestreambuf.h */ = {isa = PBXBuildFile; fileRef = 9DA78117AFA341E68F0175F0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/filestreambuf.h */; };
+		6BE07AD9A97F48C98F8DE990 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/memstreambuf.h */ = {isa = PBXBuildFile; fileRef = A3857BB4A080451DA14C4B69 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/memstreambuf.h */; };
+		7917AE63AE21431EBA11F8B0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cdecode.c */ = {isa = PBXBuildFile; fileRef = 2D98F135D7034C9487CE2084 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cdecode.c */; };
+		81826830E28744D8BBD28BFD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/move.h */ = {isa = PBXBuildFile; fileRef = 2E50929ACB8C4F339603A630 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/move.h */; };
+		865B44835E8448659E0ED384 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.c */ = {isa = PBXBuildFile; fileRef = 5C776693228E4EEBBEC1B99A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.c */; };
+		8950DB35F6FB43F4A236EDCA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/deserialize.cpp */ = {isa = PBXBuildFile; fileRef = BCC0EEF586224F488667CD01 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/deserialize.cpp */; };
+		8C7F837A32FD4B9690085CA2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64.h */ = {isa = PBXBuildFile; fileRef = 04BE88AF05374C3DAD57416A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64.h */; };
+		8D150E22B4AA4F95A3E62CAE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json.h */ = {isa = PBXBuildFile; fileRef = C605CFAEFC474FF6B662E8CD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json.h */; };
+		92285FD13F2742A1B6A2301C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scoped_ptr.h */ = {isa = PBXBuildFile; fileRef = 97615A490CF14A108076191F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scoped_ptr.h */; };
+		92331C1FC7884E6E89BC1A74 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DEF7E21CC8F04BE4AC55060F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/CMakeLists.txt */; };
+		92C75655A20B47FEB0512DFD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/log/log.cpp */ = {isa = PBXBuildFile; fileRef = E4E071E30CAF404EB0A068DB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/log/log.cpp */; };
+		9318B26CA4B64B4FBC593F3A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/file_bytestream_helper.h */ = {isa = PBXBuildFile; fileRef = EBB53E06193A47EBAD0BFF3C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/file_bytestream_helper.h */; };
+		93E57E3B861A499F8FCAA4FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/object.cpp */ = {isa = PBXBuildFile; fileRef = 428BF90D64B84BF3BBFCBF1E /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/object.cpp */; };
+		9744DF65E57844AA861D9D2B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/cstring.cpp */ = {isa = PBXBuildFile; fileRef = E37A1652D8444023A079CBE9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/cstring.cpp */; };
+		9879F131F59141AFBE3B0104 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/log.h */ = {isa = PBXBuildFile; fileRef = 1F926388B36F4E03A24F79BE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/log.h */; };
+		9E2EB2A2069C4329BEAAECDE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/noncopyable.h */ = {isa = PBXBuildFile; fileRef = 74120EEFA6F04E3A902C0BD5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/noncopyable.h */; };
+		A6944411E1134B7694E66669 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macro_utils.h */ = {isa = PBXBuildFile; fileRef = C46D6151AA8549878704325C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macro_utils.h */; };
+		ACD0060E1139458EBD6680FA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/var.h */ = {isa = PBXBuildFile; fileRef = F190148972BA43999DC746ED /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/var.h */; };
+		AF1A98197B0B432BA4BD58C6 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/result.h */ = {isa = PBXBuildFile; fileRef = 644F3E7E93C548B6B4BAC2B2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/result.h */; };
+		AF9244357F634736A5BCA7BD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/frequency_counter.h */ = {isa = PBXBuildFile; fileRef = EF8CD693611A4DEE894C40BA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/frequency_counter.h */; };
+		B082EFE7525B4EE1845B0A52 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/hr_clock.cpp */ = {isa = PBXBuildFile; fileRef = 0018E9ACC551434A8B2AB203 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/hr_clock.cpp */; };
+		B2EFD1CA9F0C47DC9019B968 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/mutex.h */ = {isa = PBXBuildFile; fileRef = 0AE45BE7351D4B2F881AD6CF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/mutex.h */; };
+		B61B8F3838CF471B85E66F25 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stringutil.h */ = {isa = PBXBuildFile; fileRef = C50F9CCD6FA44A62B737543D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stringutil.h */; };
+		B63E682D17E94DFEA91175B5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2B788F28F8464D02AA99E5AA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/CMakeLists.txt */; };
+		B83273CF138249F0A9910782 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/require.h */ = {isa = PBXBuildFile; fileRef = EB63032E5A6641CF91603583 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/require.h */; };
+		BD5FBF23944A405E931058E4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/sysutil.h */ = {isa = PBXBuildFile; fileRef = 9B4B422BBB8D4AF3A34FCE6F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/sysutil.h */; };
+		C6BDA90558F1426EA0CD6D3F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/substring.cpp */ = {isa = PBXBuildFile; fileRef = 8879868007BA4B66A9C166FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/substring.cpp */; };
+		CA6F69E879464BE3AC380BBC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsonserializator.h */ = {isa = PBXBuildFile; fileRef = BB1E2CA79FE1430F9E5AE12F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsonserializator.h */; };
+		D09890FF4C834D08A220E4A7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/format.cpp */ = {isa = PBXBuildFile; fileRef = B12D87C4BFB34B2D9165CB76 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/format.cpp */; };
+		D17FDC7B38E74858A558308B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/bytevec.h */ = {isa = PBXBuildFile; fileRef = C9E5C5BCEFE94CA1ABFB021C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/bytevec.h */; };
+		D2BDAA4789CD46BBB10C2648 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cdecode.h */ = {isa = PBXBuildFile; fileRef = A5F8C97CC0CB433F8ACAC127 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cdecode.h */; };
+		D90B996CBD9D4E32A871618A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/math.h */ = {isa = PBXBuildFile; fileRef = 792A0F0CBAB44963978442FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/math.h */; };
+		DA19BA9BC4B84ED9A3251FBA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/iterator.h */ = {isa = PBXBuildFile; fileRef = 4EEBF94CE2DC4D268524D5E4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/iterator.h */; };
+		DAEDBCC25010423BB38722FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/js_json.cpp */ = {isa = PBXBuildFile; fileRef = B9FFFD1FCB994DB7B46FB0B8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/js_json.cpp */; };
+		E007D2B26C1247F3937492A7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/encode.cpp */ = {isa = PBXBuildFile; fileRef = E24D044F481246FA9251A79D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/encode.cpp */; };
+		E86983A9BBE74754BBD6E3D9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/filestreambuf.cpp */ = {isa = PBXBuildFile; fileRef = 520E738874E34919ABAB7FF5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/filestreambuf.cpp */; };
+		EC331AC6616443C2AD7D4CB4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stringutil.cpp */ = {isa = PBXBuildFile; fileRef = C0D174E69DE24A0B9AD43041 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stringutil.cpp */; };
+		ECBB073A2BAB48028A5B4099 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/object.h */ = {isa = PBXBuildFile; fileRef = C394DE1ADEF94517A53D4BC7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/object.h */; };
+		EDE44457EDB74787A5271E27 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/frequency_counter.cpp */ = {isa = PBXBuildFile; fileRef = 5A9CEA383B014B749C33C7BE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/frequency_counter.cpp */; };
+		F20B4A7EC82245B39DCE5562 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stdaux.h */ = {isa = PBXBuildFile; fileRef = D04D576513A944E68A0FF863 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stdaux.h */; };
+		F3E05C962F094C8DAF16C327 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/tokenizer.h */ = {isa = PBXBuildFile; fileRef = 93B1CA7957FE4621B5F19C5B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/tokenizer.h */; };
+		F4811DA10CB7474F934270F0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/linear_set_and_map_base.h */ = {isa = PBXBuildFile; fileRef = D7FC150E9CC54131BFEFE143 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/linear_set_and_map_base.h */; };
+		F4A936D8079E498D8599578E /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/bytestream.h */ = {isa = PBXBuildFile; fileRef = C10A10DF5A9A47759F881A9B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/bytestream.h */; };
+		F4E70EE41E4E4EAB8A06D69E /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/timer.h */ = {isa = PBXBuildFile; fileRef = 166E7456ABA846439EE6E042 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/timer.h */; };
+		F54079DA2E2D499891938BFA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsondeserializator.h */ = {isa = PBXBuildFile; fileRef = DD71D3F66FEE49008BFE1FA5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsondeserializator.h */; };
+		F7438A00C47443E9B055A4A9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/require.cpp */ = {isa = PBXBuildFile; fileRef = 27895A0B16174C17BF289010 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/require.cpp */; };
+		F7FFF8F5003C49DD8D24CF01 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json_var.h */ = {isa = PBXBuildFile; fileRef = D1F4EA8EF638450D822931E7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json_var.h */; };
+		F8423397A59F4E6BBA919F77 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cencode.c */ = {isa = PBXBuildFile; fileRef = D922B8A5AD7D4309A518DEF1 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cencode.c */; };
+		F94A594269014C5081BF45D2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/smart_vector.h */ = {isa = PBXBuildFile; fileRef = BC2C05BF1C4B4BBDBDCA252D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/smart_vector.h */; };
+		F9D8F55B3BA44E189D5A8023 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.h */ = {isa = PBXBuildFile; fileRef = E408B10F267E4C529EBC3FB3 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.h */; };
+		FB2B219EC0634747A0BDF81C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cencode.h */ = {isa = PBXBuildFile; fileRef = 1B3C9B31D89049C59132ADEF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cencode.h */; };
+		FC5BD762083E47E492DE2F5A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/memstreambuf.cpp */ = {isa = PBXBuildFile; fileRef = 74867697DBDE4EF8A25227FE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/memstreambuf.cpp */; };
+		FEC4D90206F84538954205E7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/format.h */ = {isa = PBXBuildFile; fileRef = F014DD3FECA5453B9B9D5B4A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/format.h */; };
+		FFAAF7E3AAB640E3BE55DFE0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/var.cpp */ = {isa = PBXBuildFile; fileRef = 6F575EDA396F487D90B36CA5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/var.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		437EA10EBAB244F8B0A52575 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BFA0F6F96FEA42AAA4C84E82 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CF63B4DCBA00479AA77587F1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F72E7499FCE44CEA8EE2F40D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6B04B462664A429D9FC387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553512C11834D1CA826E7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68A76D8BB1454F558B4AC6FF;
+			remoteInfo = ngrtl_pngio;
+		};
+		759A7E945B614A0BBA7EF9DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553512C11834D1CA826E7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19D2C8557BF45B6B2170797;
+			remoteInfo = ZERO_CHECK;
+		};
+		9199CEE9F9634CB69A4665AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553512C11834D1CA826E7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19D2C8557BF45B6B2170797;
+			remoteInfo = ZERO_CHECK;
+		};
+		A06ED05E0AD84064B441A5F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553512C11834D1CA826E7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A2AF8DF1524BCFB0CFFED5;
+			remoteInfo = ALL_BUILD;
+		};
+		A3C7701953B340438B1F5BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553512C11834D1CA826E7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19D2C8557BF45B6B2170797;
+			remoteInfo = ZERO_CHECK;
+		};
+		BE4CBDBDF1F84A73933998E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553512C11834D1CA826E7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5FD403626324801B8DD86A6;
+			remoteInfo = ngrtl_core;
+		};
+		DAFD9748917C4DB0826988DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B553512C11834D1CA826E7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5FD403626324801B8DD86A6;
+			remoteInfo = ngrtl_core;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0018E9ACC551434A8B2AB203 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/hr_clock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hr_clock.cpp; path = libs/core/src/hr_clock.cpp; sourceTree = SOURCE_ROOT; };
+		03F823D8999545E08B8604E8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/serialize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serialize.cpp; path = libs/core/src/json/serialize.cpp; sourceTree = SOURCE_ROOT; };
+		04BE88AF05374C3DAD57416A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base64.h; path = include/core/ng/base64.h; sourceTree = SOURCE_ROOT; };
+		053529E3006749A78F17F0D9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/byteorder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = byteorder.h; path = include/core/ng/byteorder.h; sourceTree = SOURCE_ROOT; };
+		0A1FF51E10BE465DBA7451F2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/checked_delete.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = checked_delete.h; path = include/core/ng/checked_delete.h; sourceTree = SOURCE_ROOT; };
+		0ACE19B787B94343B0294C51 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_parse.cpp; path = libs/core/src/json_var/json_parse.cpp; sourceTree = SOURCE_ROOT; };
+		0AE45BE7351D4B2F881AD6CF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/mutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mutex.h; path = include/core/ng/mutex.h; sourceTree = SOURCE_ROOT; };
+		13A9E26A8B5B418F92AE3097 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/mutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mutex.cpp; path = libs/core/src/mutex.cpp; sourceTree = SOURCE_ROOT; };
+		166E7456ABA846439EE6E042 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = include/core/ng/timer.h; sourceTree = SOURCE_ROOT; };
+		1B26A5A655F844538F5BDA94 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/none.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = none.h; path = include/core/ng/none.h; sourceTree = SOURCE_ROOT; };
+		1B3C9B31D89049C59132ADEF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cencode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cencode.h; path = include/core/ng/base64/cencode.h; sourceTree = SOURCE_ROOT; };
+		1F926388B36F4E03A24F79BE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/log.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log.h; path = include/core/ng/log.h; sourceTree = SOURCE_ROOT; };
+		27895A0B16174C17BF289010 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/require.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = require.cpp; path = libs/core/src/require.cpp; sourceTree = SOURCE_ROOT; };
+		2B02DCDFBF20462DB0CBFBBE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/json.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json.cpp; path = libs/core/src/json/json.cpp; sourceTree = SOURCE_ROOT; };
+		2B788F28F8464D02AA99E5AA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libs/pngio/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2D0CE4719C204F708B4734E8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/macros.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = macros.cpp; path = libs/core/src/macros.cpp; sourceTree = SOURCE_ROOT; };
+		2D98F135D7034C9487CE2084 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cdecode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cdecode.c; path = libs/core/src/base64/cdecode.c; sourceTree = SOURCE_ROOT; };
+		2E50929ACB8C4F339603A630 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/move.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = move.h; path = include/core/ng/move.h; sourceTree = SOURCE_ROOT; };
+		39A7EC3D1D12461E9042AFF3 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/substring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = substring.h; path = include/core/ng/substring.h; sourceTree = SOURCE_ROOT; };
+		428BF90D64B84BF3BBFCBF1E /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = object.cpp; path = libs/core/src/object.cpp; sourceTree = SOURCE_ROOT; };
+		4C28F43EE4C446DEB9CEC582 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/safecast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = safecast.h; path = include/core/ng/safecast.h; sourceTree = SOURCE_ROOT; };
+		4EBC77A840EA4ED990A923BB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/textstream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = textstream.cpp; path = libs/core/src/stream/textstream.cpp; sourceTree = SOURCE_ROOT; };
+		4EEBF94CE2DC4D268524D5E4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iterator.h; path = include/core/ng/iterator.h; sourceTree = SOURCE_ROOT; };
+		520E738874E34919ABAB7FF5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/filestreambuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filestreambuf.cpp; path = libs/core/src/stream/filestreambuf.cpp; sourceTree = SOURCE_ROOT; };
+		53AE0EC871E14C538092EC6F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/bytestream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cpp; path = libs/core/src/stream/bytestream.cpp; sourceTree = SOURCE_ROOT; };
+		545787C1C8CE483B8BBAE2B9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/cstring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cstring.h; path = include/core/ng/cstring.h; sourceTree = SOURCE_ROOT; };
+		598160530F404A4ABF19F0EE /* ngrtl_core */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libngrtl_core_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8B3A38BDF0413493E09E0B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/pngio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pngio.cpp; path = libs/pngio/pngio.cpp; sourceTree = SOURCE_ROOT; };
+		5A9CEA383B014B749C33C7BE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/frequency_counter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frequency_counter.cpp; path = libs/core/src/frequency_counter.cpp; sourceTree = SOURCE_ROOT; };
+		5C776693228E4EEBBEC1B99A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = JSON_parser.c; path = libs/core/src/json/JSON_parser.c; sourceTree = SOURCE_ROOT; };
+		644F3E7E93C548B6B4BAC2B2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/result.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = result.h; path = include/core/ng/result.h; sourceTree = SOURCE_ROOT; };
+		6560098782CA40DEA7C30A1B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/strutil_detail.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = strutil_detail.h; path = include/core/ng/detail/strutil_detail.h; sourceTree = SOURCE_ROOT; };
+		6F575EDA396F487D90B36CA5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/var.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = var.cpp; path = libs/core/src/var.cpp; sourceTree = SOURCE_ROOT; };
+		74120EEFA6F04E3A902C0BD5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/noncopyable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noncopyable.h; path = include/core/ng/noncopyable.h; sourceTree = SOURCE_ROOT; };
+		74867697DBDE4EF8A25227FE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/memstreambuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = memstreambuf.cpp; path = libs/core/src/stream/memstreambuf.cpp; sourceTree = SOURCE_ROOT; };
+		792A0F0CBAB44963978442FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = math.h; path = include/core/ng/math.h; sourceTree = SOURCE_ROOT; };
+		7A916670AA5B4179A73F99DD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/bytevec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytevec.cpp; path = libs/core/src/bytevec.cpp; sourceTree = SOURCE_ROOT; };
+		7CA0CF17C6CB4BD29169E4E0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ptr_vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ptr_vector.h; path = include/core/ng/ptr_vector.h; sourceTree = SOURCE_ROOT; };
+		7DE04F46EA0D4193BD0EC2D4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = libs/core/src/timer.cpp; sourceTree = SOURCE_ROOT; };
+		8879868007BA4B66A9C166FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/substring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = substring.cpp; path = libs/core/src/substring.cpp; sourceTree = SOURCE_ROOT; };
+		93B1CA7957FE4621B5F19C5B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/tokenizer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tokenizer.h; path = include/core/ng/tokenizer.h; sourceTree = SOURCE_ROOT; };
+		97615A490CF14A108076191F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scoped_ptr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scoped_ptr.h; path = include/core/ng/scoped_ptr.h; sourceTree = SOURCE_ROOT; };
+		9B4B422BBB8D4AF3A34FCE6F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/sysutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sysutil.h; path = include/core/ng/sysutil.h; sourceTree = SOURCE_ROOT; };
+		9BDBACC9C44448E393B5BF9C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/optional.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = optional.h; path = include/core/ng/optional.h; sourceTree = SOURCE_ROOT; };
+		9CB40FEAC35A4278A0D33CB8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scow_ptr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scow_ptr.h; path = include/core/ng/scow_ptr.h; sourceTree = SOURCE_ROOT; };
+		9DA78117AFA341E68F0175F0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/filestreambuf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filestreambuf.h; path = include/core/ng/stream/filestreambuf.h; sourceTree = SOURCE_ROOT; };
+		A3857BB4A080451DA14C4B69 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/memstreambuf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = memstreambuf.h; path = include/core/ng/stream/memstreambuf.h; sourceTree = SOURCE_ROOT; };
+		A5F8C97CC0CB433F8ACAC127 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cdecode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cdecode.h; path = include/core/ng/base64/cdecode.h; sourceTree = SOURCE_ROOT; };
+		A8D8CED940AD45C9BB27E96B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ngrtl_core_export.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ngrtl_core_export.h; path = include/core/ng/ngrtl_core_export.h; sourceTree = SOURCE_ROOT; };
+		B12D87C4BFB34B2D9165CB76 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = format.cpp; path = libs/core/src/format.cpp; sourceTree = SOURCE_ROOT; };
+		B989B2552D794B9487E00743 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/stream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stream.h; path = include/core/ng/stream/stream.h; sourceTree = SOURCE_ROOT; };
+		B9FFFD1FCB994DB7B46FB0B8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/js_json.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = js_json.cpp; path = libs/core/src/json_var/js_json.cpp; sourceTree = SOURCE_ROOT; };
+		BB1E2CA79FE1430F9E5AE12F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsonserializator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jsonserializator.h; path = libs/core/src/json/jsonserializator.h; sourceTree = SOURCE_ROOT; };
+		BC2C05BF1C4B4BBDBDCA252D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/smart_vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = smart_vector.h; path = include/core/ng/smart_vector.h; sourceTree = SOURCE_ROOT; };
+		BCC0EEF586224F488667CD01 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/deserialize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = deserialize.cpp; path = libs/core/src/json/deserialize.cpp; sourceTree = SOURCE_ROOT; };
+		BDC6313ADC2244C393663D00 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = macros.h; path = include/core/ng/macros.h; sourceTree = SOURCE_ROOT; };
+		C0D174E69DE24A0B9AD43041 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stringutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringutil.cpp; path = libs/core/src/stringutil.cpp; sourceTree = SOURCE_ROOT; };
+		C10A10DF5A9A47759F881A9B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/bytestream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bytestream.h; path = include/core/ng/stream/bytestream.h; sourceTree = SOURCE_ROOT; };
+		C37E0376FBB9489FA4B6DBAF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/decode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = decode.cpp; path = libs/core/src/base64/decode.cpp; sourceTree = SOURCE_ROOT; };
+		C394DE1ADEF94517A53D4BC7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = object.h; path = include/core/ng/object.h; sourceTree = SOURCE_ROOT; };
+		C3F8AC74FF3A4E948E4CD950 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C46D6151AA8549878704325C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macro_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = macro_utils.h; path = include/core/ng/macro_utils.h; sourceTree = SOURCE_ROOT; };
+		C50F9CCD6FA44A62B737543D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stringutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stringutil.h; path = include/core/ng/stringutil.h; sourceTree = SOURCE_ROOT; };
+		C605CFAEFC474FF6B662E8CD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json.h; path = include/core/ng/json.h; sourceTree = SOURCE_ROOT; };
+		C9E5C5BCEFE94CA1ABFB021C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/bytevec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bytevec.h; path = include/core/ng/bytevec.h; sourceTree = SOURCE_ROOT; };
+		CEC1C68C8583404F8E1C8516 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/result.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = result.cpp; path = libs/core/src/result.cpp; sourceTree = SOURCE_ROOT; };
+		D04D576513A944E68A0FF863 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stdaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stdaux.h; path = include/core/ng/stdaux.h; sourceTree = SOURCE_ROOT; };
+		D1F4EA8EF638450D822931E7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json_var.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = json_var.h; path = include/core/ng/json_var.h; sourceTree = SOURCE_ROOT; };
+		D46A7E4442AB4B2BBEC0D97D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_stringify.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_stringify.cpp; path = libs/core/src/json_var/json_stringify.cpp; sourceTree = SOURCE_ROOT; };
+		D7FC150E9CC54131BFEFE143 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/linear_set_and_map_base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = linear_set_and_map_base.h; path = include/core/ng/detail/linear_set_and_map_base.h; sourceTree = SOURCE_ROOT; };
+		D922B8A5AD7D4309A518DEF1 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cencode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cencode.c; path = libs/core/src/base64/cencode.c; sourceTree = SOURCE_ROOT; };
+		DD71D3F66FEE49008BFE1FA5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsondeserializator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jsondeserializator.h; path = libs/core/src/json/jsondeserializator.h; sourceTree = SOURCE_ROOT; };
+		DEF7E21CC8F04BE4AC55060F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libs/core/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E1114CFBF4DB462686DAD780 /* ngrtl_pngio */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libngrtl_pngio_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24D044F481246FA9251A79D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/encode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = encode.cpp; path = libs/core/src/base64/encode.cpp; sourceTree = SOURCE_ROOT; };
+		E37A1652D8444023A079CBE9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/cstring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cstring.cpp; path = libs/core/src/cstring.cpp; sourceTree = SOURCE_ROOT; };
+		E408B10F267E4C529EBC3FB3 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JSON_parser.h; path = libs/core/src/json/JSON_parser.h; sourceTree = SOURCE_ROOT; };
+		E4E071E30CAF404EB0A068DB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/log/log.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log.cpp; path = libs/core/src/log/log.cpp; sourceTree = SOURCE_ROOT; };
+		EB63032E5A6641CF91603583 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/require.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = require.h; path = include/core/ng/require.h; sourceTree = SOURCE_ROOT; };
+		EBB53E06193A47EBAD0BFF3C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/file_bytestream_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = file_bytestream_helper.h; path = include/core/ng/stream/file_bytestream_helper.h; sourceTree = SOURCE_ROOT; };
+		EF8CD693611A4DEE894C40BA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/frequency_counter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = frequency_counter.h; path = include/core/ng/frequency_counter.h; sourceTree = SOURCE_ROOT; };
+		F014DD3FECA5453B9B9D5B4A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/format.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = format.h; path = include/core/ng/format.h; sourceTree = SOURCE_ROOT; };
+		F190148972BA43999DC746ED /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/var.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = var.h; path = include/core/ng/var.h; sourceTree = SOURCE_ROOT; };
+		F75870D9E42B4044B5380640 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/textstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = textstream.h; path = include/core/ng/stream/textstream.h; sourceTree = SOURCE_ROOT; };
+		F7E8718730984755962FCB7C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/hr_clock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hr_clock.h; path = include/core/ng/hr_clock.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A89EF37D8C24CC197AFD20A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D98F135D7034C9487CE2084 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cdecode.c */,
+				D922B8A5AD7D4309A518DEF1 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cencode.c */,
+				C37E0376FBB9489FA4B6DBAF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/decode.cpp */,
+				E24D044F481246FA9251A79D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/encode.cpp */,
+				7A916670AA5B4179A73F99DD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/bytevec.cpp */,
+				E37A1652D8444023A079CBE9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/cstring.cpp */,
+				B12D87C4BFB34B2D9165CB76 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/format.cpp */,
+				5A9CEA383B014B749C33C7BE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/frequency_counter.cpp */,
+				0018E9ACC551434A8B2AB203 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/hr_clock.cpp */,
+				5C776693228E4EEBBEC1B99A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.c */,
+				BCC0EEF586224F488667CD01 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/deserialize.cpp */,
+				2B02DCDFBF20462DB0CBFBBE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/json.cpp */,
+				03F823D8999545E08B8604E8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/serialize.cpp */,
+				B9FFFD1FCB994DB7B46FB0B8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/js_json.cpp */,
+				0ACE19B787B94343B0294C51 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_parse.cpp */,
+				D46A7E4442AB4B2BBEC0D97D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_stringify.cpp */,
+				E4E071E30CAF404EB0A068DB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/log/log.cpp */,
+				2D0CE4719C204F708B4734E8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/macros.cpp */,
+				13A9E26A8B5B418F92AE3097 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/mutex.cpp */,
+				428BF90D64B84BF3BBFCBF1E /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/object.cpp */,
+				27895A0B16174C17BF289010 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/require.cpp */,
+				CEC1C68C8583404F8E1C8516 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/result.cpp */,
+				53AE0EC871E14C538092EC6F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/bytestream.cpp */,
+				520E738874E34919ABAB7FF5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/filestreambuf.cpp */,
+				74867697DBDE4EF8A25227FE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/memstreambuf.cpp */,
+				4EBC77A840EA4ED990A923BB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/textstream.cpp */,
+				C0D174E69DE24A0B9AD43041 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stringutil.cpp */,
+				8879868007BA4B66A9C166FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/substring.cpp */,
+				7DE04F46EA0D4193BD0EC2D4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/timer.cpp */,
+				6F575EDA396F487D90B36CA5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/var.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		38809087C1AB4191A0E807EF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A8B3A38BDF0413493E09E0B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/pngio.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3B3C991D77CA42FA9E352DC1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BE88AF05374C3DAD57416A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64.h */,
+				A5F8C97CC0CB433F8ACAC127 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cdecode.h */,
+				1B3C9B31D89049C59132ADEF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/base64/cencode.h */,
+				053529E3006749A78F17F0D9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/byteorder.h */,
+				C9E5C5BCEFE94CA1ABFB021C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/bytevec.h */,
+				0A1FF51E10BE465DBA7451F2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/checked_delete.h */,
+				545787C1C8CE483B8BBAE2B9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/cstring.h */,
+				D7FC150E9CC54131BFEFE143 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/linear_set_and_map_base.h */,
+				6560098782CA40DEA7C30A1B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/detail/strutil_detail.h */,
+				F014DD3FECA5453B9B9D5B4A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/format.h */,
+				EF8CD693611A4DEE894C40BA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/frequency_counter.h */,
+				F7E8718730984755962FCB7C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/hr_clock.h */,
+				4EEBF94CE2DC4D268524D5E4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/iterator.h */,
+				C605CFAEFC474FF6B662E8CD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json.h */,
+				D1F4EA8EF638450D822931E7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json_var.h */,
+				1F926388B36F4E03A24F79BE /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/log.h */,
+				C46D6151AA8549878704325C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macro_utils.h */,
+				BDC6313ADC2244C393663D00 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macros.h */,
+				792A0F0CBAB44963978442FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/math.h */,
+				2E50929ACB8C4F339603A630 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/move.h */,
+				0AE45BE7351D4B2F881AD6CF /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/mutex.h */,
+				A8D8CED940AD45C9BB27E96B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ngrtl_core_export.h */,
+				74120EEFA6F04E3A902C0BD5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/noncopyable.h */,
+				1B26A5A655F844538F5BDA94 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/none.h */,
+				C394DE1ADEF94517A53D4BC7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/object.h */,
+				9BDBACC9C44448E393B5BF9C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/optional.h */,
+				7CA0CF17C6CB4BD29169E4E0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ptr_vector.h */,
+				EB63032E5A6641CF91603583 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/require.h */,
+				644F3E7E93C548B6B4BAC2B2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/result.h */,
+				4C28F43EE4C446DEB9CEC582 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/safecast.h */,
+				97615A490CF14A108076191F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scoped_ptr.h */,
+				9CB40FEAC35A4278A0D33CB8 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scow_ptr.h */,
+				BC2C05BF1C4B4BBDBDCA252D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/smart_vector.h */,
+				D04D576513A944E68A0FF863 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stdaux.h */,
+				C10A10DF5A9A47759F881A9B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/bytestream.h */,
+				EBB53E06193A47EBAD0BFF3C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/file_bytestream_helper.h */,
+				9DA78117AFA341E68F0175F0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/filestreambuf.h */,
+				A3857BB4A080451DA14C4B69 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/memstreambuf.h */,
+				B989B2552D794B9487E00743 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/stream.h */,
+				F75870D9E42B4044B5380640 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/textstream.h */,
+				C50F9CCD6FA44A62B737543D /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stringutil.h */,
+				39A7EC3D1D12461E9042AFF3 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/substring.h */,
+				9B4B422BBB8D4AF3A34FCE6F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/sysutil.h */,
+				166E7456ABA846439EE6E042 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/timer.h */,
+				93B1CA7957FE4621B5F19C5B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/tokenizer.h */,
+				F190148972BA43999DC746ED /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/var.h */,
+				E408B10F267E4C529EBC3FB3 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.h */,
+				DD71D3F66FEE49008BFE1FA5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsondeserializator.h */,
+				BB1E2CA79FE1430F9E5AE12F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsonserializator.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A834B21F48514D75AFF6FF24 /* ngrtl_pngio */ = {
+			isa = PBXGroup;
+			children = (
+				38809087C1AB4191A0E807EF /* Source Files */,
+				2B788F28F8464D02AA99E5AA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/CMakeLists.txt */,
+			);
+			name = ngrtl_pngio;
+			sourceTree = "<group>";
+		};
+		ABE8BB626C7D490A8E0A6850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598160530F404A4ABF19F0EE /* ngrtl_core */,
+				E1114CFBF4DB462686DAD780 /* ngrtl_pngio */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE35917F5B54C68AB942FE6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BE47A58F6DE743F8AC7526A3 /* ngrtl_core */ = {
+			isa = PBXGroup;
+			children = (
+				2A89EF37D8C24CC197AFD20A /* Source Files */,
+				3B3C991D77CA42FA9E352DC1 /* Header Files */,
+				DEF7E21CC8F04BE4AC55060F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/CMakeLists.txt */,
+			);
+			name = ngrtl_core;
+			sourceTree = "<group>";
+		};
+		D4F75CBE1A8149D3BA9CF80A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AEE35917F5B54C68AB942FE6 /* CMake Rules */,
+				C3F8AC74FF3A4E948E4CD950 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DA41EDB5344A4FDC9F5AED47 = {
+			isa = PBXGroup;
+			children = (
+				D4F75CBE1A8149D3BA9CF80A /* ALL_BUILD */,
+				BE47A58F6DE743F8AC7526A3 /* ngrtl_core */,
+				A834B21F48514D75AFF6FF24 /* ngrtl_pngio */,
+				ABE8BB626C7D490A8E0A6850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68A76D8BB1454F558B4AC6FF /* ngrtl_pngio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1737BB11A34AADA1FAC7AB /* Build configuration list for PBXNativeTarget "ngrtl_pngio" */;
+			buildPhases = (
+				7A2083EBFB984DAB8B1B351A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78A859B5C0E4F01A73EE701 /* PBXTargetDependency */,
+				B8E00364ACC84505AB773523 /* PBXTargetDependency */,
+			);
+			name = ngrtl_pngio;
+			productName = ngrtl_pngio;
+			productReference = E1114CFBF4DB462686DAD780 /* ngrtl_pngio */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5FD403626324801B8DD86A6 /* ngrtl_core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12156F7754347A684BCC5A7 /* Build configuration list for PBXNativeTarget "ngrtl_core" */;
+			buildPhases = (
+				B8525CFEADC84442B2039E36 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF639A7C8D88489CA3F27CE6 /* PBXTargetDependency */,
+			);
+			name = ngrtl_core;
+			productName = ngrtl_core;
+			productReference = 598160530F404A4ABF19F0EE /* ngrtl_core */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B553512C11834D1CA826E7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = 1F2E3DC257D34671A4CCC1A9 /* Build configuration list for PBXProject "ngrtl" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CF63B4DCBA00479AA77587F1 /* Debug */,
+				BFA0F6F96FEA42AAA4C84E82 /* Release */,
+				F72E7499FCE44CEA8EE2F40D /* MinSizeRel */,
+				437EA10EBAB244F8B0A52575 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DA41EDB5344A4FDC9F5AED47;
+			projectDirPath = /Users/clover/Desktop/gfxbench/frameworks/ngrtl;
+			projectRoot = "";
+			targets = (
+				33A2AF8DF1524BCFB0CFFED5 /* ALL_BUILD */,
+				E19D2C8557BF45B6B2170797 /* ZERO_CHECK */,
+				09E3E4807B654BE691F45903 /* install */,
+				F5FD403626324801B8DD86A6 /* ngrtl_core */,
+				68A76D8BB1454F558B4AC6FF /* ngrtl_pngio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F9FC1E8785C4B3A836A2A54 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		442E2CD54B554858B89B5372 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl -f /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		684D1241FC37417F893C4DBF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		69237C94CD0C4E34BC28F70F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl -f /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8D7DF749DFA04E52A9604C7E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl -f /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FBE2F24DE2FB49AC90505CAE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A2083EBFB984DAB8B1B351A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E115DC79724397BF9AC40C /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/pngio.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8525CFEADC84442B2039E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7917AE63AE21431EBA11F8B0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cdecode.c */,
+				F8423397A59F4E6BBA919F77 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/cencode.c */,
+				2C25BA7721E14B99934AE1A2 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/decode.cpp */,
+				E007D2B26C1247F3937492A7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/base64/encode.cpp */,
+				63F732832AFD4345B5E22739 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/bytevec.cpp */,
+				9744DF65E57844AA861D9D2B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/cstring.cpp */,
+				D09890FF4C834D08A220E4A7 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/format.cpp */,
+				EDE44457EDB74787A5271E27 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/frequency_counter.cpp */,
+				B082EFE7525B4EE1845B0A52 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/hr_clock.cpp */,
+				865B44835E8448659E0ED384 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.c */,
+				8950DB35F6FB43F4A236EDCA /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/deserialize.cpp */,
+				46E7CDE98A7940BD89DA18FB /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/json.cpp */,
+				4C02AFA31FAA40B1802D7897 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/serialize.cpp */,
+				DAEDBCC25010423BB38722FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/js_json.cpp */,
+				573399723B574E3F8502AC88 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_parse.cpp */,
+				1A47D0E8F08D4A9E91CDF58B /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json_var/json_stringify.cpp */,
+				92C75655A20B47FEB0512DFD /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/log/log.cpp */,
+				3FB9D08EB1BA4E7691CF9608 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/macros.cpp */,
+				5306CF49494946A8BB55D6A5 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/mutex.cpp */,
+				93E57E3B861A499F8FCAA4FC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/object.cpp */,
+				F7438A00C47443E9B055A4A9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/require.cpp */,
+				00728DACA8A24AFFA2257163 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/result.cpp */,
+				4A885169A0E9409A80D95F95 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/bytestream.cpp */,
+				E86983A9BBE74754BBD6E3D9 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/filestreambuf.cpp */,
+				FC5BD762083E47E492DE2F5A /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/memstreambuf.cpp */,
+				15A78B35A3654855B9525539 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stream/textstream.cpp */,
+				EC331AC6616443C2AD7D4CB4 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/stringutil.cpp */,
+				C6BDA90558F1426EA0CD6D3F /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/substring.cpp */,
+				5D99533AAE9D483A88AF47AC /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/timer.cpp */,
+				FFAAF7E3AAB640E3BE55DFE0 /* /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/var.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D3F70352FF48BEBFEAC7B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5FD403626324801B8DD86A6 /* ngrtl_core */;
+			targetProxy = DAFD9748917C4DB0826988DF /* PBXContainerItemProxy */;
+		};
+		52AC2616BC3B4416A4CD441B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68A76D8BB1454F558B4AC6FF /* ngrtl_pngio */;
+			targetProxy = 4A6B04B462664A429D9FC387 /* PBXContainerItemProxy */;
+		};
+		9A1F56AA6A2F411F9AD386D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A2AF8DF1524BCFB0CFFED5 /* ALL_BUILD */;
+			targetProxy = A06ED05E0AD84064B441A5F1 /* PBXContainerItemProxy */;
+		};
+		B78A859B5C0E4F01A73EE701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19D2C8557BF45B6B2170797 /* ZERO_CHECK */;
+			targetProxy = A3C7701953B340438B1F5BDC /* PBXContainerItemProxy */;
+		};
+		B8E00364ACC84505AB773523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5FD403626324801B8DD86A6 /* ngrtl_core */;
+			targetProxy = BE4CBDBDF1F84A73933998E4 /* PBXContainerItemProxy */;
+		};
+		C94BB6AA572647259DA7C1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19D2C8557BF45B6B2170797 /* ZERO_CHECK */;
+			targetProxy = 9199CEE9F9634CB69A4665AC /* PBXContainerItemProxy */;
+		};
+		EF639A7C8D88489CA3F27CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19D2C8557BF45B6B2170797 /* ZERO_CHECK */;
+			targetProxy = 759A7E945B614A0BBA7EF9DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F59255C6BE430685B1ECD0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/core;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		04EB48C22233401D953258B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0B48BC7329F74EF890E35E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1311EBDDCBAD40FA8E818857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		226761F0C38F4EA0B4DF2F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2F71CBA76CFC4B28B3E2CC72 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		32B9EF1493C24D98A1E8DEFB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/build;
+			};
+			name = MinSizeRel;
+		};
+		33EFC35102944F56A42C2FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/build;
+			};
+			name = Debug;
+		};
+		43BD97A0BE9F4F2CBBF692EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		477A0060B6374FD5B47B3090 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5F2516E55C1D4A209242A6D8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6135FDD8B5D647FBA19D6DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/../../include/pngio);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden       -D_DEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_pngio_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/pngio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		66B5F1D0C7FA4909ADB67B6B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/build;
+			};
+			name = RelWithDebInfo;
+		};
+		7917A34CD0CF40C7913C5D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "      -D_DEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden       -D_DEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_core_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/core;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9D0805B926CE4E63B7D4A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9D92AF4FD4F441F098A813E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/../../include/pngio);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_pngio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/pngio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A584DE83370F4A998FD86E10 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/../../include/pngio);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_pngio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/pngio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CC3DB2933FE4433BBD2D25C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DC87A4400BC443789CD4D2B2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/core;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD90816ABF32402BB53E94FB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/pngio/../../include/pngio);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_pngio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/pngio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7ABF06129014861A8CD2547 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E9C9209DCCD74CC2A0950282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'NGLOG_ENABLE=NGLOG_SEVERITY_ANY'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ngrtl_core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/core;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EB97A00AFAD5484AB4A783ED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F2C2D3D2528A4887A1058E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2E3DC257D34671A4CCC1A9 /* Build configuration list for PBXProject "ngrtl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EFC35102944F56A42C2FFE /* Debug */,
+				F2C2D3D2528A4887A1058E37 /* Release */,
+				32B9EF1493C24D98A1E8DEFB /* MinSizeRel */,
+				66B5F1D0C7FA4909ADB67B6B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4941364F714D43BDA2ECB987 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226761F0C38F4EA0B4DF2F16 /* Debug */,
+				CC3DB2933FE4433BBD2D25C9 /* Release */,
+				43BD97A0BE9F4F2CBBF692EF /* MinSizeRel */,
+				E7ABF06129014861A8CD2547 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D107C9DE67842FD8C02800E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B48BC7329F74EF890E35E03 /* Debug */,
+				9D0805B926CE4E63B7D4A776 /* Release */,
+				EB97A00AFAD5484AB4A783ED /* MinSizeRel */,
+				477A0060B6374FD5B47B3090 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D12156F7754347A684BCC5A7 /* Build configuration list for PBXNativeTarget "ngrtl_core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7917A34CD0CF40C7913C5D17 /* Debug */,
+				E9C9209DCCD74CC2A0950282 /* Release */,
+				DC87A4400BC443789CD4D2B2 /* MinSizeRel */,
+				02F59255C6BE430685B1ECD0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF1737BB11A34AADA1FAC7AB /* Build configuration list for PBXNativeTarget "ngrtl_pngio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6135FDD8B5D647FBA19D6DFA /* Debug */,
+				9D92AF4FD4F441F098A813E6 /* Release */,
+				DD90816ABF32402BB53E94FB /* MinSizeRel */,
+				A584DE83370F4A998FD86E10 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EAD791990C594D52AFEE5A14 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB48C22233401D953258B1 /* Debug */,
+				1311EBDDCBAD40FA8E818857 /* Release */,
+				5F2516E55C1D4A209242A6D8 /* MinSizeRel */,
+				2F71CBA76CFC4B28B3E2CC72 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B553512C11834D1CA826E7AA /* Project object */;
+}

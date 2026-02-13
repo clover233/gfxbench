@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'ngrtl_core' in project 'ngrtl'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'ngrtl'
+Target 'ZERO_CHECK' in project 'ngrtl' (no dependencies)

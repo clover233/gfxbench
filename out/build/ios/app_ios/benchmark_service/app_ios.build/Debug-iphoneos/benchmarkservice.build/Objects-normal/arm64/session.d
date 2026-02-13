@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/session.cpp \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/session.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/variant.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/cursor.h \
+  /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/benchmark_service/benchmarkservice_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/format.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/substring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/bytevec.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/DateTimeFormatter.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Foundation.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Config.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Alignment.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Bugcheck.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Types.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/DateTime.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Timestamp.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Timespan.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/LocalDateTime.h

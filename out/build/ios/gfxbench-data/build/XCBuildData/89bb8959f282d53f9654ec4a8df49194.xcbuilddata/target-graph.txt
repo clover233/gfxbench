@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'install' in project 'gfxbench-data'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'gfxbench-data'
+Target 'ALL_BUILD' in project 'gfxbench-data'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'gfxbench-data'
+Target 'ZERO_CHECK' in project 'gfxbench-data' (no dependencies)

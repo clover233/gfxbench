@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/executor.cpp \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/executor.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Condition.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Foundation.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Config.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Alignment.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Bugcheck.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Types.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Exception.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/ScopedLock.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/ScopedUnlock.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Event.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Event_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/RunnableAdapter.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Runnable.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Thread.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Thread_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/SignalHandler.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/RefCountedObject.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/AtomicCounter.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/AutoPtr.h

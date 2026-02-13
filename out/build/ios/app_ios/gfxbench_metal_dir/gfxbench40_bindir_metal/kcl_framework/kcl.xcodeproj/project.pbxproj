@@ -1,0 +1,1268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1FA239A5FC7F476B9CD67245 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8C1DA0A0529E42989BF3C0FD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				39DC17B579BF4A3BB6E97861 /* CMake Rules */,
+			);
+			dependencies = (
+				D17AD56D9C804FBCBF925259 /* PBXTargetDependency */,
+				8751330179DE4AFDB6BA7560 /* PBXTargetDependency */,
+				5D03B89210494D7BBD9E13C3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C638EDC729564A03B1F9C044 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 185AD037A2584FF9883E39E6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F788E79D450E40339A25DF08 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03C3BA601A524A69B19415B3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_aabb.h */ = {isa = PBXBuildFile; fileRef = 6BCF8BD7891C432DA12A0BF2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_aabb.h */; };
+		0465CC9D408C4398AAAC4ED6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.c */ = {isa = PBXBuildFile; fileRef = 7596FB3940A44D669D00B316 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.c */; };
+		0637E258982642BCB763D54E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.c */ = {isa = PBXBuildFile; fileRef = 99BFAC7BA29E408A920C15D7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.c */; };
+		070A2509ABE04A91A8A47630 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.cpp */ = {isa = PBXBuildFile; fileRef = AFAE1D3C213C4F30BA2BEFDF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.cpp */; };
+		0785B43CF740443D95334700 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.h */ = {isa = PBXBuildFile; fileRef = 3EBAF7991D444F41AD7BFD09 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.h */; };
+		07FCB73C293448A59D5FE150 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.c */ = {isa = PBXBuildFile; fileRef = 4F50B46BCF4F479D9E10E106 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.c */; };
+		086407757D044CC3A83B9A6E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.cpp */ = {isa = PBXBuildFile; fileRef = 263F44FE9BF64526B624C545 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.cpp */; };
+		0B9AC046DB5B4B379FEAFC85 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.h */ = {isa = PBXBuildFile; fileRef = 0258CFA4E039467192DF8F43 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.h */; };
+		0E848CB66FE84E07B8075CDF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h */ = {isa = PBXBuildFile; fileRef = CE0FD241E2344539A6556C2D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h */; };
+		0F48E1674B8B479A9707A6B2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h */ = {isa = PBXBuildFile; fileRef = 463B612882214FC281EDF138 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h */; };
+		10B1AFEFE95A43319331780E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_keyframesequence.h */ = {isa = PBXBuildFile; fileRef = 9954C85670094188BF4E04E3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_keyframesequence.h */; };
+		15967FE8B0AA41428C0E24C7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.cpp */ = {isa = PBXBuildFile; fileRef = ADD83A2B0B3E404A9E2A243D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.cpp */; };
+		1A2DC34D7AD04C48999B1455 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.h */ = {isa = PBXBuildFile; fileRef = A58ED4A027404FCCBCECCDB5 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.h */; };
+		1C2CB685DE7D49D79A45370A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.cpp */ = {isa = PBXBuildFile; fileRef = E5723406039E45139F1A60A9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.cpp */; };
+		204A8EC9FE34443CA106ED85 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.h */ = {isa = PBXBuildFile; fileRef = 7C5A072F0F1F4F659C888DBA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.h */; };
+		23AE8E2E8F544E2AA7AF9445 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.h */ = {isa = PBXBuildFile; fileRef = 15CF22379AD34061A10AF60C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.h */; };
+		23EDE7A43B91456997753951 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.h */ = {isa = PBXBuildFile; fileRef = CAE43D768CDE465487CA20A7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.h */; };
+		2AF5FD5F8BE945B7BEFBAC9B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.cpp */ = {isa = PBXBuildFile; fileRef = 6984B7EEEB55410BA66CC89E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.cpp */; };
+		2CEDDA6594B44E36A5FA1DEE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoradec.h */ = {isa = PBXBuildFile; fileRef = FD4685B1E6F54567A11714FD /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoradec.h */; };
+		2D2E67C82E7646E68E56DB08 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.cpp */ = {isa = PBXBuildFile; fileRef = 7E835F234D2B4EA2B1DBACA7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.cpp */; };
+		2D7BEF00E65244BFA2457AD4 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.h */ = {isa = PBXBuildFile; fileRef = C9E1B19E886E4828823DCC2F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.h */; };
+		305F1EBF8FAB4C2494720E29 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.h */ = {isa = PBXBuildFile; fileRef = 38DE575A366942E6B7730748 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.h */; };
+		30C75702D2C3405CB91D574A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/os_types.h */ = {isa = PBXBuildFile; fileRef = C107018A4E754601ADC78B43 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/os_types.h */; };
+		3172340B25044FE0B348DE93 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.h */ = {isa = PBXBuildFile; fileRef = 94D225B6B9F04C9BA073A648 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.h */; };
+		3ACCBB4956A04EA399CF8B90 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.cpp */ = {isa = PBXBuildFile; fileRef = 498F6F2057E74F9FAB3AECBB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.cpp */; };
+		3BDB04D2EA714469843DEB4C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.h */ = {isa = PBXBuildFile; fileRef = 0E7DB93089EF403680D695D7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.h */; };
+		3C39BE0D9B5340CA890645E0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = BCDB6AF53DB6487282FA7389 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.cpp */; };
+		40B56DACCAFB466B84F34690 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.cpp */ = {isa = PBXBuildFile; fileRef = 9A15D196CBD249B9BB8AE62B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.cpp */; };
+		43DD87374B664A988A63CBEE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.h */ = {isa = PBXBuildFile; fileRef = 0F67FC1B191B4ACEA27B6BD9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.h */; };
+		443E2330E8764D7B9E374AF5 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h */ = {isa = PBXBuildFile; fileRef = 02112C87C49C45F0A685E53E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h */; };
+		447B37FD844B4FDD94272724 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.h */ = {isa = PBXBuildFile; fileRef = 13A9B4CB74B446818914BC52 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.h */; };
+		49C45CD1EC2E4763AF8CA62B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_cube_envmap_descriptor.h */ = {isa = PBXBuildFile; fileRef = 2179D866ACA84C2B8A3338C3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_cube_envmap_descriptor.h */; };
+		4D0F04B4D96A4E56AD0BA8CA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.cpp */ = {isa = PBXBuildFile; fileRef = 921ABEE30C3747C99E5AA499 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.cpp */; };
+		4E4EFC1CF25C4233BF783917 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.h */ = {isa = PBXBuildFile; fileRef = 0C7F000297F542E7B541FE48 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.h */; };
+		4E83F74B12E647EBAFD4D413 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.h */ = {isa = PBXBuildFile; fileRef = CEE4698D7E1445C095FA4447 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.h */; };
+		50E727ED09584AD69DF68F6C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.cpp */ = {isa = PBXBuildFile; fileRef = A127AEC8CC7C40658C27A6EA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.cpp */; };
+		548E2FAD791A4075B44ADF8A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.cpp */ = {isa = PBXBuildFile; fileRef = BDB8099895934FABB6D2D2C9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.cpp */; };
+		5A414F7E47D64FCBA12EFBA0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.cpp */ = {isa = PBXBuildFile; fileRef = AEFFCFAEF4234C9187D3BDD7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.cpp */; };
+		5A82D35823FB4D5AA4A82DD1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.cpp */ = {isa = PBXBuildFile; fileRef = 9C8682AB921349FCA0023B42 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.cpp */; };
+		5F03DCBA185D4670A8679F99 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decint.h */ = {isa = PBXBuildFile; fileRef = 4E507122AE7D4EC3908C5874 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decint.h */; };
+		60EA46E167AD4C1C91EACAD2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.cpp */ = {isa = PBXBuildFile; fileRef = 68AA9FEA0242462687E65C50 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.cpp */; };
+		623DB80A7DC744348B70CE70 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.h */ = {isa = PBXBuildFile; fileRef = 90B718C944154CAABC44484A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.h */; };
+		64F33C01C7904E8CB99D0E3A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.cpp */ = {isa = PBXBuildFile; fileRef = AF454ADD33A4413BB942BBC2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.cpp */; };
+		6663BAE4C5CE40C6B20CF033 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.cpp */ = {isa = PBXBuildFile; fileRef = 62BAD17E2D1144D89C55063B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.cpp */; };
+		67720A381E074464B9EFDA4D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.h */ = {isa = PBXBuildFile; fileRef = C1E7F966D172435E96CFC1CA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.h */; };
+		6A5F21BE1FC24E648A8EF249 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.cpp */ = {isa = PBXBuildFile; fileRef = C5DF1DCF83774FF786392255 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.cpp */; };
+		6D05EB76E9FD4E4F9D5C6951 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/encint.h */ = {isa = PBXBuildFile; fileRef = FACE88F34A874105AB88FFEF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/encint.h */; };
+		6D1919A032D047D18965857D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.h */ = {isa = PBXBuildFile; fileRef = 56B18EAC9112443887B25E5A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.h */; };
+		6EFE6C865653473AA77A3AC8 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.h */ = {isa = PBXBuildFile; fileRef = 536C0C2D36FD44BBA4696A1B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.h */; };
+		6FA03D5D2A0640DD8128240E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.h */ = {isa = PBXBuildFile; fileRef = A42DD3C356C94EA0BF007E51 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.h */; };
+		70CDA05B6FA4438E9E0778C9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/enquant.h */ = {isa = PBXBuildFile; fileRef = D071400AA3824450BBFF04B0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/enquant.h */; };
+		730C4D71FBBF4D4FBAB228EF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.cpp */ = {isa = PBXBuildFile; fileRef = F51430DC9AC6458BA787FF15 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.cpp */; };
+		73DCBBF4F9824EBDA885F936 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.c */ = {isa = PBXBuildFile; fileRef = 9DBDB860AED046C081D4DF59 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.c */; };
+		73F46640C2624A63820DA5A9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/config_types.h */ = {isa = PBXBuildFile; fileRef = BE19FCEB8650492F96F4912C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/config_types.h */; };
+		749F0C1DA09E494C89A996BC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.cpp */ = {isa = PBXBuildFile; fileRef = F96F0A27593148758737E032 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.cpp */; };
+		7521C0920CD641198C6FB7A6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.h */ = {isa = PBXBuildFile; fileRef = 310FFFABA3FC4E05908A44D1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.h */; };
+		7B4D0F27FE1C41E9B162C839 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.cpp */ = {isa = PBXBuildFile; fileRef = 358383F5D3A84138BFABB0B6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.cpp */; };
+		7C0CC3398F8F4D16B573A680 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoraenc.h */ = {isa = PBXBuildFile; fileRef = 94078AF5E0CA4C8CBEBB8D13 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoraenc.h */; };
+		7CC04537E72448C1A00493DE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/progressbar.h */ = {isa = PBXBuildFile; fileRef = E6D973E5AEBB4662BDB2A171 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/progressbar.h */; };
+		7D36B319CA9B45D4929374BF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.h */ = {isa = PBXBuildFile; fileRef = 9EB348F1D3FA4CF290536208 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.h */; };
+		80BB3442B5A24DAEAE59D373 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_os.mm */ = {isa = PBXBuildFile; fileRef = A5DA8766EE244E0AA660035B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_os.mm */; };
+		83A5ABD1D1104CCBA93230FE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.cpp */ = {isa = PBXBuildFile; fileRef = 7744FCA5A53046B59C2A155B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.cpp */; };
+		8525EEEA325040CB8E871880 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffenc.h */ = {isa = PBXBuildFile; fileRef = 1B491930F0E9420AA5445158 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffenc.h */; };
+		89A86ADEAA4C4A369DF20796 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.cpp */ = {isa = PBXBuildFile; fileRef = 6800FE04C94A4CD7B1E90CC0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.cpp */; };
+		8A503599264F4C129ABCC93D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/windows/src/winapifamilynull.h */ = {isa = PBXBuildFile; fileRef = 0C3C712BF628405789D8A78D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/windows/src/winapifamilynull.h */; };
+		8A84BF1F0DFD4FC6801EC7EB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_xml.cpp */ = {isa = PBXBuildFile; fileRef = C4F497470EE04F57AB8A075B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_xml.cpp */; };
+		8AF803E17622409DA76F12AE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.cpp */ = {isa = PBXBuildFile; fileRef = B6090902D51D427D8D4569FB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.cpp */; };
+		8B719C24F07C4600B3DB9810 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h */ = {isa = PBXBuildFile; fileRef = DB7BEA182B8B43F3B4B11126 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h */; };
+		8C9A8B0F401447DF914C3799 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_version.h */ = {isa = PBXBuildFile; fileRef = D351EBED23D140FEB86D7388 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_version.h */; };
+		8D43C5CEFC2D4245AB0984CE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/idct.c */ = {isa = PBXBuildFile; fileRef = C1BB96E48BDB4A609BEADC13 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/idct.c */; };
+		90E1FC0F5F2E453483CF0529 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h */ = {isa = PBXBuildFile; fileRef = D6D15B0858DA43CAB6A86DA1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h */; };
+		925683F1F9AE4197BAC77B9B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/cpu.h */ = {isa = PBXBuildFile; fileRef = EE423F62AC184562B73BB872 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/cpu.h */; };
+		96CFB0E301A54B0288AD1B1D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.h */ = {isa = PBXBuildFile; fileRef = 20B8D63FD1C04C278CCDE2D0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.h */; };
+		9D6EE4D32AE0430B956ECDD3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlparser.cpp */ = {isa = PBXBuildFile; fileRef = 2DC2F3E9A97C465E9EA623A1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlparser.cpp */; };
+		9F4115CBF0344F8FB771D0A0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1ECD58199CC14BFA86E7CE98 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */; };
+		A26B7F743A5A40CABB091372 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theora.h */ = {isa = PBXBuildFile; fileRef = E9C2800629584098A5D6CA4A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theora.h */; };
+		A415A0D203BA44ABA16EB6D2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.h */ = {isa = PBXBuildFile; fileRef = 56493EC6E6734D0EAC3D08FE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.h */; };
+		A53AB41CD8CE4E9EBDF4576A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.h */ = {isa = PBXBuildFile; fileRef = 4BF971913F6247AD9326AF7A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.h */; };
+		A9640D2F6B684B099C6FB75C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlerror.cpp */ = {isa = PBXBuildFile; fileRef = 4019F008BC3744E7A99EA9DA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlerror.cpp */; };
+		A9D3D9D869744BA0BF8C4DFA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.h */ = {isa = PBXBuildFile; fileRef = 7B2969D1174B40378EC2FCDC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.h */; };
+		AE6167C94C014ADA8FBDB536 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/info.c */ = {isa = PBXBuildFile; fileRef = C6EBB856FFF8441CB36593DE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/info.c */; };
+		AF3D9D37A2714843BA0BD0A1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/ocintrin.h */ = {isa = PBXBuildFile; fileRef = 6A29FCB570424C0398318065 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/ocintrin.h */; };
+		AF56092A94724BB08E44FCEA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.h */ = {isa = PBXBuildFile; fileRef = 696570B9A9104CB78E48B812 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.h */; };
+		AFC1F0D15E2E4B90A31D4E52 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.cpp */ = {isa = PBXBuildFile; fileRef = 614458382AC64794943F5520 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.cpp */; };
+		B1108D1BC2F44F3FB34E4A9E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffman.h */ = {isa = PBXBuildFile; fileRef = D78332ADFA3E4C1397732684 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffman.h */; };
+		BC15198D8A9542BA937BCE67 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/ogg.h */ = {isa = PBXBuildFile; fileRef = EF9B2EF179EF4456A68ECA59 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/ogg.h */; };
+		BF46E9897BAD423D845E070A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h */ = {isa = PBXBuildFile; fileRef = 48912A060DB54599990C870D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h */; };
+		C1BA75E9CBE2422DBACD984B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/fragment.c */ = {isa = PBXBuildFile; fileRef = 5FCBC482EF674F74B0246DB6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/fragment.c */; };
+		C439430EA3F24FE0A7340B62 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 12C23E5038244F1BBE4B2932 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */; };
+		C5BB919D64DB48EEA05CDB19 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.cpp */ = {isa = PBXBuildFile; fileRef = BD3E437514A54FAAB3F40754 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.cpp */; };
+		C68BC1747FC04099AC3CA11F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.cpp */ = {isa = PBXBuildFile; fileRef = 3E510408F1634630A0456F3F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.cpp */; };
+		C78BFCB022F848A28443629D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decinfo.c */ = {isa = PBXBuildFile; fileRef = CFCAF48A111B4F8D95FAB1B2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decinfo.c */; };
+		CA7AFD695BDB4E0B98CEF214 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.c */ = {isa = PBXBuildFile; fileRef = 0C705D24BFEE4F6094F767B8 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.c */; };
+		CB8524AFF6264F768328D53F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dct.h */ = {isa = PBXBuildFile; fileRef = 95A05F662AD04EC0BBC84011 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dct.h */; };
+		D0362C1DE9BC4B0EA2766287 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitwise.c */ = {isa = PBXBuildFile; fileRef = 055239753B47447A9F86E5B0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitwise.c */; };
+		D0794178F39F41AFBE6ECC69 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.h */ = {isa = PBXBuildFile; fileRef = CEE9B838EFD148948CC3C464 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.h */; };
+		D086E246ACC3427C9C3556AA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.c */ = {isa = PBXBuildFile; fileRef = 63CF2E426AF1457B8800ECDA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.c */; };
+		D40659C3D9A242A69AE369F0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_lod.cpp */ = {isa = PBXBuildFile; fileRef = 45FBD9F3F43847DE8DEDE6CC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_lod.cpp */; };
+		D49CA596B3844D37BB8776F7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.h */ = {isa = PBXBuildFile; fileRef = 6C8F12D4D7794FE1A1543EA7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.h */; };
+		D5C6B56A4A614099A605BC50 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_factory_base.h */ = {isa = PBXBuildFile; fileRef = 9698595BE1104289AA3A7940 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_factory_base.h */; };
+		D63C401B77B5431CBB28DF11 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.h */ = {isa = PBXBuildFile; fileRef = 988B6EBA9B8B4FCB9195B02C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.h */; };
+		D9F66889D2214FC28F1DBCE7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.cpp */ = {isa = PBXBuildFile; fileRef = 234BA1DB440D4807B62BEF48 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.cpp */; };
+		E048340683AA41A38A3E417B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.h */ = {isa = PBXBuildFile; fileRef = 1249DACFD1D844FEBE58D5E0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.h */; };
+		E10310ED623B4CD2B650B287 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.cpp */ = {isa = PBXBuildFile; fileRef = 23910B6DAAE94CB88006202B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.cpp */; };
+		E112E239845E42E1B1191E55 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_io_os.cpp */ = {isa = PBXBuildFile; fileRef = 6AC9507C34AD4A21B32BB632 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_io_os.cpp */; };
+		E11CE822F3004B8EB8ABDA93 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.cpp */ = {isa = PBXBuildFile; fileRef = 0371B5D6F414472D9FBA1BC2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.cpp */; };
+		E3C6E5D90AB84CF1879D6DEE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.h */ = {isa = PBXBuildFile; fileRef = 3E388A4D4AA1461A8C4851E7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.h */; };
+		E64D3C67EB894A78832C0B36 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/framing.c */ = {isa = PBXBuildFile; fileRef = 04568EE56C154085A1367394 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/framing.c */; };
+		F0E0FB226D544850B5F3472E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/codec.h */ = {isa = PBXBuildFile; fileRef = B5E9043C4DBA4F69AD5B7770 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/codec.h */; };
+		F2CB840697064CFCB82F8F5D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/mathops.h */ = {isa = PBXBuildFile; fileRef = 5375F2D1FBD9496590E5E64E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/mathops.h */; };
+		F4461D44A8DF48EBAC98979C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.h */ = {isa = PBXBuildFile; fileRef = 341306F1F1A14EEF8923037A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.h */; };
+		F4720E018BB74E8481BE9950 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decode.c */ = {isa = PBXBuildFile; fileRef = A6DF1D08E056411D98730321 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decode.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		15FFEED5BC4047FBAA46F3F1 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		23F5A5BA2F7D4CAD9F9AD14C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		957A35C14A6748819B3C66FE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		995899E5F7F1472F99CB1DBC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		46C23E89503E4C30B50E94BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CF6DCC4E4F4781BE5A3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		997D6FB35D0E4AC48A1E269D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CF6DCC4E4F4781BE5A3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ED59A480B34C0784705560;
+			remoteInfo = KCL_libraries;
+		};
+		B5FA4C88D37049B0B9BCABDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CF6DCC4E4F4781BE5A3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE66468091C4FE2AB92E8E4;
+			remoteInfo = KCL;
+		};
+		C20DC2E417EF41A6BFD69718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CF6DCC4E4F4781BE5A3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		E3D06BD79EE846EFAFEE2124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CF6DCC4E4F4781BE5A3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		F1239EF182E44813B47AC9F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CF6DCC4E4F4781BE5A3E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ED59A480B34C0784705560;
+			remoteInfo = KCL_libraries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02112C87C49C45F0A685E53E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_base.h; path = kcl/src/kcl_base.h; sourceTree = SOURCE_ROOT; };
+		0258CFA4E039467192DF8F43 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinyxml2.h; path = kcl_libraries/tinyxml2/src/tinyxml2.h; sourceTree = SOURCE_ROOT; };
+		0371B5D6F414472D9FBA1BC2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_mesh.cpp; path = kcl/src/kcl_mesh.cpp; sourceTree = SOURCE_ROOT; };
+		04568EE56C154085A1367394 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/framing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = framing.c; path = kcl_libraries/libogg_theora_vorbis/src/framing.c; sourceTree = SOURCE_ROOT; };
+		055239753B47447A9F86E5B0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitwise.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitwise.c; path = kcl_libraries/libogg_theora_vorbis/src/bitwise.c; sourceTree = SOURCE_ROOT; };
+		0C3C712BF628405789D8A78D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/windows/src/winapifamilynull.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = winapifamilynull.h; path = kcl/platforms/windows/src/winapifamilynull.h; sourceTree = SOURCE_ROOT; };
+		0C705D24BFEE4F6094F767B8 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant.c; path = kcl_libraries/libogg_theora_vorbis/src/quant.c; sourceTree = SOURCE_ROOT; };
+		0C7F000297F542E7B541FE48 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_room.h; path = kcl/src/kcl_room.h; sourceTree = SOURCE_ROOT; };
+		0E7DB93089EF403680D695D7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bitpack.h; path = kcl_libraries/libogg_theora_vorbis/src/bitpack.h; sourceTree = SOURCE_ROOT; };
+		0F67FC1B191B4ACEA27B6BD9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_texture.h; path = kcl/src/kcl_texture.h; sourceTree = SOURCE_ROOT; };
+		1249DACFD1D844FEBE58D5E0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_buffer.h; path = kcl/src/kcl_buffer.h; sourceTree = SOURCE_ROOT; };
+		12C23E5038244F1BBE4B2932 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		13A9B4CB74B446818914BC52 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_camera2.h; path = kcl/src/kcl_camera2.h; sourceTree = SOURCE_ROOT; };
+		15CF22379AD34061A10AF60C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_planarmap.h; path = kcl/src/kcl_planarmap.h; sourceTree = SOURCE_ROOT; };
+		1B491930F0E9420AA5445158 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffenc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffenc.h; path = kcl_libraries/libogg_theora_vorbis/src/huffenc.h; sourceTree = SOURCE_ROOT; };
+		1ECD58199CC14BFA86E7CE98 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		20B8D63FD1C04C278CCDE2D0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dequant.h; path = kcl_libraries/libogg_theora_vorbis/src/dequant.h; sourceTree = SOURCE_ROOT; };
+		2179D866ACA84C2B8A3338C3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_cube_envmap_descriptor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_cube_envmap_descriptor.h; path = kcl/src/kcl_cube_envmap_descriptor.h; sourceTree = SOURCE_ROOT; };
+		234BA1DB440D4807B62BEF48 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_material.cpp; path = kcl/src/kcl_material.cpp; sourceTree = SOURCE_ROOT; };
+		23910B6DAAE94CB88006202B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_particlesystem2.cpp; path = kcl/src/kcl_particlesystem2.cpp; sourceTree = SOURCE_ROOT; };
+		263F44FE9BF64526B624C545 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_serializable.cpp; path = kcl/src/kcl_serializable.cpp; sourceTree = SOURCE_ROOT; };
+		2DC2F3E9A97C465E9EA623A1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlparser.cpp; path = kcl_libraries/tinyxml/src/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
+		310FFFABA3FC4E05908A44D1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_light2.h; path = kcl/src/kcl_light2.h; sourceTree = SOURCE_ROOT; };
+		341306F1F1A14EEF8923037A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh_tool.h; path = kcl/src/mesh_tool.h; sourceTree = SOURCE_ROOT; };
+		358383F5D3A84138BFABB0B6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_math3d.cpp; path = kcl/src/kcl_math3d.cpp; sourceTree = SOURCE_ROOT; };
+		38DE575A366942E6B7730748 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = kcl_libraries/libogg_theora_vorbis/src/internal.h; sourceTree = SOURCE_ROOT; };
+		3E388A4D4AA1461A8C4851E7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = state.h; path = kcl_libraries/libogg_theora_vorbis/src/state.h; sourceTree = SOURCE_ROOT; };
+		3E510408F1634630A0456F3F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_envprobe.cpp; path = kcl/src/kcl_envprobe.cpp; sourceTree = SOURCE_ROOT; };
+		3EBAF7991D444F41AD7BFD09 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_animation4.h; path = kcl/src/kcl_animation4.h; sourceTree = SOURCE_ROOT; };
+		4019F008BC3744E7A99EA9DA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlerror.cpp; path = kcl_libraries/tinyxml/src/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
+		45FBD9F3F43847DE8DEDE6CC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_lod.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_lod.cpp; path = kcl/src/kcl_lod.cpp; sourceTree = SOURCE_ROOT; };
+		463B612882214FC281EDF138 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_io.h; path = kcl/src/kcl_io.h; sourceTree = SOURCE_ROOT; };
+		48912A060DB54599990C870D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jsonserializer.h; path = kcl/src/jsonserializer.h; sourceTree = SOURCE_ROOT; };
+		498F6F2057E74F9FAB3AECBB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_animationtrack.cpp; path = kcl/src/kcl_animationtrack.cpp; sourceTree = SOURCE_ROOT; };
+		4BF971913F6247AD9326AF7A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ogg_decoder.h; path = kcl/src/ogg_decoder.h; sourceTree = SOURCE_ROOT; };
+		4E507122AE7D4EC3908C5874 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decint.h; path = kcl_libraries/libogg_theora_vorbis/src/decint.h; sourceTree = SOURCE_ROOT; };
+		4F50B46BCF4F479D9E10E106 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitpack.c; path = kcl_libraries/libogg_theora_vorbis/src/bitpack.c; sourceTree = SOURCE_ROOT; };
+		536C0C2D36FD44BBA4696A1B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinyxml.h; path = kcl_libraries/tinyxml/src/tinyxml.h; sourceTree = SOURCE_ROOT; };
+		5375F2D1FBD9496590E5E64E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/mathops.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mathops.h; path = kcl_libraries/libogg_theora_vorbis/src/mathops.h; sourceTree = SOURCE_ROOT; };
+		56493EC6E6734D0EAC3D08FE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_particlesystem.h; path = kcl/src/kcl_particlesystem.h; sourceTree = SOURCE_ROOT; };
+		56ACF87DB8754F7B883DAC56 /* KCL_libraries */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKCL_libraries_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B18EAC9112443887B25E5A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_particlesystem2.h; path = kcl/src/kcl_particlesystem2.h; sourceTree = SOURCE_ROOT; };
+		5FCBC482EF674F74B0246DB6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/fragment.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fragment.c; path = kcl_libraries/libogg_theora_vorbis/src/fragment.c; sourceTree = SOURCE_ROOT; };
+		614458382AC64794943F5520 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hdr.cpp; path = kcl/src/hdr.cpp; sourceTree = SOURCE_ROOT; };
+		62BAD17E2D1144D89C55063B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_camera2.cpp; path = kcl/src/kcl_camera2.cpp; sourceTree = SOURCE_ROOT; };
+		63CF2E426AF1457B8800ECDA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = internal.c; path = kcl_libraries/libogg_theora_vorbis/src/internal.c; sourceTree = SOURCE_ROOT; };
+		6800FE04C94A4CD7B1E90CC0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh_tool.cpp; path = kcl/src/mesh_tool.cpp; sourceTree = SOURCE_ROOT; };
+		68AA9FEA0242462687E65C50 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml.cpp; path = kcl_libraries/tinyxml/src/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
+		696570B9A9104CB78E48B812 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinystr.h; path = kcl_libraries/tinyxml/src/tinystr.h; sourceTree = SOURCE_ROOT; };
+		6984B7EEEB55410BA66CC89E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinystr.cpp; path = kcl_libraries/tinyxml/src/tinystr.cpp; sourceTree = SOURCE_ROOT; };
+		6A29FCB570424C0398318065 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/ocintrin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ocintrin.h; path = kcl_libraries/libogg_theora_vorbis/src/ocintrin.h; sourceTree = SOURCE_ROOT; };
+		6AC9507C34AD4A21B32BB632 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_io_os.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_io_os.cpp; path = kcl/platforms/ios/src/kcl_io_os.cpp; sourceTree = SOURCE_ROOT; };
+		6BCF8BD7891C432DA12A0BF2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_aabb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_aabb.h; path = kcl/src/kcl_aabb.h; sourceTree = SOURCE_ROOT; };
+		6C8F12D4D7794FE1A1543EA7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_material.h; path = kcl/src/kcl_material.h; sourceTree = SOURCE_ROOT; };
+		7596FB3940A44D669D00B316 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dequant.c; path = kcl_libraries/libogg_theora_vorbis/src/dequant.c; sourceTree = SOURCE_ROOT; };
+		7744FCA5A53046B59C2A155B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_texture.cpp; path = kcl/src/kcl_texture.cpp; sourceTree = SOURCE_ROOT; };
+		7B2969D1174B40378EC2FCDC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_animationtrack.h; path = kcl/src/kcl_animationtrack.h; sourceTree = SOURCE_ROOT; };
+		7C5A072F0F1F4F659C888DBA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_mesh.h; path = kcl/src/kcl_mesh.h; sourceTree = SOURCE_ROOT; };
+		7E835F234D2B4EA2B1DBACA7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_particlesystem.cpp; path = kcl/src/kcl_particlesystem.cpp; sourceTree = SOURCE_ROOT; };
+		90B718C944154CAABC44484A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_envprobe.h; path = kcl/src/kcl_envprobe.h; sourceTree = SOURCE_ROOT; };
+		921ABEE30C3747C99E5AA499 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_buffer.cpp; path = kcl/src/kcl_buffer.cpp; sourceTree = SOURCE_ROOT; };
+		94078AF5E0CA4C8CBEBB8D13 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoraenc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = theoraenc.h; path = kcl_libraries/libogg_theora_vorbis/theora/theoraenc.h; sourceTree = SOURCE_ROOT; };
+		94D225B6B9F04C9BA073A648 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_node.h; path = kcl/src/kcl_node.h; sourceTree = SOURCE_ROOT; };
+		95A05F662AD04EC0BBC84011 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dct.h; path = kcl_libraries/libogg_theora_vorbis/src/dct.h; sourceTree = SOURCE_ROOT; };
+		9698595BE1104289AA3A7940 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_factory_base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_factory_base.h; path = kcl/src/kcl_factory_base.h; sourceTree = SOURCE_ROOT; };
+		988B6EBA9B8B4FCB9195B02C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_effect.h; path = kcl/src/kcl_effect.h; sourceTree = SOURCE_ROOT; };
+		9954C85670094188BF4E04E3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_keyframesequence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_keyframesequence.h; path = kcl/src/kcl_keyframesequence.h; sourceTree = SOURCE_ROOT; };
+		99BFAC7BA29E408A920C15D7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffdec.c; path = kcl_libraries/libogg_theora_vorbis/src/huffdec.c; sourceTree = SOURCE_ROOT; };
+		9A15D196CBD249B9BB8AE62B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = etc1.cpp; path = kcl_libraries/libetc1/src/etc1.cpp; sourceTree = SOURCE_ROOT; };
+		9C8682AB921349FCA0023B42 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_image.cpp; path = kcl/src/kcl_image.cpp; sourceTree = SOURCE_ROOT; };
+		9DBDB860AED046C081D4DF59 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = state.c; path = kcl_libraries/libogg_theora_vorbis/src/state.c; sourceTree = SOURCE_ROOT; };
+		9EB348F1D3FA4CF290536208 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hdr.h; path = kcl/src/hdr.h; sourceTree = SOURCE_ROOT; };
+		A127AEC8CC7C40658C27A6EA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_animation4.cpp; path = kcl/src/kcl_animation4.cpp; sourceTree = SOURCE_ROOT; };
+		A42DD3C356C94EA0BF007E51 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffdec.h; path = kcl_libraries/libogg_theora_vorbis/src/huffdec.h; sourceTree = SOURCE_ROOT; };
+		A58ED4A027404FCCBCECCDB5 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_scene_handler.h; path = kcl/src/kcl_scene_handler.h; sourceTree = SOURCE_ROOT; };
+		A5DA8766EE244E0AA660035B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_os.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = kcl_os.mm; path = kcl/platforms/ios/src/kcl_os.mm; sourceTree = SOURCE_ROOT; };
+		A6DF1D08E056411D98730321 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = decode.c; path = kcl_libraries/libogg_theora_vorbis/src/decode.c; sourceTree = SOURCE_ROOT; };
+		ADD83A2B0B3E404A9E2A243D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_room.cpp; path = kcl/src/kcl_room.cpp; sourceTree = SOURCE_ROOT; };
+		AEFFCFAEF4234C9187D3BDD7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_planarmap.cpp; path = kcl/src/kcl_planarmap.cpp; sourceTree = SOURCE_ROOT; };
+		AF454ADD33A4413BB942BBC2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_io.cpp; path = kcl/src/kcl_io.cpp; sourceTree = SOURCE_ROOT; };
+		AFAE1D3C213C4F30BA2BEFDF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_light2.cpp; path = kcl/src/kcl_light2.cpp; sourceTree = SOURCE_ROOT; };
+		B5E9043C4DBA4F69AD5B7770 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/codec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = codec.h; path = kcl_libraries/libogg_theora_vorbis/theora/codec.h; sourceTree = SOURCE_ROOT; };
+		B6090902D51D427D8D4569FB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_actor.cpp; path = kcl/src/kcl_actor.cpp; sourceTree = SOURCE_ROOT; };
+		BB9DB3B25F4848068B75E479 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BCDB6AF53DB6487282FA7389 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = kcl_libraries/tinyxml2/src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		BD3E437514A54FAAB3F40754 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_base.cpp; path = kcl/src/kcl_base.cpp; sourceTree = SOURCE_ROOT; };
+		BDB8099895934FABB6D2D2C9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ogg_decoder.cpp; path = kcl/src/ogg_decoder.cpp; sourceTree = SOURCE_ROOT; };
+		BE19FCEB8650492F96F4912C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/config_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config_types.h; path = kcl_libraries/libogg_theora_vorbis/ogg/config_types.h; sourceTree = SOURCE_ROOT; };
+		BED2C03892AA4A9AA406A11A /* KCL */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKCL_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107018A4E754601ADC78B43 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/os_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = os_types.h; path = kcl_libraries/libogg_theora_vorbis/ogg/os_types.h; sourceTree = SOURCE_ROOT; };
+		C1BB96E48BDB4A609BEADC13 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/idct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = idct.c; path = kcl_libraries/libogg_theora_vorbis/src/idct.c; sourceTree = SOURCE_ROOT; };
+		C1E7F966D172435E96CFC1CA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_image.h; path = kcl/src/kcl_image.h; sourceTree = SOURCE_ROOT; };
+		C4F497470EE04F57AB8A075B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_xml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_scene_xml.cpp; path = kcl/src/kcl_scene_xml.cpp; sourceTree = SOURCE_ROOT; };
+		C5DF1DCF83774FF786392255 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_object.cpp; path = kcl/src/kcl_object.cpp; sourceTree = SOURCE_ROOT; };
+		C6EBB856FFF8441CB36593DE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/info.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = info.c; path = kcl_libraries/libogg_theora_vorbis/src/info.c; sourceTree = SOURCE_ROOT; };
+		C9E1B19E886E4828823DCC2F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_actor.h; path = kcl/src/kcl_actor.h; sourceTree = SOURCE_ROOT; };
+		CAE43D768CDE465487CA20A7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_object.h; path = kcl/src/kcl_object.h; sourceTree = SOURCE_ROOT; };
+		CE0FD241E2344539A6556C2D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_os.h; path = kcl/src/kcl_os.h; sourceTree = SOURCE_ROOT; };
+		CEE4698D7E1445C095FA4447 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant.h; path = kcl_libraries/libogg_theora_vorbis/src/quant.h; sourceTree = SOURCE_ROOT; };
+		CEE9B838EFD148948CC3C464 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = etc1.h; path = kcl_libraries/libetc1/src/etc1.h; sourceTree = SOURCE_ROOT; };
+		CFCAF48A111B4F8D95FAB1B2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = decinfo.c; path = kcl_libraries/libogg_theora_vorbis/src/decinfo.c; sourceTree = SOURCE_ROOT; };
+		D071400AA3824450BBFF04B0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/enquant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = enquant.h; path = kcl_libraries/libogg_theora_vorbis/src/enquant.h; sourceTree = SOURCE_ROOT; };
+		D351EBED23D140FEB86D7388 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_scene_version.h; path = kcl/src/kcl_scene_version.h; sourceTree = SOURCE_ROOT; };
+		D6D15B0858DA43CAB6A86DA1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_serializable.h; path = kcl/src/kcl_serializable.h; sourceTree = SOURCE_ROOT; };
+		D78332ADFA3E4C1397732684 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffman.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman.h; path = kcl_libraries/libogg_theora_vorbis/src/huffman.h; sourceTree = SOURCE_ROOT; };
+		DB7BEA182B8B43F3B4B11126 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kcl_math3d.h; path = kcl/src/kcl_math3d.h; sourceTree = SOURCE_ROOT; };
+		E5723406039E45139F1A60A9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_effect.cpp; path = kcl/src/kcl_effect.cpp; sourceTree = SOURCE_ROOT; };
+		E6D973E5AEBB4662BDB2A171 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/progressbar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = progressbar.h; path = kcl/src/progressbar.h; sourceTree = SOURCE_ROOT; };
+		E9C2800629584098A5D6CA4A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theora.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = theora.h; path = kcl_libraries/libogg_theora_vorbis/theora/theora.h; sourceTree = SOURCE_ROOT; };
+		EE423F62AC184562B73BB872 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/cpu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cpu.h; path = kcl_libraries/libogg_theora_vorbis/src/cpu.h; sourceTree = SOURCE_ROOT; };
+		EF9B2EF179EF4456A68ECA59 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/ogg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ogg.h; path = kcl_libraries/libogg_theora_vorbis/ogg/ogg.h; sourceTree = SOURCE_ROOT; };
+		F51430DC9AC6458BA787FF15 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_node.cpp; path = kcl/src/kcl_node.cpp; sourceTree = SOURCE_ROOT; };
+		F96F0A27593148758737E032 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kcl_scene_handler.cpp; path = kcl/src/kcl_scene_handler.cpp; sourceTree = SOURCE_ROOT; };
+		FACE88F34A874105AB88FFEF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/encint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = encint.h; path = kcl_libraries/libogg_theora_vorbis/src/encint.h; sourceTree = SOURCE_ROOT; };
+		FD4685B1E6F54567A11714FD /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoradec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = theoradec.h; path = kcl_libraries/libogg_theora_vorbis/theora/theoradec.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25D0D79845344A478675533B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2A8DC48B60A649D3AEAFE68A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AC9507C34AD4A21B32BB632 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_io_os.cpp */,
+				A5DA8766EE244E0AA660035B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_os.mm */,
+				614458382AC64794943F5520 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.cpp */,
+				B6090902D51D427D8D4569FB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.cpp */,
+				A127AEC8CC7C40658C27A6EA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.cpp */,
+				498F6F2057E74F9FAB3AECBB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.cpp */,
+				BD3E437514A54FAAB3F40754 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.cpp */,
+				921ABEE30C3747C99E5AA499 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.cpp */,
+				62BAD17E2D1144D89C55063B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.cpp */,
+				E5723406039E45139F1A60A9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.cpp */,
+				3E510408F1634630A0456F3F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.cpp */,
+				9C8682AB921349FCA0023B42 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.cpp */,
+				AF454ADD33A4413BB942BBC2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.cpp */,
+				AFAE1D3C213C4F30BA2BEFDF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.cpp */,
+				45FBD9F3F43847DE8DEDE6CC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_lod.cpp */,
+				234BA1DB440D4807B62BEF48 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.cpp */,
+				358383F5D3A84138BFABB0B6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.cpp */,
+				0371B5D6F414472D9FBA1BC2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.cpp */,
+				F51430DC9AC6458BA787FF15 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.cpp */,
+				C5DF1DCF83774FF786392255 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.cpp */,
+				7E835F234D2B4EA2B1DBACA7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.cpp */,
+				23910B6DAAE94CB88006202B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.cpp */,
+				AEFFCFAEF4234C9187D3BDD7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.cpp */,
+				ADD83A2B0B3E404A9E2A243D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.cpp */,
+				F96F0A27593148758737E032 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.cpp */,
+				C4F497470EE04F57AB8A075B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_xml.cpp */,
+				263F44FE9BF64526B624C545 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.cpp */,
+				7744FCA5A53046B59C2A155B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.cpp */,
+				6800FE04C94A4CD7B1E90CC0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.cpp */,
+				BDB8099895934FABB6D2D2C9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2B11BA4AD88E4C83A4D09192 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3C712BF628405789D8A78D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/windows/src/winapifamilynull.h */,
+				9EB348F1D3FA4CF290536208 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.h */,
+				48912A060DB54599990C870D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h */,
+				6BCF8BD7891C432DA12A0BF2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_aabb.h */,
+				C9E1B19E886E4828823DCC2F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.h */,
+				3EBAF7991D444F41AD7BFD09 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.h */,
+				7B2969D1174B40378EC2FCDC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.h */,
+				02112C87C49C45F0A685E53E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h */,
+				1249DACFD1D844FEBE58D5E0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.h */,
+				13A9B4CB74B446818914BC52 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.h */,
+				2179D866ACA84C2B8A3338C3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_cube_envmap_descriptor.h */,
+				988B6EBA9B8B4FCB9195B02C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.h */,
+				90B718C944154CAABC44484A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.h */,
+				9698595BE1104289AA3A7940 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_factory_base.h */,
+				C1E7F966D172435E96CFC1CA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.h */,
+				463B612882214FC281EDF138 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h */,
+				9954C85670094188BF4E04E3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_keyframesequence.h */,
+				310FFFABA3FC4E05908A44D1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.h */,
+				6C8F12D4D7794FE1A1543EA7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.h */,
+				DB7BEA182B8B43F3B4B11126 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h */,
+				7C5A072F0F1F4F659C888DBA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.h */,
+				94D225B6B9F04C9BA073A648 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.h */,
+				CAE43D768CDE465487CA20A7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.h */,
+				CE0FD241E2344539A6556C2D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h */,
+				56493EC6E6734D0EAC3D08FE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.h */,
+				56B18EAC9112443887B25E5A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.h */,
+				15CF22379AD34061A10AF60C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.h */,
+				0C7F000297F542E7B541FE48 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.h */,
+				A58ED4A027404FCCBCECCDB5 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.h */,
+				D351EBED23D140FEB86D7388 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_version.h */,
+				D6D15B0858DA43CAB6A86DA1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h */,
+				0F67FC1B191B4ACEA27B6BD9 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.h */,
+				341306F1F1A14EEF8923037A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.h */,
+				4BF971913F6247AD9326AF7A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.h */,
+				E6D973E5AEBB4662BDB2A171 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/progressbar.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		32CE0706FEC64A29A64744C5 /* LibTinyXML */ = {
+			isa = PBXGroup;
+			children = (
+				6984B7EEEB55410BA66CC89E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.cpp */,
+				696570B9A9104CB78E48B812 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.h */,
+				68AA9FEA0242462687E65C50 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.cpp */,
+				536C0C2D36FD44BBA4696A1B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.h */,
+				4019F008BC3744E7A99EA9DA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlerror.cpp */,
+				2DC2F3E9A97C465E9EA623A1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlparser.cpp */,
+			);
+			name = LibTinyXML;
+			sourceTree = "<group>";
+		};
+		3D96ABE0141D4C4490256176 /* KCL */ = {
+			isa = PBXGroup;
+			children = (
+				2B11BA4AD88E4C83A4D09192 /* Header Files */,
+				2A8DC48B60A649D3AEAFE68A /* Source Files */,
+				1ECD58199CC14BFA86E7CE98 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */,
+			);
+			name = KCL;
+			sourceTree = "<group>";
+		};
+		55BA36581A494256AFFC051C /* LibETC1 */ = {
+			isa = PBXGroup;
+			children = (
+				9A15D196CBD249B9BB8AE62B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.cpp */,
+				CEE9B838EFD148948CC3C464 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.h */,
+			);
+			name = LibETC1;
+			sourceTree = "<group>";
+		};
+		56D7ADC28C5242B9A29EA3B6 /* LibTinyXML2 */ = {
+			isa = PBXGroup;
+			children = (
+				BCDB6AF53DB6487282FA7389 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.cpp */,
+				0258CFA4E039467192DF8F43 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.h */,
+			);
+			name = LibTinyXML2;
+			sourceTree = "<group>";
+		};
+		6E50EFC1D6F64A2C93FF79BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED2C03892AA4A9AA406A11A /* KCL */,
+				56ACF87DB8754F7B883DAC56 /* KCL_libraries */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8095E25918E54245A8C75230 /* KCL_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				55BA36581A494256AFFC051C /* LibETC1 */,
+				32CE0706FEC64A29A64744C5 /* LibTinyXML */,
+				56D7ADC28C5242B9A29EA3B6 /* LibTinyXML2 */,
+				FE589CA13FD94E53AF61FDB8 /* LibOgg */,
+				12C23E5038244F1BBE4B2932 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */,
+			);
+			name = KCL_libraries;
+			sourceTree = "<group>";
+		};
+		BCD00F21F92F45B8BD5E6C8A = {
+			isa = PBXGroup;
+			children = (
+				8095E25918E54245A8C75230 /* KCL_libraries */,
+				3D96ABE0141D4C4490256176 /* KCL */,
+				BF47FD6931C14518B8BD88A2 /* ALL_BUILD */,
+				6E50EFC1D6F64A2C93FF79BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF47FD6931C14518B8BD88A2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				25D0D79845344A478675533B /* CMake Rules */,
+				BB9DB3B25F4848068B75E479 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FE589CA13FD94E53AF61FDB8 /* LibOgg */ = {
+			isa = PBXGroup;
+			children = (
+				BE19FCEB8650492F96F4912C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/config_types.h */,
+				EF9B2EF179EF4456A68ECA59 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/ogg.h */,
+				C107018A4E754601ADC78B43 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/ogg/os_types.h */,
+				4F50B46BCF4F479D9E10E106 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.c */,
+				0E7DB93089EF403680D695D7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.h */,
+				055239753B47447A9F86E5B0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitwise.c */,
+				EE423F62AC184562B73BB872 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/cpu.h */,
+				95A05F662AD04EC0BBC84011 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dct.h */,
+				CFCAF48A111B4F8D95FAB1B2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decinfo.c */,
+				4E507122AE7D4EC3908C5874 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decint.h */,
+				A6DF1D08E056411D98730321 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decode.c */,
+				7596FB3940A44D669D00B316 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.c */,
+				20B8D63FD1C04C278CCDE2D0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.h */,
+				FACE88F34A874105AB88FFEF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/encint.h */,
+				D071400AA3824450BBFF04B0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/enquant.h */,
+				5FCBC482EF674F74B0246DB6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/fragment.c */,
+				04568EE56C154085A1367394 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/framing.c */,
+				99BFAC7BA29E408A920C15D7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.c */,
+				A42DD3C356C94EA0BF007E51 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.h */,
+				1B491930F0E9420AA5445158 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffenc.h */,
+				D78332ADFA3E4C1397732684 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffman.h */,
+				C1BB96E48BDB4A609BEADC13 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/idct.c */,
+				C6EBB856FFF8441CB36593DE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/info.c */,
+				63CF2E426AF1457B8800ECDA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.c */,
+				38DE575A366942E6B7730748 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.h */,
+				5375F2D1FBD9496590E5E64E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/mathops.h */,
+				6A29FCB570424C0398318065 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/ocintrin.h */,
+				0C705D24BFEE4F6094F767B8 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.c */,
+				CEE4698D7E1445C095FA4447 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.h */,
+				9DBDB860AED046C081D4DF59 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.c */,
+				3E388A4D4AA1461A8C4851E7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.h */,
+				B5E9043C4DBA4F69AD5B7770 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/codec.h */,
+				E9C2800629584098A5D6CA4A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theora.h */,
+				FD4685B1E6F54567A11714FD /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoradec.h */,
+				94078AF5E0CA4C8CBEBB8D13 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/theora/theoraenc.h */,
+			);
+			name = LibOgg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3ED59A480B34C0784705560 /* KCL_libraries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27156C47844A4C6E8E1BD71D /* Build configuration list for PBXNativeTarget "KCL_libraries" */;
+			buildPhases = (
+				41F4335B5A5D4FAC8E4AEB42 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B74FBF88675A4AACA8CFEC2B /* PBXTargetDependency */,
+			);
+			name = KCL_libraries;
+			productName = KCL_libraries;
+			productReference = 56ACF87DB8754F7B883DAC56 /* KCL_libraries */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FEE66468091C4FE2AB92E8E4 /* KCL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A933E2AD91C45209A1D2292 /* Build configuration list for PBXNativeTarget "KCL" */;
+			buildPhases = (
+				8001923564864FAE983340E7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AE2B0B190C942AA93FA8662 /* PBXTargetDependency */,
+				B2D0AE377699462BA81B1A98 /* PBXTargetDependency */,
+			);
+			name = KCL;
+			productName = KCL;
+			productReference = BED2C03892AA4A9AA406A11A /* KCL */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8CF6DCC4E4F4781BE5A3E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = AC45B63B176246C0815D1C06 /* Build configuration list for PBXProject "kcl" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				957A35C14A6748819B3C66FE /* Debug */,
+				23F5A5BA2F7D4CAD9F9AD14C /* Release */,
+				995899E5F7F1472F99CB1DBC /* MinSizeRel */,
+				15FFEED5BC4047FBAA46F3F1 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = BCD00F21F92F45B8BD5E6C8A;
+			projectDirPath = /Users/clover/Desktop/gfxbench/frameworks/kcl_framework;
+			projectRoot = "";
+			targets = (
+				1FA239A5FC7F476B9CD67245 /* ALL_BUILD */,
+				FEE66468091C4FE2AB92E8E4 /* KCL */,
+				C3ED59A480B34C0784705560 /* KCL_libraries */,
+				C638EDC729564A03B1F9C044 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39DC17B579BF4A3BB6E97861 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		86DCB1E5CEDA4463ABC59C46 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		937C4252877241948AD28FE0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F788E79D450E40339A25DF08 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F4335B5A5D4FAC8E4AEB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B56DACCAFB466B84F34690 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src/etc1.cpp */,
+				07FCB73C293448A59D5FE150 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitpack.c */,
+				D0362C1DE9BC4B0EA2766287 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/bitwise.c */,
+				C78BFCB022F848A28443629D /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decinfo.c */,
+				F4720E018BB74E8481BE9950 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/decode.c */,
+				0465CC9D408C4398AAAC4ED6 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/dequant.c */,
+				C1BA75E9CBE2422DBACD984B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/fragment.c */,
+				E64D3C67EB894A78832C0B36 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/framing.c */,
+				0637E258982642BCB763D54E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/huffdec.c */,
+				8D43C5CEFC2D4245AB0984CE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/idct.c */,
+				AE6167C94C014ADA8FBDB536 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/info.c */,
+				D086E246ACC3427C9C3556AA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/internal.c */,
+				CA7AFD695BDB4E0B98CEF214 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/quant.c */,
+				73DCBBF4F9824EBDA885F936 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis/src/state.c */,
+				2AF5FD5F8BE945B7BEFBAC9B /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinystr.cpp */,
+				60EA46E167AD4C1C91EACAD2 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxml.cpp */,
+				A9640D2F6B684B099C6FB75C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlerror.cpp */,
+				9D6EE4D32AE0430B956ECDD3 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src/tinyxmlparser.cpp */,
+				3C39BE0D9B5340CA890645E0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8001923564864FAE983340E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E112E239845E42E1B1191E55 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_io_os.cpp */,
+				80BB3442B5A24DAEAE59D373 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/platforms/ios/src/kcl_os.mm */,
+				AFC1F0D15E2E4B90A31D4E52 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/hdr.cpp */,
+				8AF803E17622409DA76F12AE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_actor.cpp */,
+				50E727ED09584AD69DF68F6C /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.cpp */,
+				3ACCBB4956A04EA399CF8B90 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animationtrack.cpp */,
+				C5BB919D64DB48EEA05CDB19 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.cpp */,
+				4D0F04B4D96A4E56AD0BA8CA /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_buffer.cpp */,
+				6663BAE4C5CE40C6B20CF033 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_camera2.cpp */,
+				1C2CB685DE7D49D79A45370A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_effect.cpp */,
+				C68BC1747FC04099AC3CA11F /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_envprobe.cpp */,
+				5A82D35823FB4D5AA4A82DD1 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.cpp */,
+				64F33C01C7904E8CB99D0E3A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.cpp */,
+				070A2509ABE04A91A8A47630 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_light2.cpp */,
+				D40659C3D9A242A69AE369F0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_lod.cpp */,
+				D9F66889D2214FC28F1DBCE7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.cpp */,
+				7B4D0F27FE1C41E9B162C839 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.cpp */,
+				E11CE822F3004B8EB8ABDA93 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_mesh.cpp */,
+				730C4D71FBBF4D4FBAB228EF /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_node.cpp */,
+				6A5F21BE1FC24E648A8EF249 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.cpp */,
+				2D2E67C82E7646E68E56DB08 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem.cpp */,
+				E10310ED623B4CD2B650B287 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_particlesystem2.cpp */,
+				5A414F7E47D64FCBA12EFBA0 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_planarmap.cpp */,
+				15967FE8B0AA41428C0E24C7 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_room.cpp */,
+				749F0C1DA09E494C89A996BC /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_handler.cpp */,
+				8A84BF1F0DFD4FC6801EC7EB /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_xml.cpp */,
+				086407757D044CC3A83B9A6E /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.cpp */,
+				83A5ABD1D1104CCBA93230FE /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.cpp */,
+				89A86ADEAA4C4A369DF20796 /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/mesh_tool.cpp */,
+				548E2FAD791A4075B44ADF8A /* /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AE2B0B190C942AA93FA8662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3ED59A480B34C0784705560 /* KCL_libraries */;
+			targetProxy = F1239EF182E44813B47AC9F2 /* PBXContainerItemProxy */;
+		};
+		5D03B89210494D7BBD9E13C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = 46C23E89503E4C30B50E94BB /* PBXContainerItemProxy */;
+		};
+		8751330179DE4AFDB6BA7560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE66468091C4FE2AB92E8E4 /* KCL */;
+			targetProxy = B5FA4C88D37049B0B9BCABDE /* PBXContainerItemProxy */;
+		};
+		B2D0AE377699462BA81B1A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = C20DC2E417EF41A6BFD69718 /* PBXContainerItemProxy */;
+		};
+		B74FBF88675A4AACA8CFEC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = E3D06BD79EE846EFAFEE2124 /* PBXContainerItemProxy */;
+		};
+		D17AD56D9C804FBCBF925259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3ED59A480B34C0784705560 /* KCL_libraries */;
+			targetProxy = 997D6FB35D0E4AC48A1E269D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		050DD640D61E42A7ACBB51E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		062A63C902694CB1A8605DBE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11         -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		070A13AE101A489385C20B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "      ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11        '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL_libraries_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		111CFED57A0F420993F8511F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework/build;
+			};
+			name = RelWithDebInfo;
+		};
+		1F9947D81B2741FBA17A7376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework/build;
+			};
+			name = Release;
+		};
+		27687DE891C54B008612E824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL_libraries;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2BB25D4109124898B65F8C9A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11         -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL_libraries;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2E07D45B78D9466196F42C4D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4426C631D55F490CA8CAE924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		461D3BFC9C3845308E201A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		512EE3919A274E67B0FF739A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5419BEE5C4C14D059BFBCA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5A77CEC02DBE4D9C80FD0539 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL_libraries;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7513DEC3F0C4471796DB743C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8317741884BE4360A47CF3FE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8874C35C6DD74548AB6E861A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8C761109F6DA4A51838A9D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,GFXB_DEPRECATED,NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libetc1/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/libogg_theora_vorbis,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinythread,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml2/src,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11        '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KCL_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		942BA3C066214BD398D57E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework/build;
+			};
+			name = Debug;
+		};
+		AEDA8CBA924D4919AB2B26F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E5C8D12B8D56425CAFCAB568 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/kcl_framework/build;
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185AD037A2584FF9883E39E6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7513DEC3F0C4471796DB743C /* Debug */,
+				461D3BFC9C3845308E201A5E /* Release */,
+				8317741884BE4360A47CF3FE /* MinSizeRel */,
+				8874C35C6DD74548AB6E861A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		27156C47844A4C6E8E1BD71D /* Build configuration list for PBXNativeTarget "KCL_libraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A13AE101A489385C20B50 /* Debug */,
+				27687DE891C54B008612E824 /* Release */,
+				5A77CEC02DBE4D9C80FD0539 /* MinSizeRel */,
+				2BB25D4109124898B65F8C9A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A933E2AD91C45209A1D2292 /* Build configuration list for PBXNativeTarget "KCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C761109F6DA4A51838A9D2A /* Debug */,
+				5419BEE5C4C14D059BFBCA85 /* Release */,
+				512EE3919A274E67B0FF739A /* MinSizeRel */,
+				062A63C902694CB1A8605DBE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C1DA0A0529E42989BF3C0FD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050DD640D61E42A7ACBB51E8 /* Debug */,
+				4426C631D55F490CA8CAE924 /* Release */,
+				AEDA8CBA924D4919AB2B26F4 /* MinSizeRel */,
+				2E07D45B78D9466196F42C4D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC45B63B176246C0815D1C06 /* Build configuration list for PBXProject "kcl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942BA3C066214BD398D57E20 /* Debug */,
+				1F9947D81B2741FBA17A7376 /* Release */,
+				E5C8D12B8D56425CAFCAB568 /* MinSizeRel */,
+				111CFED57A0F420993F8511F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8CF6DCC4E4F4781BE5A3E08 /* Project object */;
+}

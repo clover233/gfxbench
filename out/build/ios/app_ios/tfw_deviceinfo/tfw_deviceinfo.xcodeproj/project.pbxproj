@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1FA239A5FC7F476B9CD67245 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7A4C66A807C40C4B4D4BEAC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FA9250D0983E45259AD2A6AD /* CMake Rules */,
+			);
+			dependencies = (
+				514D7D9642754C57A139D895 /* PBXTargetDependency */,
+				291E0BFFB9B4465AB0A160BB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C638EDC729564A03B1F9C044 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86146300D6EA43C6B58E51DE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9A64493E7AE14190BF73606F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		031183934D9F4AB4B3B1CC6E /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.fs */ = {isa = PBXBuildFile; fileRef = F6EEE910584D4E4FA84CE74E /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.fs */; };
+		0BF3B78F17EE4706AF3D350B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.h */ = {isa = PBXBuildFile; fileRef = 921CD9B778454AF48FA70425 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.h */; };
+		18FB8ABC26084510AD68E811 /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.cpp */ = {isa = PBXBuildFile; fileRef = 3EF1676D5186450AA5E231ED /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.cpp */; };
+		1E3B7BDA87BA4B6EAFD2033F /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.h */ = {isa = PBXBuildFile; fileRef = 486F4C12D38741F68D1BB0E6 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.h */; };
+		25252923DAAE49CB812390D2 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.mm */ = {isa = PBXBuildFile; fileRef = 48DB75C7A4D2451A815D46EF /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.mm */; };
+		2557FD3373CD43FC84D40C9B /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.h */ = {isa = PBXBuildFile; fileRef = C84A17CB846C4A0994C93BB3 /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.h */; };
+		2A384F1853794368A576B1EF /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/jsonvisitor.h */ = {isa = PBXBuildFile; fileRef = 2CFB64E4CDC9475AB2F7A618 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/jsonvisitor.h */; };
+		30B9F4A637774982BFF5C55F /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.h */ = {isa = PBXBuildFile; fileRef = 2C99C7A353024592941A6837 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.h */; };
+		36A4B0A3FAC54F7C8F74D61A /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.h */ = {isa = PBXBuildFile; fileRef = 444A0CACDDDE4C24B793711B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.h */; };
+		3EF3787BC3434FF7B16A7F09 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.cpp */ = {isa = PBXBuildFile; fileRef = 460279248CAF4945B457F701 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.cpp */; };
+		435E39B408D049E3BCF47CE7 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.cpp */ = {isa = PBXBuildFile; fileRef = 608A8F135F8549C89539E7CF /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.cpp */; };
+		4AC17A9A76474F85956F4CE7 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.h */ = {isa = PBXBuildFile; fileRef = 2C5557E6FC524D79BEAA0B57 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.h */; };
+		4C07D34759E54ADCA3ECB393 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfo.h */ = {isa = PBXBuildFile; fileRef = 6F6AAFC05BC3406E8D40BDC4 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfo.h */; };
+		58970050EEE3452E9BCEEADB /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.cpp */ = {isa = PBXBuildFile; fileRef = 342DBA77855A41F68D455A7E /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.cpp */; };
+		5B74EA0C2BCF417A8F5280FD /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.h */ = {isa = PBXBuildFile; fileRef = 13AEB85593DE428D8DC16FDC /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.h */; };
+		6870A63B7F0A46DC92DED02F /* /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.cpp */ = {isa = PBXBuildFile; fileRef = FF3F89D0C2E24D08B03E34EA /* /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.cpp */; };
+		6A9388869C7B4ADA8A8E8027 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.h */ = {isa = PBXBuildFile; fileRef = 2CD852E2748748859B4483AD /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.h */; };
+		7812A61B9D084120A229083C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/platformruntimeinfo.h */ = {isa = PBXBuildFile; fileRef = 13829DA7B628422AB102513A /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/platformruntimeinfo.h */; };
+		9EB8A362DD2F488B98F49A81 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/cudainfo.h */ = {isa = PBXBuildFile; fileRef = 637E30EB437F4A33B07165E1 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/cudainfo.h */; };
+		9F0378BB6FE24F568A7F7D08 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.cpp */ = {isa = PBXBuildFile; fileRef = E6AE49900BE54FBD8786E3CE /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.cpp */; };
+		A3C4F9F4EB7541DAA6EDBAC6 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfocollector.cpp */ = {isa = PBXBuildFile; fileRef = 4F41325564C94A9FBF42424B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfocollector.cpp */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
+		A97A256950DB4D8E89D984CA /* /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/eglgraphicscontext.cpp */ = {isa = PBXBuildFile; fileRef = 65E9688695FC44008F8B5032 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/eglgraphicscontext.cpp */; };
+		C3AA935A58CF4138A31C6FA7 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.vs */ = {isa = PBXBuildFile; fileRef = 7BFB94F01FE941B3A10F1C18 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.vs */; };
+		D04A3684C9D944C6A6F5EAEA /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/epoxyglinfocollector.cpp */ = {isa = PBXBuildFile; fileRef = F48FA6C011724C5DAC6FBD5C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/epoxyglinfocollector.cpp */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
+		D1D92EA360F94F8386FADC1C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/runtimeinfo.h */ = {isa = PBXBuildFile; fileRef = 116E2707DEA7404F8515EE3B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/runtimeinfo.h */; };
+		D602C1B92AA14C5FB29EDC03 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.cpp */ = {isa = PBXBuildFile; fileRef = D79657F18A8B4AD6B1FA0F1C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.cpp */; };
+		E3244114692A45318799DEE1 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 64E333684164415B99E0695A /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/CMakeLists.txt */; };
+		F38E26B55CAC418FB1C20388 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.cpp */ = {isa = PBXBuildFile; fileRef = 5DA7E6F800FA401BA3545412 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		8D0E63EA189742B7A0F070CB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A8527193210047C9B41BB79B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B13C483A910B4C0DBBFA4F58 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D7404AEB539340F3AEBBA975 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2B522F1A06CC47CE8B51E736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0CB93BC737498FA90D8887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7FB3F3AF2054691AE98C4E6;
+			remoteInfo = tfw_deviceinfo;
+		};
+		4859F47962F749DA9CE71106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0CB93BC737498FA90D8887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		6E383ACCE3BD49609E9AB34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0CB93BC737498FA90D8887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116E2707DEA7404F8515EE3B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/runtimeinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = runtimeinfo.h; path = runtimeinfo.h; sourceTree = SOURCE_ROOT; };
+		13829DA7B628422AB102513A /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/platformruntimeinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platformruntimeinfo.h; path = platformruntimeinfo.h; sourceTree = SOURCE_ROOT; };
+		13AEB85593DE428D8DC16FDC /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = chartcollector.h; path = chartcollector.h; sourceTree = SOURCE_ROOT; };
+		2C5557E6FC524D79BEAA0B57 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clinfo.h; path = clinfo.h; sourceTree = SOURCE_ROOT; };
+		2C99C7A353024592941A6837 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = semver.h; path = semver.h; sourceTree = SOURCE_ROOT; };
+		2CD852E2748748859B4483AD /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iosruntimeinfo.h; path = iosruntimeinfo.h; sourceTree = SOURCE_ROOT; };
+		2CFB64E4CDC9475AB2F7A618 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/jsonvisitor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jsonvisitor.h; path = jsonvisitor.h; sourceTree = SOURCE_ROOT; };
+		341E22FD116C41269C0AD22B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		342DBA77855A41F68D455A7E /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chartcollector.cpp; path = chartcollector.cpp; sourceTree = SOURCE_ROOT; };
+		3EF1676D5186450AA5E231ED /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shaderprecision_shaders.cpp; path = ../../../out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.cpp; sourceTree = SOURCE_ROOT; };
+		444A0CACDDDE4C24B793711B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shaderprecision.h; path = shaderprecision.h; sourceTree = SOURCE_ROOT; };
+		460279248CAF4945B457F701 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shaderprecision.cpp; path = shaderprecision.cpp; sourceTree = SOURCE_ROOT; };
+		486F4C12D38741F68D1BB0E6 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nullruntimeinfo.h; path = nullruntimeinfo.h; sourceTree = SOURCE_ROOT; };
+		48DB75C7A4D2451A815D46EF /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = iosruntimeinfo.mm; path = iosruntimeinfo.mm; sourceTree = SOURCE_ROOT; };
+		4F41325564C94A9FBF42424B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfocollector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = metalinfocollector.cpp; path = metalinfocollector.cpp; sourceTree = SOURCE_ROOT; };
+		5DA7E6F800FA401BA3545412 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clinfo.cpp; path = clinfo.cpp; sourceTree = SOURCE_ROOT; };
+		608A8F135F8549C89539E7CF /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nullruntimeinfo.cpp; path = nullruntimeinfo.cpp; sourceTree = SOURCE_ROOT; };
+		637E30EB437F4A33B07165E1 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/cudainfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cudainfo.h; path = cudainfo.h; sourceTree = SOURCE_ROOT; };
+		64E333684164415B99E0695A /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		65E9688695FC44008F8B5032 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/eglgraphicscontext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eglgraphicscontext.cpp; path = ../graphics/eglgraphicscontext.cpp; sourceTree = SOURCE_ROOT; };
+		6C0D24CE64A54F5182464232 /* tfw_deviceinfo */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtfw_deviceinfo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6AAFC05BC3406E8D40BDC4 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = metalinfo.h; path = metalinfo.h; sourceTree = SOURCE_ROOT; };
+		7BFB94F01FE941B3A10F1C18 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.vs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shaderprecision.vs; path = shaderprecision.vs; sourceTree = SOURCE_ROOT; };
+		921CD9B778454AF48FA70425 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glinfo.h; path = glinfo.h; sourceTree = SOURCE_ROOT; };
+		C84A17CB846C4A0994C93BB3 /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shaderprecision_shaders.h; path = ../../../out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.h; sourceTree = SOURCE_ROOT; };
+		D79657F18A8B4AD6B1FA0F1C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = semver.cpp; path = semver.cpp; sourceTree = SOURCE_ROOT; };
+		E6AE49900BE54FBD8786E3CE /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glinfo.cpp; path = glinfo.cpp; sourceTree = SOURCE_ROOT; };
+		F48FA6C011724C5DAC6FBD5C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/epoxyglinfocollector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = epoxyglinfocollector.cpp; path = epoxyglinfocollector.cpp; sourceTree = SOURCE_ROOT; };
+		F6EEE910584D4E4FA84CE74E /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.fs */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = shaderprecision.fs; path = shaderprecision.fs; sourceTree = SOURCE_ROOT; };
+		FF3F89D0C2E24D08B03E34EA /* /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = apidefinition.cpp; path = ../schemas/apidefinition.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		278FFB4C5BD545D6A5769C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C0D24CE64A54F5182464232 /* tfw_deviceinfo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA79EBDC72D4AC1AA60DBD4 = {
+			isa = PBXGroup;
+			children = (
+				641761733FB840F6939CB2D7 /* tfw_deviceinfo */,
+				51F8419B177047C2B0740AC8 /* ALL_BUILD */,
+				278FFB4C5BD545D6A5769C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51F8419B177047C2B0740AC8 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B863664AA6454C8FA20F0F4A /* CMake Rules */,
+				341E22FD116C41269C0AD22B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		641761733FB840F6939CB2D7 /* tfw_deviceinfo */ = {
+			isa = PBXGroup;
+			children = (
+				9FEFCE4F23AD4280B86459E3 /* Header Files */,
+				FB74C8365AF5499684CD192A /* Source Files */,
+				64E333684164415B99E0695A /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/CMakeLists.txt */,
+				F6EEE910584D4E4FA84CE74E /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.fs */,
+				7BFB94F01FE941B3A10F1C18 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.vs */,
+			);
+			name = tfw_deviceinfo;
+			sourceTree = "<group>";
+		};
+		9FEFCE4F23AD4280B86459E3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				13AEB85593DE428D8DC16FDC /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.h */,
+				2C5557E6FC524D79BEAA0B57 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.h */,
+				637E30EB437F4A33B07165E1 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/cudainfo.h */,
+				921CD9B778454AF48FA70425 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.h */,
+				2CD852E2748748859B4483AD /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.h */,
+				2CFB64E4CDC9475AB2F7A618 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/jsonvisitor.h */,
+				6F6AAFC05BC3406E8D40BDC4 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfo.h */,
+				486F4C12D38741F68D1BB0E6 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.h */,
+				13829DA7B628422AB102513A /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/platformruntimeinfo.h */,
+				116E2707DEA7404F8515EE3B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/runtimeinfo.h */,
+				2C99C7A353024592941A6837 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.h */,
+				444A0CACDDDE4C24B793711B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.h */,
+				C84A17CB846C4A0994C93BB3 /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B863664AA6454C8FA20F0F4A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FB74C8365AF5499684CD192A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				342DBA77855A41F68D455A7E /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.cpp */,
+				5DA7E6F800FA401BA3545412 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.cpp */,
+				F48FA6C011724C5DAC6FBD5C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/epoxyglinfocollector.cpp */,
+				E6AE49900BE54FBD8786E3CE /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.cpp */,
+				48DB75C7A4D2451A815D46EF /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.mm */,
+				4F41325564C94A9FBF42424B /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfocollector.cpp */,
+				608A8F135F8549C89539E7CF /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.cpp */,
+				D79657F18A8B4AD6B1FA0F1C /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.cpp */,
+				460279248CAF4945B457F701 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.cpp */,
+				65E9688695FC44008F8B5032 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/eglgraphicscontext.cpp */,
+				FF3F89D0C2E24D08B03E34EA /* /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.cpp */,
+				3EF1676D5186450AA5E231ED /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7FB3F3AF2054691AE98C4E6 /* tfw_deviceinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854C59BEC3ED4E32AB1132D2 /* Build configuration list for PBXNativeTarget "tfw_deviceinfo" */;
+			buildPhases = (
+				D8BAFFA852EB4432827661FE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA2B407230F411D9877D081 /* PBXTargetDependency */,
+			);
+			name = tfw_deviceinfo;
+			productName = tfw_deviceinfo;
+			productReference = 6C0D24CE64A54F5182464232 /* tfw_deviceinfo */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0CB93BC737498FA90D8887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = C8D46D99FEAB4150A8222285 /* Build configuration list for PBXProject "tfw_deviceinfo" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8D0E63EA189742B7A0F070CB /* Debug */,
+				D7404AEB539340F3AEBBA975 /* Release */,
+				A8527193210047C9B41BB79B /* MinSizeRel */,
+				B13C483A910B4C0DBBFA4F58 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4CA79EBDC72D4AC1AA60DBD4;
+			projectDirPath = /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo;
+			projectRoot = "";
+			targets = (
+				1FA239A5FC7F476B9CD67245 /* ALL_BUILD */,
+				C638EDC729564A03B1F9C044 /* ZERO_CHECK */,
+				E7FB3F3AF2054691AE98C4E6 /* tfw_deviceinfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC0B8FE3822422F99D327DA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9A64493E7AE14190BF73606F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EC70E0F783294803916C5F2F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FA9250D0983E45259AD2A6AD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8BAFFA852EB4432827661FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58970050EEE3452E9BCEEADB /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/chartcollector.cpp */,
+				F38E26B55CAC418FB1C20388 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/clinfo.cpp */,
+				D04A3684C9D944C6A6F5EAEA /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/epoxyglinfocollector.cpp */,
+				9F0378BB6FE24F568A7F7D08 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/glinfo.cpp */,
+				25252923DAAE49CB812390D2 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/iosruntimeinfo.mm */,
+				A3C4F9F4EB7541DAA6EDBAC6 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/metalinfocollector.cpp */,
+				435E39B408D049E3BCF47CE7 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/nullruntimeinfo.cpp */,
+				D602C1B92AA14C5FB29EDC03 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/semver.cpp */,
+				3EF3787BC3434FF7B16A7F09 /* /Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/shaderprecision.cpp */,
+				A97A256950DB4D8E89D984CA /* /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/eglgraphicscontext.cpp */,
+				6870A63B7F0A46DC92DED02F /* /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.cpp */,
+				18FB8ABC26084510AD68E811 /* /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/shaderprecision_shaders.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291E0BFFB9B4465AB0A160BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = 4859F47962F749DA9CE71106 /* PBXContainerItemProxy */;
+		};
+		514D7D9642754C57A139D895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7FB3F3AF2054691AE98C4E6 /* tfw_deviceinfo */;
+			targetProxy = 2B522F1A06CC47CE8B51E736 /* PBXContainerItemProxy */;
+		};
+		5FA2B407230F411D9877D081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = 6E383ACCE3BD49609E9AB34C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0190709DCBED47AFAFF23695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_EPOXY,"'GLES_SILENCE_DEPRECATION=1'",POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,"'EPOXY_STATIC=1'","'IS_CORPORATE=1'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/share/sysinf/cmake/../../../include/sysinf,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/graphics,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/ios,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/benchmark_service/src,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/benchmark_service,/Users/clover/Desktop/gfxbench/app_ios/src,/Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/..,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations       -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tfw_deviceinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		061017964DCA4E6BBBE72737 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		13DCBF1AB1D4481F8A07E2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1CA90466B1DF49EBAF1E1B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		20EA88FE80C74E5089579F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2156E1978F0F466E8D10FD5E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3061EF444BF7475DA6F5897A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_EPOXY,"'GLES_SILENCE_DEPRECATION=1'",POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,"'EPOXY_STATIC=1'","'IS_CORPORATE=1'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/share/sysinf/cmake/../../../include/sysinf,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/graphics,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/ios,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/benchmark_service/src,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/benchmark_service,/Users/clover/Desktop/gfxbench/app_ios/src,/Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/..,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations     -DNDEBUG -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tfw_deviceinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3467C98C28A643FDAD3F039D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		475F1FA487724767AA9AC9C1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		517637A659D645EC96CE5138 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_EPOXY,"'GLES_SILENCE_DEPRECATION=1'",POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,"'EPOXY_STATIC=1'","'IS_CORPORATE=1'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/share/sysinf/cmake/../../../include/sysinf,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/graphics,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/ios,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/benchmark_service/src,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/benchmark_service,/Users/clover/Desktop/gfxbench/app_ios/src,/Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/..,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations        -DNDEBUG -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tfw_deviceinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5771D73B92AC44D8AD57F621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/build;
+			};
+			name = Debug;
+		};
+		7D7A847C9DC441A28EC6B429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/build;
+			};
+			name = Release;
+		};
+		88D08D355D594D32A7406BF2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/build;
+			};
+			name = RelWithDebInfo;
+		};
+		AE93F6DC2639452C89467E95 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_EPOXY,"'GLES_SILENCE_DEPRECATION=1'",POCO_NO_AUTOMATIC_LIBS,POCO_STATIC,"'EPOXY_STATIC=1'","'IS_CORPORATE=1'",NGRTL_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/out/install/ios/share/sysinf/cmake/../../../include/sysinf,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/pngio,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/graphics,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/testfw/ios,/Users/clover/Desktop/gfxbench/app_ios/../frameworks/benchmark_service/src,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/benchmark_service,/Users/clover/Desktop/gfxbench/app_ios/src,/Users/clover/Desktop/gfxbench/frameworks/testfw/deviceinfo/..,/Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11 -Wall -pedantic-errors -Wno-unused-parameter -Wno-gnu-zero-variadic-macro-arguments -fno-strict-aliasing -Wno-strict-aliasing -Wno-deprecated-register -Wno-gnu-anonymous-struct -Wno-nested-anon-types -Wno-invalid-offsetof -Wno-error=deprecated-declarations     -DNDEBUG -Wno-deprecated-declarations ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tfw_deviceinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CBBAC611E35C4C958FFA9D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F3756265CEFF4041BED27563 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/tfw_deviceinfo/build;
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854C59BEC3ED4E32AB1132D2 /* Build configuration list for PBXNativeTarget "tfw_deviceinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0190709DCBED47AFAFF23695 /* Debug */,
+				3061EF444BF7475DA6F5897A /* Release */,
+				AE93F6DC2639452C89467E95 /* MinSizeRel */,
+				517637A659D645EC96CE5138 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86146300D6EA43C6B58E51DE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DCBF1AB1D4481F8A07E2F6 /* Debug */,
+				1CA90466B1DF49EBAF1E1B76 /* Release */,
+				2156E1978F0F466E8D10FD5E /* MinSizeRel */,
+				061017964DCA4E6BBBE72737 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8D46D99FEAB4150A8222285 /* Build configuration list for PBXProject "tfw_deviceinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5771D73B92AC44D8AD57F621 /* Debug */,
+				7D7A847C9DC441A28EC6B429 /* Release */,
+				F3756265CEFF4041BED27563 /* MinSizeRel */,
+				88D08D355D594D32A7406BF2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7A4C66A807C40C4B4D4BEAC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EA88FE80C74E5089579F9D /* Debug */,
+				CBBAC611E35C4C958FFA9D24 /* Release */,
+				475F1FA487724767AA9AC9C1 /* MinSizeRel */,
+				3467C98C28A643FDAD3F039D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0CB93BC737498FA90D8887 /* Project object */;
+}

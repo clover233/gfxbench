@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1FA239A5FC7F476B9CD67245 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6B5DA35EBDE048C5A882A4CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4E07EDA0E9584B469BE4BEA9 /* CMake Rules */,
+			);
+			dependencies = (
+				80D76F4A104B4BA398497D2E /* PBXTargetDependency */,
+				B69D0D089C4646039AD94BAC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C638EDC729564A03B1F9C044 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A534208BE1DA445B9DB8EE2C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ED25D252711840D28C6D1DFE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		43F40F139B5C449B9491BFB7 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/pp.c */ = {isa = PBXBuildFile; fileRef = 79B6E8BF453548D99AA628E1 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/pp.c */; };
+		4EDEB46B28974A0AAB9E5C64 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-lex.c */ = {isa = PBXBuildFile; fileRef = E16DD5B1B7914B529418E90E /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-lex.c */; };
+		54F3EAC68B2A40C09A3AD15B /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.h */ = {isa = PBXBuildFile; fileRef = 78EADD104F5F4A6C8530EC3D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.h */; };
+		8E00FDF1F8DF4E5FAFD51BD9 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.cpp */ = {isa = PBXBuildFile; fileRef = BA21333EF65D4161A773D0CF /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.cpp */; };
+		AC2794D7A5874B34915917BF /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 651A91B1E01E45D8AFB01968 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/CMakeLists.txt */; };
+		B6815225933D40439EDC420B /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-parse.c */ = {isa = PBXBuildFile; fileRef = D4A589E8A4A44C2CA5A9E2B5 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-parse.c */; };
+		D1B837DA1BA04FF5ABF705F2 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa/program/prog_hash_table.c */ = {isa = PBXBuildFile; fileRef = 834D942B6FAD42ECA7FCDE1D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa/program/prog_hash_table.c */; };
+		F185C5F306D54F5F803E073D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/util/ralloc.c */ = {isa = PBXBuildFile; fileRef = 1FB96ED80599488499F7633E /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/util/ralloc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		30141077E56C455290322394 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		69B65BB0051943B1AE637047 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		907A681B6D404ABD8B5F035E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		FAE3585B6AC040ADAC9F6608 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		456DACB7EF24441AA7704621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E91D5C8368B45A78E22CE69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		A1945E4B0C46444980D08E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E91D5C8368B45A78E22CE69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D0F28224414630888AE754;
+			remoteInfo = lib_glsl_pp;
+		};
+		D442E6DAA2F14BA5949DC6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E91D5C8368B45A78E22CE69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FB96ED80599488499F7633E /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/util/ralloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ralloc.c; path = util/ralloc.c; sourceTree = SOURCE_ROOT; };
+		651A91B1E01E45D8AFB01968 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		78EADD104F5F4A6C8530EC3D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glslpp.h; path = glslpp.h; sourceTree = SOURCE_ROOT; };
+		79B6E8BF453548D99AA628E1 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/pp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pp.c; path = glsl/glcpp/pp.c; sourceTree = SOURCE_ROOT; };
+		80536A54BAB6493292E30C88 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		834D942B6FAD42ECA7FCDE1D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa/program/prog_hash_table.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = prog_hash_table.c; path = mesa/program/prog_hash_table.c; sourceTree = SOURCE_ROOT; };
+		94FD53F2D90444978F6FD221 /* lib_glsl_pp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblib_glsl_pp_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA21333EF65D4161A773D0CF /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glslpp.cpp; path = glslpp.cpp; sourceTree = SOURCE_ROOT; };
+		D4A589E8A4A44C2CA5A9E2B5 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-parse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "glcpp-parse.c"; path = "glsl/glcpp/glcpp-parse.c"; sourceTree = SOURCE_ROOT; };
+		E16DD5B1B7914B529418E90E /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-lex.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "glcpp-lex.c"; path = "glsl/glcpp/glcpp-lex.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		046AE750F20B463BA9E8374A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				78EADD104F5F4A6C8530EC3D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		29A7DFE6CC914DCAB1E34FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FD53F2D90444978F6FD221 /* lib_glsl_pp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3908C79CDC44ABA62F0AED /* lib_glsl_pp */ = {
+			isa = PBXGroup;
+			children = (
+				046AE750F20B463BA9E8374A /* Header Files */,
+				6A85797F097F4656A7282F2E /* Source Files */,
+				651A91B1E01E45D8AFB01968 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/CMakeLists.txt */,
+			);
+			name = lib_glsl_pp;
+			sourceTree = "<group>";
+		};
+		6A85797F097F4656A7282F2E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16DD5B1B7914B529418E90E /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-lex.c */,
+				D4A589E8A4A44C2CA5A9E2B5 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-parse.c */,
+				79B6E8BF453548D99AA628E1 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/pp.c */,
+				BA21333EF65D4161A773D0CF /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.cpp */,
+				834D942B6FAD42ECA7FCDE1D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa/program/prog_hash_table.c */,
+				1FB96ED80599488499F7633E /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/util/ralloc.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		768354E6513D49D0A6B21D33 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4E6C399A24AAE87D7A947 /* CMake Rules */,
+				80536A54BAB6493292E30C88 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C038E1EDB449484D93162A3A = {
+			isa = PBXGroup;
+			children = (
+				2F3908C79CDC44ABA62F0AED /* lib_glsl_pp */,
+				768354E6513D49D0A6B21D33 /* ALL_BUILD */,
+				29A7DFE6CC914DCAB1E34FDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB4E6C399A24AAE87D7A947 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D0F28224414630888AE754 /* lib_glsl_pp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D520C26070D45099EF9C6FA /* Build configuration list for PBXNativeTarget "lib_glsl_pp" */;
+			buildPhases = (
+				B40E9B5F9A58470DADF657A0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5F787F5D2640EC9F79B656 /* PBXTargetDependency */,
+			);
+			name = lib_glsl_pp;
+			productName = lib_glsl_pp;
+			productReference = 94FD53F2D90444978F6FD221 /* lib_glsl_pp */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E91D5C8368B45A78E22CE69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = E5D710DFD1D64FE695FC8538 /* Build configuration list for PBXProject "lib_glsl_pp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				69B65BB0051943B1AE637047 /* Debug */,
+				FAE3585B6AC040ADAC9F6608 /* Release */,
+				907A681B6D404ABD8B5F035E /* MinSizeRel */,
+				30141077E56C455290322394 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C038E1EDB449484D93162A3A;
+			projectDirPath = /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp;
+			projectRoot = "";
+			targets = (
+				1FA239A5FC7F476B9CD67245 /* ALL_BUILD */,
+				C638EDC729564A03B1F9C044 /* ZERO_CHECK */,
+				87D0F28224414630888AE754 /* lib_glsl_pp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E07EDA0E9584B469BE4BEA9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7D2F87A32AB54F55A3AE54F1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C790913EB2D441B384BA2E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ED25D252711840D28C6D1DFE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B40E9B5F9A58470DADF657A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDEB46B28974A0AAB9E5C64 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-lex.c */,
+				B6815225933D40439EDC420B /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/glcpp-parse.c */,
+				43F40F139B5C449B9491BFB7 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glsl/glcpp/pp.c */,
+				8E00FDF1F8DF4E5FAFD51BD9 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/glslpp.cpp */,
+				D1B837DA1BA04FF5ABF705F2 /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa/program/prog_hash_table.c */,
+				F185C5F306D54F5F803E073D /* /Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/util/ralloc.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D76F4A104B4BA398497D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87D0F28224414630888AE754 /* lib_glsl_pp */;
+			targetProxy = A1945E4B0C46444980D08E70 /* PBXContainerItemProxy */;
+		};
+		B69D0D089C4646039AD94BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = 456DACB7EF24441AA7704621 /* PBXContainerItemProxy */;
+		};
+		FB5F787F5D2640EC9F79B656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = D442E6DAA2F14BA5949DC6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		059FD0920E2D4D6995BBAE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0C791BD2C38B41109743271B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		13299F33636342CBA3028CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp/build;
+			};
+			name = Release;
+		};
+		79602900781D4035878C37AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp/build;
+			};
+			name = Debug;
+		};
+		7E69B33695644C508680B629 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp/build;
+			};
+			name = RelWithDebInfo;
+		};
+		875E788D6B8B4183BEE9EAB8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib_glsl_pp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8F1467DF2C384D98839DF50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "      ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11        ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib_glsl_pp_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		907C9BC5DE284154927B63D1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B04931D9EC974814A8E5F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B6B03A735BE346D9ABEEF1F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp/build;
+			};
+			name = MinSizeRel;
+		};
+		BA0896F0BD9D4604BC896E02 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C28AC5C470114F2B8C414232 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11         -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib_glsl_pp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D3610D21B8424124BA6389A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=5.0'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/mesa,/Users/clover/Desktop/gfxbench/frameworks/ngl/src/glslpp/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lib_glsl_pp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DBD3B1B398EF4B8E82287BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E735F2D277824FE6A13041CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F21DECCB8EB144EFB04ADFB7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench50_bindir/ngl_bin/glslpp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5DA35EBDE048C5A882A4CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E735F2D277824FE6A13041CA /* Debug */,
+				B04931D9EC974814A8E5F9F2 /* Release */,
+				0C791BD2C38B41109743271B /* MinSizeRel */,
+				BA0896F0BD9D4604BC896E02 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D520C26070D45099EF9C6FA /* Build configuration list for PBXNativeTarget "lib_glsl_pp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1467DF2C384D98839DF50B /* Debug */,
+				D3610D21B8424124BA6389A9 /* Release */,
+				875E788D6B8B4183BEE9EAB8 /* MinSizeRel */,
+				C28AC5C470114F2B8C414232 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A534208BE1DA445B9DB8EE2C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059FD0920E2D4D6995BBAE09 /* Debug */,
+				DBD3B1B398EF4B8E82287BC0 /* Release */,
+				F21DECCB8EB144EFB04ADFB7 /* MinSizeRel */,
+				907C9BC5DE284154927B63D1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5D710DFD1D64FE695FC8538 /* Build configuration list for PBXProject "lib_glsl_pp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79602900781D4035878C37AB /* Debug */,
+				13299F33636342CBA3028CE4 /* Release */,
+				B6B03A735BE346D9ABEEF1F2 /* MinSizeRel */,
+				7E69B33695644C508680B629 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E91D5C8368B45A78E22CE69 /* Project object */;
+}

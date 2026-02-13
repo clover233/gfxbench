@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/compareitem.cpp \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/compareitem.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/compareresult.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/serializable.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/resultitem.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/descriptors.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/environment.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/graphics.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/compute.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/session.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/testinfo.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/result.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/chart.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/gfxresult.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/computeresult.h

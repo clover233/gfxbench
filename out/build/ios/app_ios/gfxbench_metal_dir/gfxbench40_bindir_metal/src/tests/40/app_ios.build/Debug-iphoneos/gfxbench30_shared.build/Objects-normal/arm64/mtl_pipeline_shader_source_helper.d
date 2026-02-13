@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/gfx3_0/high_level_tests_3/metal/mtl_pipeline_shader_source_helper.mm \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/gfx3_0/high_level_tests_3/metal/mtl_pipeline.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/common/metal/mtl_types.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/es2_common/../gfxbench/global_test_environment.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/graphicscontext.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/common/test_descriptor.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/common/metal/mtl_globals.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_material.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_texture.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/ogg_decoder.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_image.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_animation4.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_factory_base.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_scene_version.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/gfx3_0/high_level_tests_3/metal/shader.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/log.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/format.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/substring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/bytevec.h

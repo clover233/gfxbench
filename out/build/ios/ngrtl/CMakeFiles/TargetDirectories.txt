@@ -1,0 +1,7 @@
+/Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/CMakeFiles/install.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/CMakeFiles/ALL_BUILD.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/CMakeFiles/ZERO_CHECK.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/core/CMakeFiles/install.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/core/CMakeFiles/ngrtl_core.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/pngio/CMakeFiles/install.dir
+/Users/clover/Desktop/gfxbench/out/build/ios/ngrtl/libs/pngio/CMakeFiles/ngrtl_pngio.dir

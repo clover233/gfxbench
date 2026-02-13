@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/deserialize.cpp \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/jsondeserializator.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/libs/core/src/json/JSON_parser.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/filestreambuf.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/stream.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/stream/textstream.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/scoped_ptr.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/checked_delete.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/move.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/log.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/format.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/substring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngrtl/include/core/ng/bytevec.h

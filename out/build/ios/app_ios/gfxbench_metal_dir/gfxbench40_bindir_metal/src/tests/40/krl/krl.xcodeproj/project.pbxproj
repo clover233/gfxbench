@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1FA239A5FC7F476B9CD67245 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01D7A1E952BA42BD8D53848F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4998AB513CDA4F0E83797077 /* CMake Rules */,
+			);
+			dependencies = (
+				C9C12038DE5849459001E49D /* PBXTargetDependency */,
+				B63937AC397144E7B0FB650C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C638EDC729564A03B1F9C044 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0DD0BA56AF984C22B2362696 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				03063251727D4E3793A5A402 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5A5A048C68EE433497B11A6A /* /Users/clover/Desktop/gfxbench/frameworks/krl/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9632C0AD3C1440ECBF6D4AA2 /* /Users/clover/Desktop/gfxbench/frameworks/krl/CMakeLists.txt */; };
+		604E43A481074DE79CF5EA6F /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.h */ = {isa = PBXBuildFile; fileRef = 9999254C240040818AAF5FB1 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.h */; };
+		66F60A06041F469085B4C5C2 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene_reload.cpp */ = {isa = PBXBuildFile; fileRef = F0D86CDDC0E34F8D98BED9BD /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene_reload.cpp */; };
+		678E66A213FA4D93834E9A3A /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_cubemap.h */ = {isa = PBXBuildFile; fileRef = 73AF9E84067B4D6781312CB7 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_cubemap.h */; };
+		898B4F94F5424FB1906D2819 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_shadowmap.h */ = {isa = PBXBuildFile; fileRef = BD211A427C65432A8A8B439F /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_shadowmap.h */; };
+		94BBB0056306424AAD317918 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.cpp */ = {isa = PBXBuildFile; fileRef = 1505338B4B814851B8934390 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.cpp */; };
+		A06066A7C2274785BFD34F38 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.cpp */ = {isa = PBXBuildFile; fileRef = 553099DF3BD14D4BB2C4503D /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.cpp */; };
+		B0A9E40D3B56427CA056B3F5 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.h */ = {isa = PBXBuildFile; fileRef = 7CA588D968294C18989F0404 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.h */; };
+		C87C877A8D1246F4904867B7 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.h */ = {isa = PBXBuildFile; fileRef = F92E282D9EB04F55996B9957 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.h */; };
+		E447DBB8F18345F992418C71 /* /Users/clover/Desktop/gfxbench/frameworks/krl/fbo_enums.h */ = {isa = PBXBuildFile; fileRef = 99EFF3CE813F4C77945052C9 /* /Users/clover/Desktop/gfxbench/frameworks/krl/fbo_enums.h */; };
+		EB8E4F73A220430BBABCC50A /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.cpp */ = {isa = PBXBuildFile; fileRef = EC48E3282AF74CB2A7619730 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		13FA37922EC740CC935BAC83 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A0653288D5A14559BDAEA565 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CCC4B66DDB96424F8AB2BD47 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FA37DE9E00C9420A8E0225A6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		198682167F8E4A009F20C4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E104B36A784267848629E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+		24197EFEE8C345768B8163AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E104B36A784267848629E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887028C40017405D9A8A95A7;
+			remoteInfo = KRL;
+		};
+		C79C3EEFB3A744AE949C2652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E104B36A784267848629E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638EDC729564A03B1F9C044;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1505338B4B814851B8934390 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = krl_mesh.cpp; path = krl_mesh.cpp; sourceTree = SOURCE_ROOT; };
+		442B7429EFE44F5D9E3DE334 /* /Users/clover/Desktop/gfxbench/frameworks/krl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		529AE2C3870642F7991B6023 /* KRL */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKRL_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		553099DF3BD14D4BB2C4503D /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = krl_material.cpp; path = krl_material.cpp; sourceTree = SOURCE_ROOT; };
+		73AF9E84067B4D6781312CB7 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_cubemap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = krl_cubemap.h; path = krl_cubemap.h; sourceTree = SOURCE_ROOT; };
+		7CA588D968294C18989F0404 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = krl_material.h; path = krl_material.h; sourceTree = SOURCE_ROOT; };
+		9632C0AD3C1440ECBF6D4AA2 /* /Users/clover/Desktop/gfxbench/frameworks/krl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9999254C240040818AAF5FB1 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = krl_mesh.h; path = krl_mesh.h; sourceTree = SOURCE_ROOT; };
+		99EFF3CE813F4C77945052C9 /* /Users/clover/Desktop/gfxbench/frameworks/krl/fbo_enums.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fbo_enums.h; path = fbo_enums.h; sourceTree = SOURCE_ROOT; };
+		BD211A427C65432A8A8B439F /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_shadowmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = krl_shadowmap.h; path = krl_shadowmap.h; sourceTree = SOURCE_ROOT; };
+		EC48E3282AF74CB2A7619730 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = krl_scene.cpp; path = krl_scene.cpp; sourceTree = SOURCE_ROOT; };
+		F0D86CDDC0E34F8D98BED9BD /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene_reload.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = krl_scene_reload.cpp; path = krl_scene_reload.cpp; sourceTree = SOURCE_ROOT; };
+		F92E282D9EB04F55996B9957 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = krl_scene.h; path = krl_scene.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		150BE180D7D44673BEF6EC43 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4DE6A69594D64E078EAB1AF1 /* CMake Rules */,
+				442B7429EFE44F5D9E3DE334 /* /Users/clover/Desktop/gfxbench/frameworks/krl/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4DE6A69594D64E078EAB1AF1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A5133D93A4164A82B7F1B1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529AE2C3870642F7991B6023 /* KRL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74E631286164E1992E9DC4F /* KRL */ = {
+			isa = PBXGroup;
+			children = (
+				9632C0AD3C1440ECBF6D4AA2 /* /Users/clover/Desktop/gfxbench/frameworks/krl/CMakeLists.txt */,
+				99EFF3CE813F4C77945052C9 /* /Users/clover/Desktop/gfxbench/frameworks/krl/fbo_enums.h */,
+				73AF9E84067B4D6781312CB7 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_cubemap.h */,
+				553099DF3BD14D4BB2C4503D /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.cpp */,
+				7CA588D968294C18989F0404 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.h */,
+				1505338B4B814851B8934390 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.cpp */,
+				9999254C240040818AAF5FB1 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.h */,
+				EC48E3282AF74CB2A7619730 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.cpp */,
+				F92E282D9EB04F55996B9957 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.h */,
+				F0D86CDDC0E34F8D98BED9BD /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene_reload.cpp */,
+				BD211A427C65432A8A8B439F /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_shadowmap.h */,
+			);
+			name = KRL;
+			sourceTree = "<group>";
+		};
+		F2DDEF1B48564AB6B3E89E91 = {
+			isa = PBXGroup;
+			children = (
+				C74E631286164E1992E9DC4F /* KRL */,
+				150BE180D7D44673BEF6EC43 /* ALL_BUILD */,
+				A5133D93A4164A82B7F1B1DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887028C40017405D9A8A95A7 /* KRL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5998A152081B4FC599EC7AD6 /* Build configuration list for PBXNativeTarget "KRL" */;
+			buildPhases = (
+				71BBA5B33D8E4D179C8C9C9C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68C7A4405EA428D86475672 /* PBXTargetDependency */,
+			);
+			name = KRL;
+			productName = KRL;
+			productReference = 529AE2C3870642F7991B6023 /* KRL */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8E104B36A784267848629E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = 4AE08EA9FB6148FA9A55EFA5 /* Build configuration list for PBXProject "krl" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CCC4B66DDB96424F8AB2BD47 /* Debug */,
+				A0653288D5A14559BDAEA565 /* Release */,
+				FA37DE9E00C9420A8E0225A6 /* MinSizeRel */,
+				13FA37922EC740CC935BAC83 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F2DDEF1B48564AB6B3E89E91;
+			projectDirPath = /Users/clover/Desktop/gfxbench/frameworks/krl;
+			projectRoot = "";
+			targets = (
+				1FA239A5FC7F476B9CD67245 /* ALL_BUILD */,
+				887028C40017405D9A8A95A7 /* KRL */,
+				C638EDC729564A03B1F9C044 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03063251727D4E3793A5A402 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		12E4048176DE4465A3942AA4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4998AB513CDA4F0E83797077 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl -f /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A7A2C05CEEA04B21864E47DB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BBA5B33D8E4D179C8C9C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06066A7C2274785BFD34F38 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_material.cpp */,
+				94BBB0056306424AAD317918 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_mesh.cpp */,
+				EB8E4F73A220430BBABCC50A /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene.cpp */,
+				66F60A06041F469085B4C5C2 /* /Users/clover/Desktop/gfxbench/frameworks/krl/krl_scene_reload.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B63937AC397144E7B0FB650C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = 198682167F8E4A009F20C4E5 /* PBXContainerItemProxy */;
+		};
+		C68C7A4405EA428D86475672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C638EDC729564A03B1F9C044 /* ZERO_CHECK */;
+			targetProxy = C79C3EEFB3A744AE949C2652 /* PBXContainerItemProxy */;
+		};
+		C9C12038DE5849459001E49D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887028C40017405D9A8A95A7 /* KRL */;
+			targetProxy = 24197EFEE8C345768B8163AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EDBF13A65A448AC90A07216 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2A3D55A537754C3481A66FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2AB6A44C7103496A9CB4AA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		55E774B0693A4F70A5A624ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,NGRTL_STATIC,IPHONE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench40/../common,/Users/clover/Desktop/gfxbench/gfxbench40/../frame_player,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/corporate,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/community,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../es2_common,/Users/clover/Desktop/gfxbench/gfxbench40/src/common_31/../../resources/data/gfx/shaders_mtl/common.31,/Users/clover/Desktop/gfxbench/frameworks/krl,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11        '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KRL_d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		59E607B4C72D4E50B0A212BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,NGRTL_STATIC,IPHONE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench40/../common,/Users/clover/Desktop/gfxbench/gfxbench40/../frame_player,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/corporate,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/community,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../es2_common,/Users/clover/Desktop/gfxbench/gfxbench40/src/common_31/../../resources/data/gfx/shaders_mtl/common.31,/Users/clover/Desktop/gfxbench/frameworks/krl,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KRL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		62400CD92EFF48E8B8A05A87 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		662C4899665E489ABD491AC8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8042D7972B0048D6B3AE6451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl/build;
+			};
+			name = Debug;
+		};
+		853146800C9A432CBC76FCEE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8DECE2BF01CB411E9B85E7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8F83C202A1BA486D90FED474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl/build;
+			};
+			name = Release;
+		};
+		9CD5BA8C7ED24A9FB1AB26A8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD790B443223439792747582 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk;
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl/build;
+			};
+			name = MinSizeRel;
+		};
+		E25D98F431564B99A9EC055B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,NGRTL_STATIC,IPHONE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench40/../common,/Users/clover/Desktop/gfxbench/gfxbench40/../frame_player,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/corporate,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/community,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../es2_common,/Users/clover/Desktop/gfxbench/gfxbench40/src/common_31/../../resources/data/gfx/shaders_mtl/common.31,/Users/clover/Desktop/gfxbench/frameworks/krl,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11         -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KRL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E5FAC88B979A4B15974E3415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FE7761E76ED24C93AB66B467 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GLES_SILENCE_DEPRECATION=1'","'PRODUCT_VERSION=4.0.0'",USE_METAL,NGRTL_STATIC,IPHONE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core,/Users/clover/Desktop/gfxbench/out/install/ios/include,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src,/Users/clover/Desktop/gfxbench/gfxbench40/../common,/Users/clover/Desktop/gfxbench/gfxbench40/../frame_player,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/corporate,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/community,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../../../frameworks/testfw/schemas,/Users/clover/Desktop/gfxbench/gfxbench40/src/gfxbench/../es2_common,/Users/clover/Desktop/gfxbench/gfxbench40/src/common_31/../../resources/data/gfx/shaders_mtl/common.31,/Users/clover/Desktop/gfxbench/frameworks/krl,/Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl_libraries/tinyxml/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden -Wno-error=deprecated-declarations -std=c++11      -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KRL;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/gfxbench_metal_dir/gfxbench40_bindir_metal/src/tests/40/krl;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D7A1E952BA42BD8D53848F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3D55A537754C3481A66FC5 /* Debug */,
+				8DECE2BF01CB411E9B85E7C8 /* Release */,
+				62400CD92EFF48E8B8A05A87 /* MinSizeRel */,
+				662C4899665E489ABD491AC8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0DD0BA56AF984C22B2362696 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5FAC88B979A4B15974E3415 /* Debug */,
+				2AB6A44C7103496A9CB4AA6D /* Release */,
+				9CD5BA8C7ED24A9FB1AB26A8 /* MinSizeRel */,
+				853146800C9A432CBC76FCEE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4AE08EA9FB6148FA9A55EFA5 /* Build configuration list for PBXProject "krl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8042D7972B0048D6B3AE6451 /* Debug */,
+				8F83C202A1BA486D90FED474 /* Release */,
+				DD790B443223439792747582 /* MinSizeRel */,
+				0EDBF13A65A448AC90A07216 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5998A152081B4FC599EC7AD6 /* Build configuration list for PBXNativeTarget "KRL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E774B0693A4F70A5A624ED /* Debug */,
+				59E607B4C72D4E50B0A212BA /* Release */,
+				FE7761E76ED24C93AB66B467 /* MinSizeRel */,
+				E25D98F431564B99A9EC055B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8E104B36A784267848629E7 /* Project object */;
+}

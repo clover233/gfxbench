@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_shader.cpp \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_shader.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngl/src/ngl.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngl/src/job_statistic.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_compiler.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_tokenizer.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_common.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_analyzer.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_ast_tree.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_translator.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ksl_compiler/src/ksl_generator.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Foundation.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Config.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Platform_POSIX.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Alignment.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Bugcheck.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Types.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Exception.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/ScopedLock.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/Poco/Mutex_POSIX.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h

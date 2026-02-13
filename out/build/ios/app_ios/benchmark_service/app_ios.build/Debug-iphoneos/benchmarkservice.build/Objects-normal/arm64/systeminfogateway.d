@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/systeminfogateway.cpp \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/systeminfogateway.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/configuration.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/serializable.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/variant.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/cursor.h \
+  /Users/clover/Desktop/gfxbench/out/build/ios/app_ios/benchmark_service/benchmarkservice_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/format.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/substring.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/bytevec.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/systeminfo.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/deviceinfo.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/glinfo.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/metalinfo.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/vulkaninfo.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/systeminfoitem.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/listcursor.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/log.h \
+  /Users/clover/Desktop/gfxbench/frameworks/benchmark_service/src/applicationconfig.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/properties.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/SystemInfoCommonKeys.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/dataformatter.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/FormattedDeviceInfo.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/deviceinfocollector.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/glinfocollector.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/metalinfocollector.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/vulkaninfocollector.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/keyvaluevisitor.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/sysinf/iosdeviceinfocollector.h

@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_bloom.cpp \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_bloom.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngl/src/ngl.h \
+  /Users/clover/Desktop/gfxbench/frameworks/ngl/src/job_statistic.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/testbase/gfxb_barrier.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_shader.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_serializable.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/jsonserializer.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_shapes.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_hdr.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_object.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_os.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_io.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_gen_mipmaps.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_fragment_blur.h \
+  /Users/clover/Desktop/gfxbench/gfxbench50/src/common/gfxb_separable_blur.h

@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/gfx3_0/high_level_tests_3/metal/mtl_framebuffer_27.mm \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/gfx3_0/high_level_tests_3/metal/mtl_framebuffer_27.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_base.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/common/metal/mtl_globals.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/common/metal/mtl_types.h \
+  /Users/clover/Desktop/gfxbench/frameworks/kcl_framework/kcl/src/kcl_math3d.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/es2_common/../gfxbench/global_test_environment.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/graphicscontext.h \
+  /Users/clover/Desktop/gfxbench/gfxbench40/src/common/test_descriptor.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/graphics/metalgraphicscontext.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/descriptors.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/json.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/ngrtl_core_export.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/macros.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/result.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/require.h \
+  /Users/clover/Desktop/gfxbench/out/install/ios/include/ngrtl/core/ng/cstring.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/serializable.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/environment.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/graphics.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/apidefinition.h \
+  /Users/clover/Desktop/gfxbench/frameworks/testfw/schemas/compute.h
