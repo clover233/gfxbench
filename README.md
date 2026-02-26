@@ -18,7 +18,7 @@ PLATFORM=ios CONFIG=Debug APPLICATION_TYPE="developer" EXTRA_RESOURCE_DIRS="${PW
 
 **文件**: /Users/clover/Desktop/gfxbench/frameworks/cmake-utils/cmake/toolchain/ios.cmake
 
-⏺ **修改说明**:
+~ **修改说明**:
 
 * **问题**: 原代码使用已弃用的armv7/armv7s架构，导致Xcode编译失败
 * **原因**: iOS 11之后苹果停止支持32位架构，现代iOS只支持arm64
