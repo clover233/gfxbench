@@ -18,7 +18,7 @@ PLATFORM=ios CONFIG=Debug APPLICATION_TYPE="developer" EXTRA_RESOURCE_DIRS="${PW
 
 **文件**: /Users/clover/Desktop/gfxbench/frameworks/cmake-utils/cmake/toolchain/ios.cmake
 
-~ **修改说明**:
+ **修改说明**:
 
 * **问题**: 原代码使用已弃用的armv7/armv7s架构，导致Xcode编译失败
 * **原因**: iOS 11之后苹果停止支持32位架构，现代iOS只支持arm64
@@ -58,7 +58,7 @@ endif()
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/zlib/CMakeLists.txt
 
-⏺ **修改说明**:
+ **修改说明**:
 
 * **问题**: zutil.h中将fdopen定义为NULL，导致类型不匹配错误
 * **原因**: 旧版Mac OS没有fdopen函数，但现代iOS/macOS已经支持
@@ -80,7 +80,7 @@ endif()
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/libpng/pngpriv.h
 
-⏺ **修改说明**:
+ **修改说明**:
 
 * **问题**: 尝试包含不存在的fp.h头文件（Mac OS Classic的旧头文件）
 * **原因**: TARGET_OS_MAC在iOS上也被定义，但fp.h不存在于现代iOS
@@ -110,7 +110,7 @@ if (defined(__MWERKS__) && defined(macintosh)) || defined(applec) || defined(THI
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/poco/Foundation/src/zutil.h
 
-⏺ **修改说明**:
+ **修改说明**:
 
 * **问题**: poco内嵌的zlib也有同样的fdopen问题
 * **修改**: 添加!defined(__APPLE__)条件保护
@@ -144,7 +144,7 @@ endif
 
 
 
-⏺ **修改说明**:
+ **修改说明**:
 
 * **问题**: 赋值操作符尝试访问不存在的_pTarget成员_
 * **原因**: Delegate<TObj, void, false>模板特化中没有_pTarget成员
@@ -191,7 +191,7 @@ return *this;
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/poco/Crypto/src/DigestEngine.cpp
 
-⏺ **修改说明**:
+ **修改说明**:
 
 * **问题**: EVP_MD_CTX_cleanup在OpenSSL 1.1.0+中已被移除
 * **原因**: OpenSSL API更新，旧函数被弃用
@@ -233,7 +233,7 @@ void DigestEngine::reset()
 
 **文件**: /Users/clover/Desktop/gfxbench/3rdparty/poco/CMakeLists.txt
 
-⏺ **修改说明**:
+ **修改说明**:
 
 * **问题**: Crypto组件有多个OpenSSL 1.1+兼容性问题（RSA_SSLV23_PADDING等）
 * **决策**: 由于修复成本高且可能不需要Crypto组件，直接禁用
