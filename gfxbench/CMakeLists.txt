@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.4)
 include(VersionParse)
 version_parse(BENCHMARK ${PRODUCT_VERSION})
 
-
 function(build_gfx4_gl)
 	set(PRODUCT_ID gfxbench_gl)
 	set(PRODUCT_VERSION 4.0.0)
@@ -21,7 +20,6 @@ function(build_gfx4_metal)
 	set(PRODUCT_VERSION 4.0.0)
 	add_subdirectory(../gfxbench40 gfxbench40_bindir_metal)
 endfunction()
-
 
 if(NOT ${APPLICATION_TYPE} STREQUAL "gui")
 	if(NOT ANDROID)
@@ -50,7 +48,6 @@ if(NOT DISABLE_GFX4)
     endif()
 endif()
 
-
 set(TMP_LIBS ${TESTFW_LIBRARIES})
 
 if (NOT ${BENCHMARK_VERSION_MAJOR} LESS 5)
@@ -58,12 +55,10 @@ if (NOT ${BENCHMARK_VERSION_MAJOR} LESS 5)
     add_subdirectory(../gfxbench50 gfxbench50_bindir) #TODO check build only DX
 endif()
 
-
 if(IOS)
 	list(APPEND TESTFW_LIBRARIES ${TMP_LIBS})
 	set(TESTFW_LIBRARIES "${TESTFW_LIBRARIES}" CACHE STRING "" FORCE)
 endif()
-
 
 if(TFW_PACKAGE_DIR)
 	include(tfw_package.cmake)
